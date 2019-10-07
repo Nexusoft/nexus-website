@@ -1,0 +1,37 @@
+RewriteEngine On
+
+RewriteRule ^cryptocurrency$ nexus-currency.php
+RewriteRule ^team$ our-team.php
+RewriteRule ^wallet$ nexus-wallet.php
+RewriteRule ^buy-nxs$ buy-nxs.php
+RewriteRule ^digital-identity$ digital-identity.php
+RewriteRule ^3dc$ three-d-chain.php
+RewriteRule ^wallet-guide$ wallet-guide.php
+RewriteRule ^what-nexus$ what-nexus.php
+RewriteRule ^stake$ stake.php
+RewriteRule ^mine$ mine.php
+RewriteRule ^signature-chains$ signature-chains.php
+RewriteRule ^quantum-resistance$ quantum-resistance.php
+RewriteRule ^lisp$ lisp.php
+RewriteRule ^whitepapers$ whitepapers.php
+RewriteRule ^roadmap$ roadmap.php
+RewriteRule ^economics$ economics.php
+RewriteRule ^apps$ apps.php
+RewriteRule ^faq$ faq.php
+RewriteRule ^software-stack$ software-stack.php
+RewriteRule ^assets$ assets.php
+RewriteRule ^tokens$ tokens.php
+RewriteRule ^principles$ principles.php
+RewriteRule ^working-groups$ working-groups.php
+RewriteRule ^dao$ dao.php
+RewriteRule ^decentralization$ decentralization.php
+RewriteRule ^tns$ tns.php
+RewriteRule ^stos$ stos.php
+RewriteRule ^digital-rights$ digital-rights.php
+RewriteRule ^supply-chains$ supply-chains.php
+RewriteRule ^trust$ trust.php
+RewriteRule ^fees$ fees.php
+RewriteRule ^embassies$ embassies.php
+RewriteRule ^what-blockchain$ what-blockchain.php
+RewriteRule ^terms$ terms.php
+RewriteRule ^privacy$ privacy.php

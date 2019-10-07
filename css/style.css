@@ -1,0 +1,1489 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body.opennav {
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+a:hover, a {
+  text-decoration: none;
+}
+a {
+  color: #0ca4fb;
+}
+ol li {
+  margin-bottom:10px;
+}
+.colSpace {
+    margin: 80px 0px;
+}
+.colSpace_bg {
+    padding: 70px 0;
+}
+.background {
+  position:absolute;
+  display:block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.content-area .titleCol {
+    margin-bottom: 30px;
+}
+.listCol {
+    display: none;
+}
+.closefilter {
+    display: none;
+}
+a[disabled] {
+  pointer-events: none;
+  opacity:0.5;
+}
+/* ************************************** */
+/* ************************************** */
+/* toggle layout starts */
+.toggle {
+  position: relative;
+  margin-left: auto;
+  width: 30px;
+}
+.bar{
+  width:100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+}
+.bar:nth-child(1){
+  top:-7px;
+}
+.bar:nth-child(3){
+  top:7px;
+}
+.sticky .bar {
+  background-color: #1a9fec;
+}
+/* toggle layout starts */
+/* ************************************** */
+/* ************************************** */
+
+/*=============================
+NEXUS WALLET LAYOUT START
+=============================*/
+.nexwallSection {
+  padding: 50px 0px;
+}
+.tagLine {
+  font-size: 20px;
+  font-weight: 500;
+}
+.downloadEntry {
+  padding-top: 60px;
+}
+.download-area {
+  padding-bottom: 30px;
+}
+.download-buttons .items {
+  padding-bottom: 15px;
+}
+.download-buttons a {
+  display: inline-block;
+  min-width: 250px;
+  font-weight:500;
+}
+.download-buttons a .icon {
+  width: 15px;
+  position: relative;
+}
+.download-buttons a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.blue-icon {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.download-buttons a:hover .blue-icon {
+  opacity: 1;
+}
+.download-buttons a span img {
+  display: block;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: #1a9fec;
+  color: #1a9fec;
+}
+.btn-outline-secondary:hover {
+  background-color: #1a9fec;
+  border-color: #1a9fec;
+  color: #fff;
+}
+.macImg {
+  max-width: 450px;
+}
+.integrate-area {
+  padding: 30px 0px;
+}
+.verifyBlock {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.protect-area {
+  padding: 30px 0px;
+}
+.protectWallet {
+  padding: 30px 0px;
+}
+.servWrapper .img-items img {
+  width: 100%;
+}
+.servWrapper .icon-items {
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+.servWrapper .icon-items img {
+  height: 100%;
+}
+.wallerFeat {
+  padding: 30px 0px;
+}
+.wallerFeat .entrySer {
+  padding-top: 30px;
+}
+.module-area {
+  padding: 30px 0px;
+}
+.custom-area {
+  padding: 30px 0px;
+}
+.skinWrapper {
+  padding-top: 10px;
+}
+.themeBtn {
+  padding-top: 40px;
+}
+.themeBtn a {
+  min-width: 300px;
+}
+.themeBtn .btn-areas {
+  padding: 10px 0px;
+}
+.skinBlock img {
+  width: 100%;
+}
+.buton {
+  display: inline-block;
+  width: 100%;
+}
+.wallet-features-area, .stacking-area  {
+  padding: 30px 0px;
+}
+.entrySection {
+  padding: 20px 50px;
+}
+.fea-section {
+  padding-top: 15px;
+}
+span.icon img {
+  width:50px;
+}
+/*=============================
+NEXUS WALLET LAYOUT CLOSE
+=============================*/
+
+/* ************************************** */
+/* ************************************** */
+a, .btn {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.btn-white {
+  background-color: #fff;
+  color: #1a9fec;
+  border-color: #fff;
+}
+.btn-primary {
+  background-color: #1a9fec;
+  border-color: #30abff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: #1a9fec;
+  color: #1a9fec;
+}
+.btn-white:hover {
+  background-color: transparent;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+}
+.titleCol {
+  margin-bottom: 15px;
+}
+.titleCol h3 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1a9fec;
+}
+p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 500;
+}
+code, pre code {
+  color: #777;
+}
+/* ************************************** */
+/* ************************************** */
+.headerSeciton {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 0px;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+  z-index: 5;
+}
+.blue_logo {
+  display: none;
+}
+.btnRow{
+  margin-top: 25px;
+}
+.sticky {
+    padding: 15px 0px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.sticky .white_logo {
+  display: none;
+}
+.sticky .blue_logo {
+  display: block;
+}
+.sticky .navMenu ul li a {
+  color: #007bff;
+  text-shadow:none;
+}
+.sticky .navMenu ul li a:after {
+  background-color: #0ca4fb;
+}
+/* headerSection css starts */
+.navMenu ul li a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  padding: 10px 0px;
+}
+.navMenu>ul>li>a {
+  font-weight: 600;
+  text-shadow: 0 1px 3px #555;
+}
+/* .navMenu > ul > li > a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  -o-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+} */
+.navMenu > ul li a:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  -o-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+.navMenu > ul > li+li {
+  margin-left: 22px;
+}
+.navMenu > ul {
+  display: flex;
+}
+.navMenu  ul li:hover .d-submenu  {
+  opacity: 1;
+  visibility: visible;
+}
+.d-submenu {
+  min-width: 240px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 100%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 3px;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.d-submenu li {
+  display: block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.navMenu .d-submenu li a {
+  display: block;
+  color: #1a9fec;
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(50, 205, 255, 0.3);
+  font-weight: bold;
+  /* border-radius: 3px; */
+}
+.navMenu .d-submenu li:last-child a {
+  border-bottom: 0;
+}
+.navMenu .d-submenu li:hover {
+  border-left: 5px solid rgba(50, 205, 255, 1);
+}
+.d-submenu:after {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(255, 255, 255, 0.9);
+  content: "";
+  top: -10px;
+  left: 10px;
+}
+.navMenu .d-submenu li a:hover {
+  opacity: 0.8;
+}
+.sticky .d-submenu:after {
+  border-bottom: 10px solid rgba(12, 164, 251, 0.9)
+}
+.sticky .d-submenu {
+  background: rgba(12, 164, 251, 0.9)
+}
+.sticky .d-submenu li a {
+  color: #eee!important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.sticky .d-submenu li:hover {
+  border-left: 5px solid #eee!important;
+}
+/* headerSection css ends */
+/* bannerSection css starts */
+.bannerSection {
+  background-image: url('../images/banner-img.jpg');
+  height: 100vh;
+  min-height: 678px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.bannerContent {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.bannerContent h1 {
+  color: #fff;
+}
+.bannerContent p {
+  color: #fff;
+}
+.bannerbtns {
+  margin-top: 40px;
+}
+.bannerbtns a {
+  min-width: 150px;
+  color: #1a9fec;
+  border: 1px solid transparent;
+  margin:0 5px;
+}
+.bannerbtns a:hover{
+  background-color:transparent;
+  color:white;
+  border:1px solid white;
+}
+.homepage .bannerContent h1 {
+  margin-bottom:2.5rem;
+  text-shadow: 0 1px 3px grey
+}
+.homepage .bannerContent p {
+  font-size:15px;
+  text-shadow: 0 1px 3px #555;
+}
+/* bannerSection css ends */
+/*=============================
+CHAIN LAYOUT START
+=============================*/
+/* .chainsection {
+  background-image: url('../images/team_bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+.icon-itemss li {
+  display: inline-block;
+  /* vertical-align: middle; */
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 10px;
+}
+.icon-itemss .text {
+  /* color:#2BC6FF; */
+  color: #0ca4fb;
+}
+.whiteBox .icon {
+  display: block;
+  width: 50px;
+  margin: 0 auto 5px;
+}
+.bg-gray {
+  background-image: url('../images/cryptocurrency.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+.textLeft {
+    text-align: left;
+}
+.textJustify {
+  text-align: justify!important;
+}
+.textCenter {
+  text-align: center;
+}
+/*=============================
+CHAIN LAYOUT CLOSE
+=============================*/
+/*IDENTITY LAYOUT START */
+.identitySection .container div {
+  position: relative;
+  z-index: 2;
+}
+.identitySection {
+  background-image: url('../images/identitybg2.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+/* IDENTITY LAYOUT END */
+/*=============================
+MANAGEMENT LAYOUT START
+=============================*/
+.manageSection {
+  background-image: url('../images/3dc.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+
+}
+.manageSection .container div {
+  position: relative;
+  z-index: 2;
+}
+.des {
+  padding: 15px 0px;
+}
+/*=============================
+MANAGEMENT LAYOUT CLOSE
+=============================*/
+/*=============================
+ROADMAP LAYOUT START
+=============================*/
+.roadSection {
+  padding: 100px 0px;
+}
+
+.roadTop {
+  padding-bottom: 50px;
+}
+
+.serviceBlock {
+  padding:50px 80px;
+}
+.wrapperContent {
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -o-transition: all 500ms ease-in-out 0s;
+    transition: all 500ms ease-in-out 0s;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.wrapperContent.active, .wrapperContent:hover {
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.wrapperContent:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.imgBlock img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.entryContent {
+  padding: 25px 15px 80px;
+  text-align: center;
+}
+
+.entryContent .btn {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 25px;
+  min-width: 140px;
+}
+
+.coloredBg h3 {
+  color: #fff;
+  text-align: center;
+}
+.coloredBg p {
+  color: #fff;
+  /* text-align: left; */
+  padding: 0px 85px;
+}
+
+/*=============================
+ROADMAP LAYOUT CLOSE
+=============================*/
+.footer_sec {
+  background-color: #18a0f2;
+  padding: 50px 0px 35px;
+}
+
+.footerCol > h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.listStyle > li {
+  display: block;
+  margin-bottom: 5px;
+}
+.listStyle > li > a {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 23px;
+  position: relative;
+}
+.listStyle > li > a >img {
+  max-width: 14px;
+  transition: all 500ms ease-in-out 0s;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.listStyle > li > a > img:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+}
+
+.footerDtl > ul > li {
+  display: block;
+  margin-top: 25px;
+}
+.footerDtl > a {
+  margin-top: 20px;
+  display: block;
+}
+.copyright_Sec {
+  background-color: #0f6db1;
+  padding: 15px 0px;
+}
+
+.copyright > p, .copyright > p > a {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.copyright > p > a {
+  border-left: 1px solid #ddd;
+  text-decoration: none;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.footerDtl.footerIcon {
+  margin-top: 50px;
+}
+
+/* ============================================= */
+/************ vision-page start **********/
+
+.bannerSection.inner_bg {
+  height: auto;
+  min-height: 350px;
+}
+.bannerText {
+  position: relative;
+}
+.bannerText > h2 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 500;
+  text-shadow: 0 0 6px rgba(0,0,0,0.3);
+  margin: 0;
+}
+.vision_bg{
+  background-image: url(../images/vision_bg.jpg);
+}
+.colSpace.smColSpace {
+  margin: 50px 0;
+}
+.mdColSpace {
+  max-width:850px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.customInner {
+  text-align: center;
+  /* max-width: 1020px;
+  margin: 0 auto; */
+}
+.headingCol > h2 {
+  color: #0ca4fb;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.headingCol > h5, .headingCol > h4, .headingCol > h3 {
+  color: #0ca4fb;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.headingCol > h6 {
+  color: #0ca4fb;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.customText {
+  margin: 20px 0;
+  display: block;
+  color: #12183f;
+  font-size: 14px;
+  font-weight: 500;
+}
+.brpoint {
+    display: block;
+}
+.customTextPara {
+  color: #12183f;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+}
+.customInner .btnRow {
+  margin-top: 40px;
+}
+.customSpace {
+  margin-bottom: 40px;
+}
+.h6-dark h6 {
+  color: #12183f;
+  font-weight: 600;
+}
+.headingCol ul {
+  list-style-type: initial;
+  padding-left:20px
+}
+.headingCol ol {
+  padding: 0 15px;
+}
+.headingCol a.btn {
+  min-width:100px;
+}
+/************ vision-page end **********/
+
+/********** our-team start ***********/
+.team-member-top {
+  text-align: center;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+.team-member .col-md-auto {
+  background-color: #f9f9f9;
+}
+.team_bg{
+  background-image: url(../images/bannerteam.jpg);
+}
+.teamSection .headingCol {
+  margin-bottom: 80px;
+}
+.team-member {
+  box-shadow: 0 0px 7px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.team-memberImg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+.teamInfo {
+  background-color: rgb(12, 164, 251);
+  padding: 20px;
+  text-align: center;
+}
+.teamInfo h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.teamInfo h5 {
+  font-size: 16px;
+  color: #fff;
+}
+.teamInfo h6 {
+  font-size: 14px;
+  color: #fff;
+}
+.team-member-bottom {
+  padding: 15px 40px;
+}
+.team-member-bottom p {
+  font-size: 14px;
+  color: #757575;
+  line-height: 30px;
+  margin: 0;
+}
+/********** our-team end ***********/
+
+/* ============================================= */
+
+
+/*=============================
+WALLET GUIDE LAYOUT START
+=============================*/
+.minBoxSpacer {
+  min-height: 580px;
+}
+.inner-Banner {
+  padding: 220px 0px;
+}
+.wallet-guide-bg {
+  background-image: url('../images/wal-guide-banner.jpg');
+}
+.bannerTitle h3 {
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+}
+.nex-introSection {
+  position: relative;
+  overflow: hidden;
+}
+.nex-introSection aside {
+  background: #f8f8f8;
+  box-shadow: 0px 0 5px rgba(0,0,0,0.1);
+  height: 100%;
+}
+.leftSideBar {
+  width: 320px;
+  padding: 50px 15px 50px;
+  min-height: 600px;
+}
+.leftSideBar .nav-tabs {
+  display: block;
+}
+.leftSideBar .nav-tabs .nav-link {
+  display: block;
+  background-color: #f8f8f8;
+  padding: 12px 15px 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0ca4fb;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px dashed #dfdfdf;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+}
+.leftSideBar li a:hover:after {
+  -webkit-transform: translateX(2px);
+  -ms-transform: translateX(2px);
+  transform: translateX(2px);
+}
+.leftSideBar li a:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  background-image: url('../images/arrow-right.svg');
+  width: 13px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.leftSideBar li a.subMenu:after {
+  background-image: url('../images/arrow-sub-right.svg');
+}
+.leftSideBar li > ul {
+  margin-left: 10px;
+}
+.contentWrapper {
+  padding: 50px 0px 50px 30px;
+  text-align: justify;
+}
+.contentWrapper .titleCol h3 {
+  color: #0ca4fb;
+  /* text-transform: uppercase; */
+  margin-bottom: 1.3rem;
+}
+.mainBox {
+  padding: 10px 0px;
+}
+.mainBox .column {
+  padding-bottom: 5px;
+}
+.heading h5 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #0ca4fb;
+  font-weight: 500;
+}
+.customTab ul li {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 0;
+}
+.circle-List ul {
+  padding-left: 20px;
+}
+.circle-List ul li {
+  list-style-type: disc;
+}
+.themeColor {
+  color: #0ca4fb;
+}
+.imgbox {
+  max-width: 350px;
+  display: block;
+  padding-bottom: 20px;
+}
+.count-list {
+  padding-bottom: 10px;
+}
+.count-list ul {
+  counter-reset: section;
+}
+.count-list ul li::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+}
+.databaseImg {
+  padding-bottom: 20px;
+  display: block;
+}
+.heading h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.login-area {
+  padding: 30px 0px;
+}
+.entry-text {
+  text-align: center;
+}
+.entry-text p {
+  text-align: justify;
+}
+.entry-text h5 {
+  font-size: 18px;
+  color: #0ca4fb;
+  /* color: #2BC6FF; */
+  font-weight: 600;
+  margin: 20px 0px 10px;
+  line-height: 20px;
+}
+.entry-text .img-box {
+  width: 80px;
+  display: inline-block;
+}
+/*=============================
+WALLET GUIDE LAYOUT CLOSE
+=============================*/
+
+/* ============================================= */
+/********NEXUS CURRENCY LAYOUT STARTS***********/
+
+.nxscurrencyCol {
+  background-image: url('../images/currencybg.jpg');
+  min-height:350px;
+  height: auto;
+}
+.nxsInfo{
+  margin: 50px 0px 100px;
+}
+.tittleCol{
+  text-align:center;
+}
+.nxsCont{
+  text-align: center;
+}
+/* .nxsImg{
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.nxsCont img{
+  width: 80px;
+}
+.nxsCont h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #0ca4fb;
+  /* color: #2BC6FF; */
+  padding: 30px 20px;
+}
+.nxsCont span{
+  font-size: 16px;
+  font-weight: 400;
+}
+.nxsbtn{
+  text-align: center;
+}
+.nxsbtn p{
+  text-align:left;
+  margin:50px 0px 80px;
+}
+.nxsbtn a{
+  margin:0 auto;
+}
+.obtainCol{
+  text-align: center;
+  background: #fcfcfc;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+  height: 100%;
+  position: relative;
+  padding: 20px;
+}
+.icon-row {
+  width: 80px;
+}
+.obtainCol span{
+  color: #2BC6FF;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  padding: 20px 0;
+}
+.obtainCol p, .purchasingImg {
+  margin-bottom: 80px;
+}
+.obtainCol .icon-row {
+  margin:auto;
+}
+/* .purchasingImg {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+} */
+.purchasingImg img{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.getBtn {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 20px;
+}
+.spaceCol{
+  margin:30px 0px;
+}
+
+
+/********NEXUS CURRENCY LAYOUT ENDS***********/
+/* ============================================= */
+/* ============================================= */
+/* BlockChain layout starts */
+.blockbg{
+  background-image: url("../images/blockbg.jpg");
+  min-height: 350px;
+  height: auto;
+}
+  .bluetext{
+    color: #0ca4fb;
+  }
+  .btn-link:hover {
+    text-decoration: none;
+}
+.accordion>.card .card-header {
+  position: relative;
+  border: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  background: #f8f8f8;
+}
+#accordionExample.accordion>.card {
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 5px;
+}
+.card-header:after{
+  content: "";
+  position: absolute;
+  height: 18px;
+    width: 18px;
+  right: 17px;
+  top: 30%;
+  background-color: #8b8b8b;
+  border-radius: 50%;
+}
+.customCollapse h5 {
+  color: #8b8b8b;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.customCollapse h5:before{
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 9px;
+  background: #fff;
+  right: 1px;
+  top: 7px;
+}
+.customCollapse h5:after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 1px;
+  background: #fff;
+  right: 5px;
+  top: 3px;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+  }
+  .customCollapse h5[aria-expanded="true"]:after{
+    opacity: 0;
+    visibility: hidden;
+  }
+  .innerText{
+    font-size: 20px;
+    text-align: center;
+  }
+  .collapseImg{
+    display: block;
+    margin:0 auto 20px;
+  }
+  .entryImg {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .scalabilityCol, .securityCol, .decenralization {
+    padding: 30px 0px;
+  }
+  .securityCol .card-body, .decenralization .card-body, .scalabilityCol .card-body {
+    text-align: justify;
+  }
+
+  .icon-row img {
+    margin: 20px auto;
+  }
+/* BlockChain layout ends */
+/* ============================================= */
+
+/*==============================
+  IDENTITY PAGE LAYOUT START
+===============================*/
+.identity_bg {
+  background-image: url('../images/digital-identity.jpg');
+  background-color: #40a8ef;
+}
+.dig-idSection {
+  padding: 50px 0px;
+  min-height: 600px;
+}
+
+/*==============================
+  Stake PAGE LAYOUT START
+===============================*/
+.stake_bg {
+  background-image: url('../images/stake.jpg');
+  background-color: #40a8ef;
+}
+
+.ul-upper-latin {
+  list-style-type: disc;
+  margin-left:20px;
+}
+
+.ul-upper-latin li {
+  /* margin-bottom: 12px */
+}
+
+/*==============================
+  Mine PAGE LAYOUT START
+===============================*/
+.mine_bg {
+  background-image: url('../images/mine.jpg');
+  background-color: #40a8ef;
+}
+
+.leftSideBar li a.overview:after {
+  display:none;
+}
+
+.leftSideBar li a.overview {
+  padding-left:0!important;
+}
+
+/*==============================
+  WALLET PAGE LAYOUT START
+===============================*/
+.wallet_bg {
+  background-image: url('../images/wallet.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Economics PAGE LAYOUT START
+===============================*/
+.economics_bg {
+  background-image: url('../images/economics.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Applications PAGE LAYOUT START
+===============================*/
+.apps_bg {
+  background-image: url('../images/apps.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Signature Chains PAGE LAYOUT START
+===============================*/
+.signature_bg {
+  background-image: url('../images/sigchains.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Software stack PAGE LAYOUT START
+===============================*/
+.stack_bg {
+  background-image: url('../images/stack.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  FAQ PAGE LAYOUT START
+===============================*/
+.faq_bg {
+  background-image: url('../images/faq.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  LISP PAGE LAYOUT START
+===============================*/
+.lisp_bg {
+  background-image: url('../images/LISP.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  WHITEPAPER PAGE LAYOUT START
+===============================*/
+.whitepaper_bg {
+  background-image: url('../images/whitepaper.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  WORKING GROUPS PAGE LAYOUT START
+===============================*/
+.wgroups_bg {
+  background-image: url('../images/wgroups.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  EMBASSIES PAGE LAYOUT START
+===============================*/
+.embassies_bg {
+  background-image: url('../images/embassies.jpg');
+  background-color: #40a8ef;
+}
+.embassies-container .customSpace h3 {
+  margin: 70px 0 30px;
+}
+
+/*==============================
+  ROADMAP PAGE LAYOUT START
+===============================*/
+.roadmap_bg {
+  background-image: url('../images/roadmap.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  PURCHASE PAGE LAYOUT START
+===============================*/
+.purchase_bg {
+  background-image: url('../images/purchase.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  STOs PAGE LAYOUT START
+===============================*/
+.stos_bg {
+  background-image: url('../images/stos.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Digital Rights PAGE LAYOUT START
+===============================*/
+.drights_bg {
+  background-image: url('../images/digital-rights.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Supply Chains PAGE LAYOUT START
+===============================*/
+.supply_bg {
+  background-image: url('../images/coffee.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Quantum Resistance PAGE LAYOUT START
+===============================*/
+.quantum_bg {
+  background-image: url('../images/qresistance.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  TRUST PAGE LAYOUT START
+===============================*/
+.trust_bg {
+  background-image: url('../images/trust.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  Decentralization PAGE LAYOUT START
+===============================*/
+.decentralization_bg {
+  background-image: url('../images/decentralization.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  DAO PAGE LAYOUT START
+===============================*/
+.dao_bg {
+  background-image: url('../images/dao.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
+  our-team PAGE LAYOUT start
+===============================*/
+
+
+.teamSection .headingCol {
+    margin-bottom: 80px;
+}
+.team-area .single-item {
+  margin-bottom: 30px;
+}
+.team-area .item {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.team-area .item .front-side {
+  text-align: center;
+  background: rgba(50, 205, 255, 0.2);
+  padding: 30px;
+  min-height: 500px;
+}
+.team-area .back-side {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: rgba(50, 205, 255, 1); */
+  background: #0ca4fb;
+  padding-top: 15px;
+  text-align: justify;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.8s ease-in-out 0s;
+  -o-transition: all 0.8s ease-in-out 0s;
+  transition: all 0.8s ease-in-out 0s;
+}
+.team-area .back-side p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.team-area .item:hover .back-side {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.team-area .item .thumb > img {
+  width: 200px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 200px;
+}
+.team-area .info {
+  padding-top: 50px;
+}
+.team-area .info h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.team-area .info h5 {
+    font-size: 14px;
+    padding: 5px 0;
+}
+.team-area .info span {
+    color: #0ca4fb;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*==============================
+  our-team PAGE LAYOUT close
+===============================*/
+
+/*==============================
+  customNavBar LAYOUT close
+===============================*/
+.customNavBar .nav {
+  display: block;
+  border: 0;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 0px;
+}
+.customNavBar .nav-tabs .nav-link:focus,
+.customNavBar .nav-tabs .nav-link:hover {
+  border-color: #dfdfdf;
+  background-color: transparent;
+  outline: 0;
+}
+.customNavBar .subMenu {
+  /* margin-left: 10px; */
+}
+
+
+/*==============================
+  customNavBar LAYOUT close
+===============================*/

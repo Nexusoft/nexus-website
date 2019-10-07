@@ -1,0 +1,619 @@
+
+/* @media(min-width:1600px){
+  .container{
+    max-width:1300px;
+  }
+} */
+
+@media(max-width:991px){
+  .bannerText > h2 {
+    font-size: 40px;
+  }
+  .colSpace.smColSpace {
+    margin: 70px 0;
+  }
+  .customInner {
+    max-width: 100%;
+  }
+  .customSpace {
+      margin-top: 30px;
+      font-size: 20px;
+      margin-bottom: 50px;
+  }
+  .customInner .btnRow {
+    margin-top: 30px;
+  }
+  .team-memberImg {
+    margin: 0 auto;
+}
+/* toggle layout starts */
+.navMenu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-y: scroll;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    transform: translate(100%, 0px);
+    transition: all 500ms ease-in-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opennav .toggle {
+    z-index: 2;
+}
+  .opennav .navMenu{
+    transform: translate(0%, 0%);
+  }
+  .navMenu > ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100%;
+    padding-top: 80px;
+  }
+  .navMenu > ul > li+li{
+      margin-left: 0;
+      padding-top: 22px;
+    }
+ .opennav .navMenu ul li a {
+    color: #007bff;
+}
+.opennav .bar {
+    background-color: #007bff;
+}
+.opennav .bar:nth-child(2) {
+    opacity: 0;
+}
+.opennav .bar:nth-child(1) {
+    transform: rotate(45deg);
+    top: 0;
+}
+.opennav .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 0;
+}
+/* toggle layout ends */
+.footerDtl {
+      flex-direction: column;
+  }
+.footerCol {
+    margin-bottom: 28px;
+}
+.footerDtl >ul >li {
+    margin-top: 10px;
+}
+.binanceImg >img {
+    width: 140px;
+}
+.bannerbtns {
+    margin-top: 50px;
+}
+.icon-items li {
+    padding: 5px 10px;
+    width: 49%;
+}
+.content-area .titleCol {
+    margin-bottom: 0;
+}
+.colSpace {
+    margin: 50px 0px;
+}
+.colSpace_bg {
+    padding: 50px 0;
+}
+.titleCol h3 {
+    font-size: 24px;
+}
+.bannerSection {
+    height: auto;
+    min-height: 550px;
+}
+.coloredBg p {
+    padding: 0px;
+}
+.serviceBlock {
+    padding: 0;
+}
+.wrapperContent {
+    margin: 0;
+}
+.entryContent {
+    padding: 15px 10px 50px;
+}
+.entryContent .btn {
+    bottom: 15px;
+    min-width: 120px;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+.entryContent > p {
+    font-size: 13px;
+    margin: 0;
+    line-height: 23px;
+}
+.bannerContent h1 {
+    font-size: 30px;
+}
+.footerDtl > a {
+    margin-bottom: 15px;
+}
+.navMenu ul li a:after {
+    background-color: #007bff;
+}
+.nxsCont img {
+    width: 80px;
+}
+.nxsCont h2 {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.nxsCont span {
+    font-size: 14px;
+}
+.nxsImg {
+    min-height: 90px;
+}
+.nxsbtn p {
+    margin: 30px 0px 50px;
+}
+.obtainCol {
+  padding: 15px;
+}
+.obtainCol span {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.purchasingImg img {
+    margin-bottom: 15px;
+}
+/* .obtainCol p {
+    min-height: auto;
+    margin: 0 auto 15px;
+    max-width: 100%;
+} */
+.download-buttons .items {
+    padding-bottom: 10px;
+}
+.tagLine {
+    font-size: 18px
+}
+.downloadEntry {
+    padding-top: 40px;
+}
+.servWrapper .heading {
+    margin-top: 10px !important;
+}
+.heading h5 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+.skinBlock {
+    margin-bottom: 15px;
+}
+.team-member {
+    margin-bottom: 20px;
+}
+.team-member-top {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0 0;
+}
+.teamInfo {
+    padding: 15px;
+    margin-top: 20px;
+}
+.team-member-bottom {
+    padding: 15px;
+}
+.teamSection .headingCol {
+    margin-bottom: 50px;
+}
+.contentWrapper {
+    padding: 20px 0 0;
+}
+.listCol {
+    display: block;
+    background: #f8f8f8;
+    box-shadow: 0px 0 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-top: 30px;
+}
+.listCol > h4 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+    padding-right: 50px;
+}
+.listCol > h4 > span > img {
+    width: 20px;
+}
+.listCol > h4 > span {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.leftSideBar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 350px;
+    z-index: 999;
+    background-color: #f8f8f8;
+    overflow-y: auto;
+    -webkit-transform: translate(100%,0);
+    -moz-transform: translate(100%,0);
+    -ms-transform: translate(100%,0);
+    -o-transform: translate(100%,0);
+    transform: translate(100%,0);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 100%;
+}
+.listOpen .leftSideBar {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    transform: translate(0);
+}
+.closefilter {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.closefilter > img {
+    width: 15px;
+}
+.fea-section {
+  text-align: center;
+}
+.entrySection {
+  max-width: 100%;
+}
+.d-submenu {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  box-shadow: none;
+  display: none;
+}
+.navMenu .d-submenu li a, .d-submenu li, .navMenu .d-submenu li:hover {
+  border: none;
+}
+.navMenu .d-submenu li a {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.sticky .d-submenu:after, .d-submenu:after {
+  display: none;
+  background-color: transparent;
+}
+}
+@media(max-width:767px){
+  .bannerSection.inner_bg {
+    min-height: 300px;
+}
+.bannerText > h2 {
+    font-size: 30px;
+}
+.colSpace.smColSpace {
+    margin: 40px 0;
+}
+.customSpace {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.brpoint {
+    display: inline;
+}
+.chainsection img, .nexusSection img {
+    display:none!important;
+}
+.team-memberImg {
+    width: 115px;
+    height: 115px;
+    display: block;
+    position: static;
+    margin: 0 auto 20px;
+}
+.team-member-top > img {
+    position: static;
+    max-width: 130px;
+    margin-top: 10px;
+}
+.navMenu ul li+li {
+    /* padding-top: 15px; */
+}
+.footer_sec {
+    padding: 40px 0px 35px;
+}
+.footerCol {
+    margin-bottom: 20px;
+}
+.binanceImg >img {
+    width: 120px;
+}
+.footer_sec {
+    padding: 40px 0px 35px;
+}
+.copyright > span a:before {
+    height: 14px;
+}
+.windowImg {
+    margin-bottom: 30px;
+}
+.wrapperContent {
+    margin: 10px 0 10px 0;
+    height: auto;
+}
+.entryContent {
+    padding: 20px;
+}
+.entryContent .btn {
+    position: static;
+    margin-top: 10px;
+    transform: translate(0);
+}
+.textLeft, .coloredBg p {
+    text-align: center;
+}
+.headingCol > h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+.threeDimension {
+    margin: 30px 0px 50px;
+}
+.accordion>.card .card-header {
+    padding: 15px;
+}
+.customCollapse h5 {
+    font-size: 14px;
+}
+.card-header:after {
+    right: 12px;
+}
+#accordionExample.accordion>.card {
+    margin-bottom: 10px;
+}
+.customCollapse {
+    margin-bottom: 30px;
+}
+.dig-idSection {
+    padding: 30px 0px;
+    min-height: 400px;
+}
+.nxsInfo {
+    margin: 30px 0px 0;
+}
+.nxsbtn p {
+    margin: 15px 0;
+}
+.nxsCont {
+    margin-bottom: 18px;
+}
+.nxsCont h2 {
+    margin: 10px 0px 4px;
+}
+.spaceCol {
+    margin: 0 -15px;
+}
+.downloadEntry {
+    padding-top: 20px;
+}
+.download-buttons {
+    margin-top: 20px;
+}
+.servWrapper {
+    margin-bottom: 30px;
+}
+.skinBlock {
+    text-align: center;
+}
+.skinWrapper {
+    padding: 0;
+}
+.themeBtn {
+    padding-top: 0;
+}
+.protect-area {
+    padding: 0;
+}
+.module-area {
+    padding: 0;
+}
+.wallerFeat {
+    padding: 30px 0px 0;
+}
+.teamSection .headingCol {
+    margin-bottom: 30px;
+}
+.teamInfo h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.teamInfo h5 {
+    font-size: 14px;
+}
+.teamInfo h6 {
+    font-size: 13px;
+    margin: 0;
+}
+.team-member-bottom {
+    padding: 10px;
+}
+.team-member-bottom p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.teamSection .headingCol {
+    margin-bottom: 15px;
+}
+.colSpace.smColSpace {
+    margin: 30px 0;
+}
+.imgbox {
+    max-width: 100%;
+}
+.obtainCol {
+  height: auto;
+}
+.obtainCol p, .purchasingImg {
+  margin-bottom: 30px;
+}
+.getBtn {
+  position: static;
+}
+.customTab {
+  min-height: 320px;
+}
+.navMenu .d-submenu {
+    background: #0ca4fb;
+}
+.navMenu li a {
+    text-shadow: none!important;
+}
+.opennav .navMenu .d-submenu li a {
+    color: white;
+}
+}
+@media screen and (max-width:585px){
+
+.binanceImg > img {
+    width: 110px;
+}
+.copyright > span a:before {
+    height: 12px;
+}
+.titleCol h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.copyright>p>a {
+    border-left: 0;
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+}
+.copyright>p, .copyright>p>a {
+    font-size: 13px;
+}
+.copyright_Sec {
+    padding: 10px 0px;
+}
+.footerCol>h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.bannerContent h1 {
+    font-size: 20px;
+}
+.bannerbtns {
+    margin-top: 30px;
+}
+.btn {
+    padding: 8px 15px;
+    font-size: 13px;
+}
+.bannerbtns a {
+    min-width: auto;
+}
+.logo > a > img {
+    max-width: 150px;
+}
+.colSpace_bg {
+    padding: 30px 0;
+}
+.des {
+    padding: 0;
+}
+.footer_sec {
+    padding: 20px 0px;
+}
+.bannerText > h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.headingCol > h2 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.bannerSection.inner_bg {
+    min-height: 250px;
+}
+.dig-idSection {
+    min-height: 300px;
+}
+.tagLine {
+    font-size: 15px;
+}
+.listCol {
+    padding: 6px 15px;
+    margin-top: 20px;
+}
+.listCol > h4 {
+    font-size: 18px;
+}
+.leftSideBar {
+    max-width: 200px;
+    padding: 10px;
+}
+.leftSideBar li a {
+    padding: 8px 10px 10px 16px;
+    font-size: 13px;
+}
+
+/* .leftSideBar li a:after {
+    top: 12px;
+    width: 10px;
+} */
+}
+@media screen and (max-width:385px){
+  .bannerbtns a {
+      display: block;
+      margin-top: 10px;
+  }
+  .bannerbtns a.btn-aqua-transparent {
+    margin-left:50px;
+    margin-right:50px;
+    background: rgba(0, 250, 255, 0.2);
+    border: 1px solid #eef!important;
+  }
+  .windowImg img {
+    margin-top:20px;
+  }
+  .skewed .windowImg img{
+    transform: rotateY(0deg) translateY(10px)!important;
+  }
+  .headerSeciton, .sticky  {
+    padding: 10px 0px;
+}
+@media(max-width:375px) {
+  .team-area .back-side p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .team-area .back-side {
+    padding: 10px;
+  }
+}
