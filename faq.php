@@ -283,7 +283,7 @@ require_once("./header.php");
                     </div>
                     <div class="headingCol customSpace textJustify">
                       <h5>13. How will Nexus improve the current internet?</h5>  
-                      <p>Many organizations plan to deploy smaller cube satellites into LEO (Lower Earth Orbit), however their models are dependent on centralized ownership and management. One of our longer term visions, is to tokenize satellite ownership, whereby token holders will be entitled to the revenue earned and voting rights, in order to produce decentralized ownership and management. Combined with affordable antennas, the creation of local mesh networks, and tokenized satellite ownership, we envision the building of a new Internet. </p>
+                      <p>Some organizations have deployed cube satellites into LEO (Lower Earth Orbit), however their models are dependent on centralized ownership and management. One of our longer term visions, is to tokenize satellite ownership, whereby token holders will be entitled to the revenue earned and voting rights, in order to facilitate decentralized ownership and management. When you combine this with affordable antennas and local area mesh networks, we envision the beginning of a new Internet. </p>
                       <p>We welcome all parties whom would like to become a part of this collaborative economy, to connect with us.</p>
                     </div>
                   </div>
@@ -446,6 +446,9 @@ require_once("./header.php");
                       <p>Please join one of our community channels to get involved in Nexus working groups.<br></p>
                     </div>
                   </div>
+                </div>
+                <div class="textRight directContainer">
+                  <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
                 </div>
               </div>
             </div>

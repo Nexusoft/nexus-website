@@ -25,7 +25,7 @@ require_once("./header.php");
         <div class="teamSection">
           <div class="headingCol">
           </div>
-          <div class="team-area">
+          <div class="team-area mb-4">
             <div class="row team-items">
               <div class="col-md-6 col-lg-4 single-item">
                 <div class="item">
@@ -95,23 +95,6 @@ require_once("./header.php");
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-md-6 col-lg-4 single-item">
-                <div class="item">
-                  <div class="front-side">
-                    <div class="thumb">
-                      <img src="images/teamImg-7.png" alt="...">
-                    </div>
-                    <div class="info">
-                      <h4>JACK MCGOWEN</h4>
-                      <h5>Software Engineer</h5>
-                      <span>Slack ID: @BlackJack</span>
-                    </div>
-                  </div>
-                  <div class="back-side">
-                    <p>Jack is a goal-driven, passionate Software Engineer with a keen eye for speed and efficiency. He graduated with a BSCS in Real-Time Interactive Simulation from DigiPen Institute of Technology in 2017, specializing in computer graphics. He joined Nexus in late 2018 after improving upon the publicly available prime miner, demonstrating that he could adapt his expertise for the benefit of the Nexus mining community. With the drive to write the best GPU miner Nexus has to offer, Jack remains driven and helps the core back end team, improving upon Nexus’ vision with a primary focus on speed and scale-ability. Upon the many improvements noteworthy, Jack recently helped slash wallet-sync times for the improved TAO architecture.</p>
-                  </div>
-                </div>
-              </div> -->
               <div class="col-md-6 col-lg-4 single-item">
                 <div class="item">
                   <div class="front-side">
@@ -143,6 +126,47 @@ require_once("./header.php");
                   </div>
                   <div class="back-side">
                     <p>Quý (Krysto) began his interest in software development when he first learned programming in school at the age of 12, where he won high prizes in programming competitions. Since then, Quý has graduated from FPT University with a First Class Honours Bachelor’s Degree in Software Engineering. Quý first got involved in the crypto world when he joined NEM in their early days (2014), and helped to develop their first wallet. He worked for several startup companies before joining Nexus. Quý joined Nexus as he sees the project as one of the most technologically advanced in the crypto sphere, that has the potential to take a leading position in the future, and believes he brings many skills and experience to the team. In his free time, Quý enjoys music, dancing, and playing board games with friends.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="headingCol textCenter mb-4">
+            <h3>Awesome Community Members</h3>
+            <br>
+          </div>
+          <div class="team-area mb-4">
+            <div class="row team-items justify-content-center">
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-15.jpg" alt="..." style="border-radius:50%">
+                    </div>
+                    <div class="info">
+                      <h4>CAIN NUSSDORFER</h4>
+                      <span>Slack ID: @nustiman</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>Cain Nussdorfer has been a blockchain advocate since 2015. He works alongside the AU Embassy to help spread awareness about Nexus and its technology through social media, meetups, exhibitions and conferences. In it for the technology, and excited to be part of bringing global adoption to build better efficiencies using blockchain innovations. Aspiring Python, JS, Linux and HTML/CSS developer and pianist.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-16.jpg" alt="..." style="border-radius:50%">
+                    </div>
+                    <div class="info">
+                      <h4>APRIL BUNJE</h4>
+                      <span>Slack ID: @maid</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>April has been actively involved in the Nexus community since 2017. True to the name of Nexus, it was the connections of the many that brought her to the community and she became a contributor to support its vision, values and innovations. Her interests in economics, technology, investments and compliance provided meaningful contributions to co-writing content. April’s experience and constant research helped define terminology, provide context and varying perspectives which support Nexus’ solutions.</p>
                   </div>
                 </div>
               </div>

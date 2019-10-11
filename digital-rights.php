@@ -52,8 +52,8 @@ require_once("./header.php");
                 <div class="contentWrapper tab-content" id="myTabContent">
                   <div class="intro-Wrapper customTab tab-pane fade show active" id="over" role="tabpanel" aria-labelledby="over-tab">
                     <div class="headingCol">
-                      <p>Nexus supports the licensing and watermarking of any digital asset registered on Nexus. Tokenization of these assets can facilitate the automatic payment of royalties to token holders. All of Nexus’ technologies are accessible by APIs.</p>
-                      <p>Digital Rights Management on Nexus enables true peer-to-peer exchange, replacing traditional distribution channels. Peer-to peer exchange provides consumers with greater levels of transparency, creators a greater say as to how their work is used, and the opportunity for them to be more fairly rewarded. Digital assets include, but are not limited to:</p>
+                      <p>The Nexus API supports the development of DApps for the licensing and watermarking of any digital asset registered on Nexus. These assets can be tokenized to represent partial ownership, enabling the automatic payment of royalties to token holders.</p>
+                      <p>This provides technology for Digital Rights Management, creating true peer-to-peer exchange to replace traditional distribution channels. Peer-to peer exchange provides consumers with greater levels of transparency, creators a greater say as to how their work is used, and the opportunity for them to be more fairly rewarded. Digital assets include, but are not limited to:</p>
                       <ul>
                         <li>Music , Audio Books, E-books</li>
                         <li>Graphics & Photography</li>
@@ -97,6 +97,9 @@ require_once("./header.php");
                       <p class="textCenter"><a class="btn btn-primary" href="https://github.com/Nexusoft/LLL-TAO/tree/merging/apps/watermark">Github-Watermarks</a></p>
                     </div>
                   </div>
+                </div>
+                <div class="textRight directContainer">
+                  <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
                 </div>
               </div>
             </div>

@@ -34,7 +34,7 @@ require_once("./header.php");
               <div class="col-md-6">
                 <div class="download-buttons text-center">
                   <div class="heading mb-3">
-                    <a href="javascript:;" class="themeColor">Download the Latest version: v1.2.3</a>
+                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v1.2.3</h6>
                   </div>
                   <div class="items">
                     <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.3/nexus_wallet-MacOSX-1.2.3.dmg" class="btn btn-primary">

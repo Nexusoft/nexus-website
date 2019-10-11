@@ -186,7 +186,7 @@ require_once("./header.php");
                   <div class="customTab tab-pane fade" id="binance" role="tabpanel" aria-labelledby="binance-tab">
                     <div class="titleCol">
                       <h3>Binance</h3>
-                      <p>You can access the Binance exchange here: <a href="javascript:;" class="themeColor">https://www.binance.com/</a></p>
+                      <p>You can access the Binance exchange here: <a href="https://www.binance.com/en/trade/NXS_BTC" target="_blank" class="themeColor">https://www.binance.com</a></p>
                       <h5>Step 1 – Set Up Account</h5>
                       <p>To create an account, follow these instructions:</p>
                       <div class="circle-List mb-1">
@@ -248,7 +248,7 @@ require_once("./header.php");
                   <div class="customTab tab-pane fade" id="bittrex" role="tabpanel" aria-labelledby="bittrex-tab">
                     <div class="titleCol">
                       <h3>Bittrex</h3>
-                      <p>You can access the Bittrex exchange via this link: <a href="javascript:;" class="themeColor">https://www.bittrex.com</a> The steps for setting up a Bittrex account are similar to setting up Coinbase, except that it doesn’t allow you to link a bank account.</p>
+                      <p>You can access the Bittrex exchange via this link: <a href="https://bittrex.com/Market/Index?MarketName=BTC-NXS" target="_blank" class="themeColor">https://www.bittrex.com</a> The steps for setting up a Bittrex account are similar to setting up Coinbase, except that it doesn’t allow you to link a bank account.</p>
                       <h5>Step 1 – Set Up Account</h5>
                       <p>On the main Bittrex page, click Log In at the top. The login page has a link to sign up for a new account. As with Coinbase, take care to enter your name, address, etc. exactly as they appear on your ID. This is more important with Bittrex, because this exchange requires verification and has been known to reject verification requests for a small difference between the name on the account and the name on an ID. After completing the signup process you have created a Bittrex account.</p>
                       <h5>Step 2 – Verification</h5>
@@ -334,6 +334,9 @@ require_once("./header.php");
                       <p>Bittrex will process your withdrawal and you should shortly receive it in your Nexus wallet. Now you both own and have full control of your Nexus currency. Be sure to review the relevant <a href="javascript:;" class="themeColor">Wallet</a> and <a href="javascript:;" class="themeColor">FAQ</a> sections on wallet security and making backups. You may also want to review <a href="javascript:;" class="themeColor">Mining and Minting</a> to learn about how to stake your coins. By staking, you can earn some additional NXS for helping operate the Nexus network. Note: If you send NXS to your wallet before it is fully synchronized to the network, your transaction may not show up. Rest assured, you still have it. It will appear when the wallet completes the syncing process.</p>
                     </div>
                   </div>
+                </div>
+                <div class="textRight directContainer">
+                  <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
                 </div>
               </div>
             </div>

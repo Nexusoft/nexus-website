@@ -99,8 +99,8 @@ require_once("./header.php");
                 </div>
                 <div class="contentWrapper tab-content" id="myTabContent">
                     <div class="intro-Wrapper customTab tab-pane fade<?php echo isset($_REQUEST['s'])?'':' active show';?>" id="over" role="tabpanel" aria-labelledby="over-tab">
-                        <p>Nexus is implementing an architecture that is a promising candidate to solving the ‘Blockchain Trilemma’, an opinion that only two of the three qualities, Security, Decentralization and Scalability, are achievable concurrently. We
-                            call it the ‘Three Dimensional Chain (3DC)’ which transforms the Ledger into a multi-layered processing system, in order to scale the protocol securely with a high degree of decentralization. It chains together cryptographic
+                        <p>Nexus is implementing an architecture that is a promising candidate to solving the Blockchain Trilemma, an opinion that only two of the three qualities, Security, Decentralization and Scalability, are achievable concurrently. We
+                            call it the Three Dimensional Chain (3DC) which transforms the Ledger into a multi-layered processing system, in order to scale the protocol securely with a high degree of decentralization. It chains together cryptographic
                             primitives into a three dimensional immutable object (a 3D block), and has three core dimensions: reputation channels (X), immutability or authenticity (Y), and time (Z). This architecture is being deployed through the
                             <span>
                             <a href="./roadmap" class="bluetext">TAO framework.</a>
@@ -377,6 +377,9 @@ require_once("./header.php");
                             <P class="innerText"><span><a href="./trust" class="btn btn-primary">Trust</a></span></P>
                         </div>
                     </div>
+                </div>
+                <div class="textRight directContainer">
+                  <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
                 </div>
             </div>
         </div>

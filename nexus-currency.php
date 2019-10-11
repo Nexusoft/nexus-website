@@ -1,7 +1,10 @@
 <?php
 require_once("./header.php");
 ?>
-
+<style>
+.purchasingImg a img { transition: all .2s ease-in-out; }
+.purchasingImg a img:hover { transform: scale(1.1); }
+</style>
   <!-- bannerSection starts -->
   <section>
     <div class="bannerSection inner_bg nxscurrencyCol">
@@ -91,7 +94,6 @@ require_once("./header.php");
         <div class="row ">
           <div class="col-md-12">
             <div class="headingCol">
-              <!-- <h2>GET NXS</h2> -->
               <p class="innerText">There are three ways to obtain NXS:</p>
             </div>
           </div>
@@ -102,11 +104,9 @@ require_once("./header.php");
               <div class="icon-row">
                 <img src="images/commerce-and-shopping.svg" alt="commerce-and-shopping" />
               </div>
-              <!-- <span>Purchase</span> -->
               <div class="purchasingImg">
-                <img src="images/pur-img1.png" alt="pur-img1">
-                <img src="images/pur-img2.png" alt="pur-img2">
-                <!-- <img src="images/pur-img3.png" alt="pur-img3"> -->
+                <a href="https://www.binance.com/en/trade/NXS_BTC"><img src="images/pur-img1.png" alt="pur-img1"></a>
+                <a href="https://bittrex.com/Market/Index?MarketName=BTC-NXS"><img src="images/pur-img2.png" alt="pur-img2"></a>
               </div>
               <div class="getBtn">
                 <a href="./buy-nxs" class="btn btn-primary">Purchase</a>
@@ -118,7 +118,6 @@ require_once("./header.php");
               <div class="icon-row">
                 <img src="images/growth-3.svg" alt="growth-3" />
               </div>
-              <!-- <span>Stake</span> -->
               <p class="textJustify">
               Staking is an energy efficient form of mining that provides security to the Nexus Blockchain through holding NXS inside the Nexus Wallet. In return, stakers are rewarded between 0.5% and 3.0% per year on their holdings.
               </p>

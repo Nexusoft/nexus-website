@@ -1,8 +1,10 @@
 <?php 
-  $url = '';
+  $url = '.';
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 
 <head>
   <!-- Required meta tags -->
@@ -16,6 +18,198 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="images/logo-icon.png">
   <title>Nexus</title>
+  <?php
+  $social_img = 'home.jpg';
+  $social_title = 'Nexus';
+  $social_description = 'Developing open-source technology to support decentralization, innovative applications and responsible values, to build a world where there is greater trust and connection between one another.';
+  $social_url = '';
+
+  $page = str_replace(".php", "", basename($_SERVER['PHP_SELF']));
+  switch ($page) {
+    case 'three-d-chain':
+      $social_title = 'Three-Dimensional Chains';  
+      $social_img = '3dc.jpg';
+      $social_url = '3dc';
+      break;
+    case 'apps':
+      $social_title = 'Decentralized Applications';
+      $social_img = 'app.jpg';
+      $social_url = 'apps';
+      break;
+    case 'assets':
+      $social_title = 'Assets';
+      $social_img = 'assets.jpg';
+      $social_url = 'assets';
+      break;
+    case 'buy-nxs':
+      $social_title = 'Purchase';
+      $social_img = 'purchase.jpg';
+      $social_url = 'buy-nxs';
+      break;
+    case 'dao':
+      $social_title = 'DAO Technology';
+      $social_url = 'dao';
+      break;
+    case 'decentralization':
+      $social_title = 'Decentralization';
+      $social_img = 'decentralization.jpg';
+      $social_url = 'decentralization';
+      break;
+    case 'assets':
+      $social_title = 'Assets';
+      $social_img = 'assets.jpg';
+      $social_url = 'assets';
+      break;
+      case 'digital-identity':
+      $social_title = 'Digital Identity';
+      $social_img = 'digital-identity.jpg';
+      $social_url = 'digital-identity';
+      break;
+      case 'digital-rights':
+      $social_title = 'Digital Rights Management';
+      $social_img = 'digital-rights.jpg';
+      $social_url = 'digital-rights';
+      break;
+      case 'economics':
+      $social_title = 'Economics';
+      $social_img = 'eco.jpg';
+      $social_url = 'economics';
+      break;
+      case 'embassies':
+      $social_title = 'Nexus Embassies';
+      $social_img = 'Nexus-Embassies.jpg';
+      $social_url = 'embassies';
+      break;
+      case 'faq':
+      $social_title = 'FAQ';
+      $social_img = 'FAQ.jpg';
+      $social_url = 'faq';
+      break;
+      case 'lisp':
+      $social_title = 'LISP';
+      $social_img = 'LISP.jpg';
+      $social_url = 'lisp';
+      break;
+      case 'mine':
+      $social_title = 'Mine';
+      $social_img = 'mine.jpg';
+      $social_url = 'mine';
+      break;
+      case 'nexus-currency':
+      $social_title = 'Cryptocurrency';
+      $social_img = 'cryptocurrency.jpg';
+      $social_url = 'cryptocurrency';
+      break;
+      case 'nexus-wallet':
+      $social_title = 'Nexus Wallet';
+      $social_img = 'wallet.jpg';
+      $social_url = 'wallet';
+      break;
+      case 'our-team':
+      $social_title = 'Nexus Team';
+      $social_img = 'bannerteam.jpg';
+      $social_url = 'team';
+      break;
+      case 'privacy':
+      $social_title = 'Privacy';
+      $social_img = 'FAQ.jpg';
+      $social_url = 'privacy';
+      break;
+      case 'quantum-resistance':
+      $social_title = 'Quantum Resistance';
+      $social_img = 'Quantum-Resistance.jpg';
+      $social_url = 'quantum-resistance';
+      break;
+      case 'roadmap':
+      $social_title = 'Roadmap';
+      $social_img = 'roadmap.jpg';
+      $social_url = 'roadmap';
+      break;
+      case 'signature-chains':
+      $social_title = 'Signature Chains';
+      $social_img = 'sigchain.jpg';
+      $social_url = 'signature-chains';
+      break;
+      case 'software-stack':
+      $social_title = 'Software Stack';
+      $social_img = 'software-stack.jpg';
+      $social_url = 'software-stack';
+      break;
+      case 'stake':
+      $social_title = 'Stake';
+      $social_img = 'stack.jpg';
+      $social_url = 'stake';
+      break;
+      case 'stos':
+      $social_title = 'Securitized Token Offerings';
+      $social_img = 'stos.jpg';
+      $social_url = 'stos';
+      break;
+      case 'supply-chains':
+      $social_title = 'Supply Chains';
+      $social_img = 'supply-chains.jpg';
+      $social_url = 'supply-chains';
+      break;
+      case 'terms':
+      $social_title = 'Terms of Use';
+      $social_img = 'FAQ.jpg';
+      $social_url = 'terms';
+      break;
+      case 'tokens':
+      $social_title = 'Tokens';
+      $social_img = 'token.jpg';
+      $social_url = 'tokens';
+      break;
+      case 'trust':
+      $social_title = 'Trust';
+      $social_img = 'trust.jpg';
+      $social_url = 'trust';
+      break;
+      case 'wallet-guide':
+      $social_title = 'Wallet Guide';
+      $social_img = 'wallet-copy.jpg';
+      $social_url = 'wallet-guide';
+      break;
+      case 'what-blockchain':
+      $social_title = 'What is Blockchain';
+      $social_img = 'what-blockchain.jpg';
+      $social_url = 'what-blockchain';
+      break;
+      case 'what-nexus':
+      $social_title = 'What is Nexus?';
+      $social_img = 'what-is-nexus.jpg';
+      $social_url = 'what-nexus';
+      break;
+      case 'whitepapers':
+      $social_title = 'White Papers';
+      $social_img = 'white-paper.jpg';
+      $social_url = 'whitepapers';
+      break;
+      case 'working-groups':
+      $social_title = 'Working Groups';
+      $social_img = 'working-group.jpg';
+      $social_url = 'working-groups';
+      break;
+    default:
+      $social_title = 'Homepage';
+  }
+?>
+  <meta name="description" content="<?php echo $social_description;?>" />
+  <link rel="canonical" href="https://nexus.io" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="<?php echo $social_description;?>" />
+  <meta property="og:url" content="https://nexus.io/<?php echo $social_url;?>" />
+  <meta property="og:image" content="https://nexus.io/images/social/<?php echo $social_img;?>" />
+  <meta property="og:image:secure_url" content="https://nexus.io/images/social/<?php echo $social_img;?>" />
+  <meta property="og:title" content="<?php echo $social_title;?>" />
+  <meta property="og:site_name" content="Nexus" />
+  <meta property="article:publisher" content="https://www.facebook.com/nxsearth/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="<?php echo $social_description;?>" />
+  <meta name="twitter:title" content="<?php echo $social_title;?>" />
+  <meta name="twitter:image" content="https://nexus.io/images/social/<?php echo $social_img;?>" />
+
 </head>
 
 <body>

@@ -756,6 +756,9 @@ ol li {
                   see what is going on under the hood, this is the place to watch.</p>
               </div>
             </div>
+            <div class="textRight directContainer">
+              <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
+            </div>
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ require_once("./header.php");
                         <a class="nav-link active overview" id="over-tab" data-toggle="tab" href="#over" role="tab" aria-controls="over" aria-selected="true">Supply Chains</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="sub1-tab" data-toggle="tab" href="#sub1" role="tab" aria-controls="sub1" aria-selected="false">Use Cases</a>
+                        <a class="nav-link">Use Cases</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link subMenu" id="sub1-tab" data-toggle="tab" href="#sub1" role="tab" aria-controls="sub1" aria-selected="false">Standards Certification</a>
@@ -75,7 +75,7 @@ require_once("./header.php");
                         <a class="nav-link subMenu" id="sub13-tab" data-toggle="tab" href="#sub13" role="tab" aria-controls="sub13" aria-selected="false">Insurance</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" id="sub14-tab" data-toggle="tab" href="#sub14" role="tab" aria-controls="sub14" aria-selected="false">Technology</a>
+                        <a class="nav-link">Technology</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link subMenu" id="sub14-tab" data-toggle="tab" href="#sub14" role="tab" aria-controls="sub14" aria-selected="false">Supply API</a>
@@ -94,9 +94,9 @@ require_once("./header.php");
                 <div class="contentWrapper tab-content" id="myTabContent">
                   <div class="intro-Wrapper customTab tab-pane fade show active" id="over" role="tabpanel" aria-labelledby="over-tab">
                     <div class="titleCol">
-                      <p>Transparency is imperative to building meaningful relationships. With Nexus, the recording of information is naturally transparent. As such, the interactions between producers, manufacturers, carriers, standards organizations, vendors, and consumers can be recorded transparently, without the need for costly third-parties that are required to be trusted.</p>
-                      <p>Nexus is able to record everyday items as digital items, that maintain an immutable record and history of the item, including its current and previous states. By design, the transfer and claiming of the digital item between blockchain accounts (<a href="./signature-chains">Signature Chains</a>) provides a history of a chain of custody, and any modifications to the digital item.</p>
-                      <p>Therefore, the native functionality of Nexus contains the state and history of all items, enabling the recording of supply chains by design, without having to maintain a complex state and history in a single contract as do other blockchain technologies. Nexus Supply Chain technology is also accessible by an easy to use Supply Chain API.</p>
+                      <p>The Nexus Supply Chain API supports the development of DApps for the recording of Supply Chains. Transparency is imperative to building meaningful relationships. On Nexus, the recording of information is naturally transparent. As such, the interactions between producers, manufacturers, carriers, standards organizations, vendors, and consumers can be recorded transparently.</p>
+                      <p>Nexus is able to record everyday items as digital items, that maintain an immutable record and history of the item, including its current and previous owners. By design, the transfer and claiming of the digital item between blockchain accounts (<a href="./signature-chains">Signature Chains</a>) provides a history of a chain of custody, and any modifications to the digital item.</p>
+                      <p>Therefore, the native functionality of Nexus contains the state and history of all items, enabling the recording of supply chains by design, without having to maintain a complex state and history in a single contract as do other blockchain technologies.</p>
                       <p>Supply chains can use Nexus to automate their processes, increasing their efficiency and accuracy, thereby lowering the costs for producers, vendors and ultimately consumers. Our technology can provide benefits such as increased trustworthiness of certification standards, protection against the sale of counterfeit goods, increased safety of products, provision of the life cycle of a product, real time data collection and tracking, integration with IoT systems, improved efficiency and security of operations and logistics, auditability, and the replacement of escrow services.</p>
                     </div>
                   </div>
@@ -145,7 +145,6 @@ require_once("./header.php");
                       <p>Nexus Supply Chain technology not only benefits large organizations with complex global operations, it can also be used to build digital ecosystems to support peer groups with similar values, which could help to reduce their dependence on large distributors. Supply Chain technology can aid different parties, such as producers, vendors and consumers, to share information, providing greater visibility into the standards of production across various sectors.</p>
                       <p>With the DAO (Decentralized Autonomous Organization) technology that we are developing, a DSO (Decentralized Standards Organization) formed of various voting groups, could help the organization of existing standards bodies. DAOs will provide more opportunity to people to shape the management of organizations by way of voting and interacting in <a href="./working-groups">working group</a> structures. For example, a DSO organised for the purpose of certification standards could comprise of voting groups such as agricultural inspectors, consumers, ecologists, nutritionists, animal welfare, vendors, and farm owners, which would issue annual organic certificates to producers that reach the standards of the DSO.</p>
                       <p>We envision that this technology will empower many people to get involved in creating ethical, sustainable and regenerative practices, so that we can together build a resilient global community of the future.</p>
-                      <p class="innerText"><a href="./dao" class="btn btn-primary">DAO Technology</a></p>
                     </div>
                   </div>
                   <div class="customTab tab-pane fade" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
@@ -256,6 +255,9 @@ require_once("./header.php");
                       <p class="innerText"><a href="https://nexusearth.com/hybrid-blockchain/" class="btn btn-primary">Hybrid Technology</a></p>
                     </div>
                   </div>
+                </div>
+                <div class="textRight directContainer">
+                  <a class="prev directBtn" href="javascript:;">Prev Topic</a>&nbsp;|&nbsp;<a class="next directBtn" href="javascript:;">Next Topic</a>
                 </div>
               </div>
             </div>
