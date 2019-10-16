@@ -25,6 +25,10 @@ require_once("./header.php");
         <div class="teamSection">
           <div class="headingCol">
           </div>
+          <div class="headingCol textCenter mb-4">
+            <h3>Core Developers</h3>
+            <br>
+          </div>
           <div class="team-area mb-4">
             <div class="row team-items">
               <div class="col-md-6 col-lg-4 single-item">
@@ -131,6 +135,51 @@ require_once("./header.php");
               </div>
             </div>
           </div>
+
+          <br><br>
+          <div class="headingCol textCenter mb-4">
+            <h3>Business Development</h3>
+            <br>
+          </div>
+          <div class="team-area mb-4">
+            <div class="row team-items justify-content-center">
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-4.png" alt="...">
+                    </div>
+                    <div class="info">
+                      <h4>ALEX EL-NEMER</h4>
+		      <h5>Business Development</h5>
+                      <span>Slack ID: @alexelmo</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>After studying blockchain and digital currency in depth, Alex realised that these collectively were not just emerging industries, but in fact the future of business. Viewing Nexus as the most technologically advanced and competent blockchain, Alex joined the business development team to promote enterprise adoption, which he believes is the key to this technology reaching complete global adoption. With experience in FX sales, trading and investment banking, Alex could see the plethora of blockchain use cases which could improve business practices and overall efficiency not only within finance, but across all industries. In 2018, the U.K. Embassy was established, and Alex was appointed as the Executive Director.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-3.png" alt="...">
+                    </div>
+                    <div class="info">
+                      <h4>BRIAN VENA</h4>
+		      <h5>Business Development</h5>
+                      <span>Slack ID: @Brian</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>Brian Vena is a visionary known for evolving business strategies with investors, executives and brands across multiple industries. With over twenty years experience in sales and marketing with Nestlé U.S.A and Takeda Pharmaceuticals Inc., Brian has launched twenty-three brands and is a five time winner of the Cresset National Sales Award. While living in Chicago his passion for music and networking inspired him to create a boutique entertainment company. There he connected some of the biggest names in film, fashion, and music with cross-promotional brands and events in the United States, Australia and New Zealand. Brian’s passion and expertise is in connecting people. He’s excited to bring together innovative leaders in music, technology and healthcare to further support the goals and success of the Nexus team.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <br><br>
           <div class="headingCol textCenter mb-4">
             <h3>Awesome Community Members</h3>
@@ -172,6 +221,7 @@ require_once("./header.php");
               </div>
             </div>
           </div>
+
         </div>
       </div>
   </section>
