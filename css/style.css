@@ -3,7 +3,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -72,6 +73,38 @@ a[disabled] {
 }
 .sticky .bar {
   background-color: #1a9fec;
+}
+.directContainer {
+  display:none;
+  margin: 0 0 20px;
+}
+.directBtn {
+  padding: 12px 20px 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0ca4fb;
+  position:relative;
+}
+.directBtn:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  background-image: url(../images/arrow-right.svg);
+  width: 13px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.next:after {
+  right:0
+}
+.prev:after {
+  transform:scaleX(-1);
+  left:0
 }
 /* toggle layout starts */
 /* ************************************** */
@@ -474,6 +507,7 @@ CHAIN LAYOUT START
   font-size: 14px;
   font-weight: 500;
   padding: 10px 10px;
+  width:92px;
 }
 .icon-itemss .text {
   /* color:#2BC6FF; */
@@ -500,6 +534,9 @@ CHAIN LAYOUT START
 }
 .textCenter {
   text-align: center;
+}
+.textRight {
+  text-align: right;
 }
 /*=============================
 CHAIN LAYOUT CLOSE
@@ -608,7 +645,7 @@ ROADMAP LAYOUT START
 .coloredBg p {
   color: #fff;
   /* text-align: left; */
-  padding: 0px 85px;
+  /* padding: 0px 85px; */
 }
 
 /*=============================
@@ -882,10 +919,17 @@ WALLET GUIDE LAYOUT START
   text-overflow: ellipsis;
   position: relative;
 }
+.leftSideBar .nav-tabs .nav-link.active {
+  color:#0c94fb;
+  font-weight:bold
+}
 .leftSideBar li a:hover:after {
   -webkit-transform: translateX(2px);
   -ms-transform: translateX(2px);
   transform: translateX(2px);
+}
+.leftSideBar li a:hover {
+  color: #0ca4fb!important;
 }
 .leftSideBar li a:after {
   content: "";
