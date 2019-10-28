@@ -32,7 +32,7 @@
       $social_url = '3dc';
       break;
     case 'apps':
-      $social_title = 'Decentralized Applications';
+      $social_title = 'What is Tritium?';
       $social_img = 'app.jpg';
       $social_url = 'apps';
       break;
@@ -261,7 +261,7 @@
                     <a href="JavaScript:void(0)">Technology</a>
                     <ul class="d-submenu">
                       <li>
-                        <a href="<?php echo $url;?>/apps">Applications</a>
+                        <a href="<?php echo $url;?>/apps">What Is Tritium</a>
                       </li>
                       <li>
                         <a href="<?php echo $url;?>/software-stack">Software Stack</a>

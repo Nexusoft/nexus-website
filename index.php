@@ -76,9 +76,9 @@ require_once("./header.php");
           <div class="col-md-6 text-center">
             <div class="content-area whiteBg">
               <div class="titleCol">
-                <h3 >Decentralized Applications</h3>
+                <h3 >What is Tritium?</h3>
               </div>
-              <p class="textJustify">Nexus is a seven layered architecture that powers decentralized applications (DApps). Our API provides direct access to develop with features such as Contracts, Tokens and Assets, without the need for specialist programming knowledge.</p>
+              <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack with a revolutionary register-based contract engine, that processes 2k to 25k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
             </div>
             <div class="btnRow">
               <a href="./apps" class="btn btn-primary">Read More</a>
@@ -107,7 +107,7 @@ require_once("./header.php");
               <h3>Cryptocurrency</h3>
             </div>
           <p class="textJustify">
-          Cryptocurrency is an important facet to Nexus, which is why we have our own native currency called ‘NXS’. This currency is the backbone of our ecosystem as it rewards miners to build blocks, and provides a reward rate to stakers of between 0.5% to 3.0 per annum for securing the network. 
+          Cryptocurrency is an important facet to Nexus, which is why we have our own native currency called ‘NXS’. This currency is the backbone of our ecosystem as it rewards miners to build blocks, and provides a reward rate to stakers of between 0.5% to 3.0 per annum for securing the network.
          </p>
           </div>
           <div class="icon-itemss">
