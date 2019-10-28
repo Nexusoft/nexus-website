@@ -91,7 +91,11 @@ require_once("./header.php");
                   <!-- register based contract engine. -->
                   <div class="customTab tab-pane fade" id="sub1" role="tabpanel" aria-labelledby="sub1-tab">
                       <p class="customText textJustify">
-                          A register is the fastest storage medium inside your computer’s CPU (Central Processing Unit), that the processor uses to cache data in between calculations. This has become a more desirable architecture for computer design as an improvement to a much older architecture called a ‘stack’. Our contract engine follows this architecture as an improvement compared to other blockchain-powered virtual machines such as the EVM (Ethereum Virtual Machine) that still use the older stack architecture. The improved efficiency gained through the use of registers makes developing on Nexus not only easier, but also much more efficient and scalable.
+                          A register is the fastest storage medium inside your computer’s CPU (Central Processing Unit), that the processor uses to cache data in between calculations. This has become a more desirable architecture for computer design as an improvement to a much older architecture called a ‘stack’. 
+                     </p>
+
+                        <p class="customText textJustify">
+Our contract engine follows this architecture as an improvement compared to other blockchain-powered virtual machines such as the EVM (Ethereum Virtual Machine) that still use the older stack architecture. The improved efficiency gained through the use of registers makes developing on Nexus not only easier, but also much more efficient and scalable.
                       </p>
                   </div>
 
@@ -105,14 +109,21 @@ require_once("./header.php");
                   <!-- conditional contracts -->
                   <div class="customTab tab-pane fade" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
                     <p class="customText textJustify">
-                        A basic Nexus contract is comprised of three layers: data (Registers), programmable actions, (Operations), and accounts (Signature Chains). Together, these layers verify the information of a system or Decentralized Application (DApp), following logic that closely relates to agreements and contracts between people. We have followed this approach for the primary reason that smart contracts cannot be realized with existing language designs, they require a new architecture. This is in direct contrast to Ethereum’s language Solidity, which closely resembles Javascript, or EOS’ use of Web Assembly (WASM), both of which were designed for web development rather than building secure financial applications.
+                        A basic Nexus contract is comprised of three layers: data (Registers), programmable actions, (Operations), and accounts (Signature Chains). Together, these layers verify the information of a system or Decentralized Application (DApp), following logic that closely relates to agreements and contracts between people. 
+                        </p>
+
+                        <p class="customText textJustify">
+We have followed this approach for the primary reason that smart contracts cannot be realized with existing language designs, they require a new architecture. This is in direct contrast to Ethereum’s language Solidity, which closely resembles Javascript, or EOS’ use of Web Assembly (WASM), both of which were designed for web development rather than building secure financial applications.
                     </p>
                   </div>
 
                   <!-- decentralized login system. -->
                   <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='sub4'?' active show':'';?>" id="sub4" role="tabpanel" aria-labelledby="sub4-tab">
                       <p class="customText textJustify">
-                          A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage these keys, most cryptocurrencies use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access your funds. We believe that the adoption of blockchain technology will always be limited if relying on such a model, such as lost hard drives, funds sent to unspendable addresses, or backups that were not up-to-date. Therefore we developed a new key management system: Signature Chains. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’ meaning that with your login credentials, you are able to access your Nexus Wallet from any computer. This is synonymous to a decentralized login system, that can be integrated with various security measures such as biometrics and hardware password managers. We believe this approach is fundamental to the adoption of blockchain by the general public, while also improving current security standards.
+                          A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage these keys, most cryptocurrencies use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access your funds. We believe that the adoption of blockchain technology will always be limited if relying on such a model, such as lost hard drives, funds sent to unspendable addresses, or backups that were not up-to-date. Therefore we developed a new key management system: Signature Chains.
+                        </p>
+
+                        <p class="customText textJustify">This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’ meaning that with your login credentials, you are able to access your Nexus Wallet from any computer. This is synonymous to a decentralized login system, that can be integrated with various security measures such as biometrics and hardware password managers. We believe this approach is fundamental to the adoption of blockchain by the general public, while also improving current security standards.
                       </p>
                  </div>
 
@@ -126,7 +137,10 @@ require_once("./header.php");
                  <!-- tokenization protocols -->
                  <div class="customTab tab-pane fade" id="sub6" role="tabpanel" aria-labelledby="sub6-tab">
                      <p class="customText textJustify">
-                         Some believe that our future societies will use tokenization for many purposes. This is a novel idea, especially considering that the current use of tokens has been limited to speculative assets. Alternatively, Tritium provides many uses of tokens that will produce value across many industries. The most prominent protocol is the use of fungible tokens for the division of ownership of assets and companies, that on the blockchain enforce ‘revenue splits’ based on token allocation. This provides utility to joint projects, with transparent and accountable revenue splits, for the distribution of profits earned from such a venture. Token protocols have the capability, with the correct utility and technology, to create more decentralized and responsible social systems.
+                         Some believe that our future societies will use tokenization for many purposes. This is a novel idea, especially considering that the current use of tokens has been limited to speculative assets. Alternatively, Tritium provides many uses of tokens that will produce value across many industries.
+                       </p>
+
+                        <p class="customText textJustify">The most prominent protocol is the use of fungible tokens for the division of ownership of assets and companies, that on the blockchain enforce ‘revenue splits’ based on token allocation. This provides utility to joint projects, with transparent and accountable revenue splits, for the distribution of profits earned from such a venture. Token protocols have the capability, with the correct utility and technology, to create more decentralized and responsible social systems.
                      </p>
                  </div>
 

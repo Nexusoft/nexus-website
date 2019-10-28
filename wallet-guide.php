@@ -147,16 +147,16 @@ ol li {
                   </div>
                 </div>
               </div>
-              <div class="getting-Wrapper customTab tab-pane fade" id="getting" role="tabpanel" aria-labelledby="system-tab">
+              <div class="getting-Wrapper customTab tab-pane fade" id="getting" role="tabpanel" aria-labelledby="getting-tab">
                 <div class="titleCol">
                   <h3>Getting Started</h3>
                   <p>The Nexus Wallet can be accessed from any Mac, Windows or Linux computer simply by downloading and installing the desktop application.</p>
                 </div>
               </div>
-              <div class="download-Wrapper customTab tab-pane fade<?php echo $_REQUEST['s']=='download'?' active show':'';?>" id="download" role="tabpanel" aria-labelledby="system-tab">
+              <div class="download-Wrapper customTab tab-pane fade<?php echo $_REQUEST['s']=='download'?' active show':'';?>" id="download" role="tabpanel" aria-labelledby="download-tab">
                 <div class="heading">
                   <h5>Step 1 – Downloading</h5>
-                  <p><a href="javascript :;" class="themeColor">Download the wallet</a> from the Nexus website or from <a href="javascript :;" class="themeColor">Github</a>.</p>
+                  <p>Download the wallet from <a href="https://github.com/Nexusoft/NexusInterface/releases" class="themeColor">Github</a>.</p>
                   <h6 style="color:#0ca4fb">How to verify installer's integrity</h6>
                   <div class="circle-List" style="display: block;">
                     <p>For better security, you can verify the integrity of the installer you’ve downloaded to make sure it’s original and hasn’t been tampered with. In order to do so, check the SHA-512 hash of the installer by following the instructions and compare the result you got with the correct hash provided below. If the hashes don’t match, please let Nexus team know about that.</p>
