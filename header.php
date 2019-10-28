@@ -1,4 +1,4 @@
-<?php 
+<?php
   $url = '.';
 ?>
 <!doctype html>
@@ -27,13 +27,13 @@
   $page = str_replace(".php", "", basename($_SERVER['PHP_SELF']));
   switch ($page) {
     case 'three-d-chain':
-      $social_title = 'Three-Dimensional Chains';  
+      $social_title = 'Three-Dimensional Chains';
       $social_img = '3dc.jpg';
       $social_url = '3dc';
       break;
     case 'apps':
       $social_title = 'What is Tritium?';
-      $social_img = 'app.jpg';
+      $social_img = 'tritium.png';
       $social_url = 'apps';
       break;
     case 'assets':
