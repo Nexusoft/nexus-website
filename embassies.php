@@ -52,7 +52,7 @@ a {
                       </div>
                       <div class="info">
                         <h4>COLIN CANTRELL</h4>
-                        <h5>Software Architect</h5>
+                        <h5>US Embassy Board of Directors</h5>
                         <span>Slack ID: @videlicet</span>
                       </div>
                     </div>
