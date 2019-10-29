@@ -54,8 +54,8 @@ require_once("./header.php");
         <div class="row">
           <div class="col-md-12">
             <div class="bannerContent">
-              <h1>Universal Blockchain</h1>
-              <p>Developing open-source technology to support decentralization, innovative applications and responsible values, to build a world where there is greater trust and connection between one another.</p>
+              <h1 style="font-size: 3em;">Universal Blockchain</h1>
+              <p>Developing open-source technology to support decentralization, innovative applications and responsible values.</p>
               <div class="bannerbtns">
                 <a href="./whitepapers" class="btn btn-aqua-transparent">white papers</a>
                 <a href="./what-nexus" class="btn btn-aqua-transparent">new to nexus?</a>

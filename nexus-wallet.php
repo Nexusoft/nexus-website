@@ -34,10 +34,10 @@ require_once("./header.php");
               <div class="col-md-6">
                 <div class="download-buttons text-center">
                   <div class="heading mb-3">
-                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v1.2.3</h6>
+                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v1.2.4</h6>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.3/nexus_wallet-MacOSX-1.2.3.dmg" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-MacOSX-1.2.4.dmg" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -46,7 +46,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.3/nexus_wallet-setup-Win-1.2.3.exe" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-setup-Win-1.2.4.exe" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -55,7 +55,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.3/nexus_wallet-Linux-1.2.3.AppImage" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-Linux-1.2.4.AppImage" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>

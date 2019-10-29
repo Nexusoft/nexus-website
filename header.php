@@ -21,7 +21,7 @@
   <?php
   $social_img = 'home.jpg';
   $social_title = 'Nexus';
-  $social_description = 'Developing open-source technology to support decentralization, innovative applications and responsible values, to build a world where there is greater trust and connection between one another.';
+  $social_description = 'Developing open-source technology to support decentralization, innovative applications and responsible values.';
   $social_url = '';
 
   $page = str_replace(".php", "", basename($_SERVER['PHP_SELF']));

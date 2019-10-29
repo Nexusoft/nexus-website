@@ -176,15 +176,15 @@ ol li {
                     <li>Type this command:&nbsp;<code>shasum -a512 pathToFile</code>&nbsp;and press <em>Enter</em>&nbsp;(replace&nbsp;<code>pathToFile</code>&nbsp;with the path to the file that you’ve downloaded)</li>
                     </ol>
                     <p>&nbsp;</p>
-                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v1.2.3</h6>
+                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v1.2.4</h6>
                     <ul>
-                      <li>Windows Installer<br> <code>f4f1f76d5c7a3ca845e9ebc5281c3d0fb4a09f75bf08ab6024a4aafcd1db44ec5b274a31c6a1d17b1c849e28762cf8ad6862c768aaa5f855e4c969a76b70b89b</code></li>
-                      <li>Windows Unpacked<br> <code>0caab60ba635edfe85c4774a5843bede918c614a9861592248a137a8bc5f705cf4d12a07dcc205e9443fb1da146d67682f08fb9f4e9a2ac0ce90f10dcd23055d</code></li>
-                      <li>Mac OSX Installer<br> <code>4f673ff177c9c5e6a9d66541046f27f859281648049ba48b88067fc77df9c55c79c435949020d33dbf9ced072f96a580175885bde6cfac239c3694a754b01c58</code></li>
-                      <li>Mac OSX Unpacked<br> <code>f7797c6ceeb29a4b5cbd14bd8964639d939f3fc89fe9ba9ccb4a6dcaa4bf77e17eb0148b209d4479933da1c3b1e699a6ab12147599a234e7a97f1e842f4de756</code></li>
-                      <li>Linux Deb<br> <code>50a713fe3e2e306e4a072df716c909aeaefbe122d15b3bec27429017f046c725675f5ff18e2c61e2373156cfec8dca4b5cd2cc5dca8fe67519f82c93e9b039b8</code></li>
-                      <li>Linux AppImage<br> <code>ad433f01d512ef2678a0b3c417c8afedc87e0161d9a7ea4046d35fa2a190b7869d6dc36ee36ef9d0f76c6d3d3689b7037a94154f68506bf5b088d42cf7691707</code></li>
-                      <li>Linux Snap<br> <code>f04f4071d74b57f06a13bc2964b0aa6b338ef4578c4aad64062022016a09593e736d4227778fc13d6140e0a2d0b2843a06a995951304c566b69410232dbf959e<br></code></li>
+                      <li>Windows Installer<br> <code>3c673672f0fcbecb915df04a7697f1565ff9d95fab3ab8187b95682357b0f22a7f559ff4c196d7255a775665714eaba9413fa07ec842ae2daae0123bfd80ef6d</code></li>
+                      <li>Windows Unpacked<br> <code>fc87a44eb60401fb64f20df1f026b52df4c881ae53450aed5ef8cb3f4e3c05550f2c77806757d2ad600b9abddf519bba4c875c18e19acf844cae85887acb6f2d</code></li>
+                      <li>Mac OSX Installer<br> <code>e0225d2d36023b4f88a396b8e22b05b9142d759d6c826b59cdd02e1a273efb6a286a8203e8b0b89fe1f1cf46185eda3c309b736a378313dfadbeb561328a8771</code></li>
+                      <li>Mac OSX Unpacked<br> <code>85e7685f33cf21d93b6713ea97eacc9a0dfe5fcf683c51e5077b6983e7a9514d0c0344fa49c39bad667e78f4d61c51b234cb28db75eeff0b8db880d40700104e</code></li>
+                      <li>Linux Deb<br> <code>4f7cd3d86ad8c415524aece4310e05d3e8f19a3572e00e5754a50c74092759c265be4cef27f18f045d2a83f90895a72f70ccfec490fdcb63d3064433c912b7f0</code></li>
+                      <li>Linux AppImage<br> <code>9e6bcd8485ec2468a78f84d0f3762d87107863c9e7751ca5f906331205e9abcb49e27d7eb8e80654019cd5914104e4cf11775465bc7e824b5eb7d3c2ebe02d65</code></li>
+                      <li>Linux Snap<br> <code>5560064ad85f3d1fddca215ca1619fb3efcf6253708a4f9f5f0698a170740e2ca0aa6066cece1bf17c8e193bdae3da2864aafa256e6ab9097ee08913b5514c1d<br></code></li>
                     </ul>
                   </div>
                 </div>
