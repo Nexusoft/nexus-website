@@ -34,19 +34,24 @@ require_once("./header.php");
           <div class="headingCol">
             <h2>Community</h2>
             <p class="customText textJustify">The Nexus community is the foundation for the strength, diversity and resilience of Nexus. Together, we provide ideas and resources that are crucial to the health of the network. Whether you trade, mine or stake NXS, develop applications to sell or share, or exchange ideas in one of our community channels, you are a part of the community. We are a diverse network of individuals who advocate the following principles:</p>
-            <p class="customText textJustify"><b>Responsibility & Independence</b><br>
+	    <p style="font-weight: 500">Responsibility & Independence</p>
+            <p class="customText textJustify">
               Decentralized Systems have the ability to provide choices to become more independent from existing systems, which are often centralized and reliant on outdated processes.
             </p>
-            <p class="customText textJustify"><b>Decentralization & Meritocracy</b><br>
+	    <p style="font-weight: 500">Decentralization & Meritocracy</p>
+            <p class="customText textJustify">
               Decentralization of power and resources is fundamental to building the foundations of a meritocracy, where people are rewarded proportional to their merit. In this sense, everyone has an equal opportunity to rise to their level of capability, and reward is based on acceptance of responsibility across different roles.
             </p>
-            <p class="customText textJustify"><b>Information & Exchange</b><br>
+	    <p style="font-weight: 500">Information & Exchange</p>
+            <p class="customText textJustify">
               The technology of Nexus is developed for people to have free access to information and exchange, creating the possibility for more novelty.
             </p>
-            <p class="customText textJustify"><b>Honesty & Transparency</b><br>
+	    <p style="font-weight: 500">Honesty & Transparency</p>
+            <p class="customText textJustify"><br>
               Honesty nurtures trust between people, allowing us to be more effective as a group, whilst transparency cultivates integrity.
             </p>
-            <p class="customText textJustify"><b>Community & Collaboration</b><br>
+            <p style="font-weight: 500">Community & Collaboration</p>
+            <p class="customText textJustify">
               Respecting ourselves and others encourages greater cooperation, collaboration and growth, to build stronger relationships and therefore a stronger community.
               The more people that contribute to a decentralized system, the more secure, resilient and robust it becomes. Each Nexus Wallet is a node, providing security and redundancy to the network, operated by individuals who are a part of the greater Nexus ecosystem. 
             </p>

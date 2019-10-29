@@ -55,7 +55,7 @@ require_once("./header.php");
           <div class="col-md-12">
             <div class="bannerContent">
               <h1>Universal Blockchain</h1>
-              <p>Developing open-source technology to support decentralization, innovative<br>applications and responsible values, to build a world where there is greater trust and<br>connection between one another.</p>
+              <p>Developing open-source technology to support decentralization, innovative applications and responsible values, to build a world where there is greater trust and connection between one another.</p>
               <div class="bannerbtns">
                 <a href="./whitepapers" class="btn btn-aqua-transparent">white papers</a>
                 <a href="./what-nexus" class="btn btn-aqua-transparent">new to nexus?</a>
@@ -81,7 +81,7 @@ require_once("./header.php");
               <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack with a revolutionary register-based contract engine, that processes 2k to 25k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
             </div>
             <div class="btnRow">
-              <a href="./apps" class="btn btn-primary">Read More</a>
+              <a href="./what-tritium" class="btn btn-primary">Read More</a>
             </div>
           </div>
           <div class="col-md-6">

@@ -81,7 +81,7 @@ a[disabled] {
 .directBtn {
   padding: 12px 20px 12px 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   color: #0ca4fb;
   position:relative;
 }
@@ -118,7 +118,7 @@ NEXUS WALLET LAYOUT START
 }
 .tagLine {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .downloadEntry {
   padding-top: 60px;
@@ -253,7 +253,7 @@ a, .btn {
 .btn {
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   border-radius: 5px;
   text-transform: capitalize;
 }
@@ -284,14 +284,14 @@ img {
 }
 .titleCol h3 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 28px;
   color: #1a9fec;
 }
 p {
   font-size: 14px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 300;
 }
 code, pre code {
   color: #777;
@@ -337,7 +337,7 @@ code, pre code {
 /* headerSection css starts */
 .navMenu ul li a {
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 14px;
   position: relative;
   padding: 10px 0px;
@@ -459,7 +459,7 @@ code, pre code {
   position: relative;
 }
 .bannerContent {
-  max-width: 850px;
+  max-width: 700px;
   margin: 0 auto;
 }
 .bannerContent h1 {
@@ -467,6 +467,7 @@ code, pre code {
 }
 .bannerContent p {
   color: #fff;
+  text-align: center;
 }
 .bannerbtns {
   margin-top: 40px;
@@ -484,11 +485,11 @@ code, pre code {
 }
 .homepage .bannerContent h1 {
   margin-bottom:2.5rem;
-  text-shadow: 0 1px 3px grey
+  text-shadow: 1px 1px 6px rgba(25,25,112, 0.9)
 }
 .homepage .bannerContent p {
-  font-size:15px;
-  text-shadow: 0 1px 3px #555;
+  font-size:18px;
+  text-shadow: 2px 2px 6px rgba(25,25,112, 0.9);
 }
 /* bannerSection css ends */
 /*=============================
@@ -505,7 +506,7 @@ CHAIN LAYOUT START
   /* vertical-align: middle; */
   text-align: center;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 10px 10px;
   width:92px;
 }
@@ -734,8 +735,8 @@ ROADMAP LAYOUT CLOSE
   color: #fff;
   font-size: 36px;
   line-height: 30px;
-  font-weight: 500;
-  text-shadow: 0 0 6px rgba(0,0,0,0.3);
+  font-weight: 300;
+  text-shadow: 2px 2px 6px rgb(25,25,112);
   margin: 0;
 }
 .vision_bg{
@@ -758,21 +759,21 @@ ROADMAP LAYOUT CLOSE
   color: #0ca4fb;
   font-size: 28px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 15px;
 }
 
 .headingCol > h5, .headingCol > h4, .headingCol > h3 {
   color: #0ca4fb;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .headingCol > h6 {
   color: #0ca4fb;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 15px;
 }
 .customText {
@@ -780,7 +781,7 @@ ROADMAP LAYOUT CLOSE
   display: block;
   color: #12183f;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .brpoint {
     display: block;
@@ -909,7 +910,7 @@ WALLET GUIDE LAYOUT START
   background-color: #f8f8f8;
   padding: 12px 15px 12px 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   color: #0ca4fb;
   border: 0px;
   border-radius: 0;
@@ -971,11 +972,11 @@ WALLET GUIDE LAYOUT START
   font-size: 22px;
   line-height: 22px;
   color: #0ca4fb;
-  font-weight: 500;
+  font-weight: 300;
 }
 .customTab ul li {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 3px 0;
 }
 .circle-List ul {
@@ -1171,7 +1172,7 @@ WALLET GUIDE LAYOUT CLOSE
   cursor: pointer;
   z-index: 1;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .customCollapse h5:before{
   content: "";

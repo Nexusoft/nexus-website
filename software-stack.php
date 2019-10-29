@@ -68,7 +68,7 @@ require_once("./header.php");
                       <p><a href="images/chain-1.jpg"><img src="images/chain-1.jpg" alt="" style="display: block; margin: auto"></a></p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade" id="sub1" role="tabpanel" aria-labelledby="sub1-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='interface'?' active show':'';?>" id="sub1" role="tabpanel" aria-labelledby="sub1-tab">
                     <div class="titleCol">
                       <h3>Interface</h3>
                     </div>
@@ -76,7 +76,7 @@ require_once("./header.php");
                       <p>The interface is the user space, i.e the buttons used to interact with the Dapp. This layer can be accompanied by various technologies from AR/VR to mobile interfaces. Our official Interface Layer, provides a platform for developers to build modules and applications that embed directly into the Nexus Wallet.</p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade" id="sub2" role="tabpanel" aria-labelledby="sub2-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='logical'?' active show':'';?>" id="sub2" role="tabpanel" aria-labelledby="sub2-tab">
                     <div class="titleCol">
                       <h3>Logical</h3>
                     </div>
@@ -84,7 +84,7 @@ require_once("./header.php");
                       <p>This is the first layer of the developer application space which forms the logic of most applications. This layer interacts directly with the API below it, and provides functionality that does not depend on direct access to the blockchain. An example of this could be simple requests such as: ‘Send a message to this user if another user completed this event.’ We postulate that in the future this layer will also be driven by AI systems.</p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='api'?' active show':'';?>" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
                     <div class="titleCol">
                       <h3>API</h3>
                     </div>
@@ -92,7 +92,7 @@ require_once("./header.php");
                       <p>This layer provides an interface that allows developers to gain direct access to blockchain functionality. It is based on a simple verb and noun semantics, and accepts a wide variety of encoding. It is the gateway into the blockchain, that can be used without direct access to the lower levels of the software stack, making development on Nexus as easy as developing a web application.</p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='sub4'?' active show':'';?>" id="sub4" role="tabpanel" aria-labelledby="sub4-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='operation'?' active show':'';?>" id="sub4" role="tabpanel" aria-labelledby="sub4-tab">
                     <div class="titleCol">
                       <h3>Operation</h3>
                     </div>
@@ -108,7 +108,7 @@ require_once("./header.php");
                       <p>Conditional Contracts are an agreement between participating parties, outlining a set of requirements that must be met for a transaction to complete. They are the building blocks that allow users to engage with one another, such as contract expiration, or the exchanging of items. More advanced forms of non-custodial escrow or arbitration are also possible. Conditional statements have no limit to their complexity, being capable of handling groups of groups of conditions that together evaluate to either true or false. In the case the conditions return true, this allows the recipient of the transaction to claim their funds or object (depending on if this was a TRANSFER or DEBIT). In the case that the recipient is unable to satisfy the conditions, after a period of time set by the sender, the transaction will be redeemable.</p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='sub5'?' active show':'';?>" id="sub5" role="tabpanel" aria-labelledby="sub5-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='register'?' active show':'';?>" id="sub5" role="tabpanel" aria-labelledby="sub5-tab">
                     <div class="titleCol">
                       <h3>Register</h3>
                     </div>
@@ -155,7 +155,7 @@ require_once("./header.php");
                       <p>Nexus implements a reputation mechanism called ‘Trust’ that records the consistent time that a node contributes to the validation process. Trust decreases three times faster than it accrues and translates into a variable stake reward of between 0.5% to 3% per annum. Trust also benefits the Network Layer, where nodes can determine the reputation or reliability of the nodes they are talking to, increasing security against Sybil Attacks.</p>
                     </div>
                   </div>
-                  <div class="customTab tab-pane fade" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
+                  <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='network'?' active show':'';?>" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
                     <div class="titleCol">
                       <h3>Network</h3>
                     </div>

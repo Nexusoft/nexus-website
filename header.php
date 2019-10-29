@@ -31,10 +31,10 @@
       $social_img = '3dc.jpg';
       $social_url = '3dc';
       break;
-    case 'apps':
+    case 'what-tritium':
       $social_title = 'What is Tritium?';
       $social_img = 'tritium.png';
-      $social_url = 'apps';
+      $social_url = 'what-tritium';
       break;
     case 'assets':
       $social_title = 'Assets';
@@ -261,7 +261,7 @@
                     <a href="JavaScript:void(0)">Technology</a>
                     <ul class="d-submenu">
                       <li>
-                        <a href="<?php echo $url;?>/apps">What Is Tritium</a>
+                        <a href="<?php echo $url;?>/what-tritium">What Is Tritium</a>
                       </li>
                       <li>
                         <a href="<?php echo $url;?>/software-stack">Software Stack</a>

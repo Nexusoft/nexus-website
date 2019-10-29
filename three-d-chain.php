@@ -133,7 +133,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub1" role="tabpanel" aria-labelledby="sub1-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='signature-chains'?' active show':'';?>" id="sub1" role="tabpanel" aria-labelledby="sub1-tab">
                         <div class="titleCol">
                             <h3>Signature Chains</h3>
                         </div>
@@ -154,7 +154,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub2" role="tabpanel" aria-labelledby="sub2-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='aggregation'?' active show':'';?>" id="sub2" role="tabpanel" aria-labelledby="sub2-tab">
                         <div class="titleCol">
                             <h3>Aggregation</h3>
                         </div>
@@ -168,7 +168,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='computational-sharding'?' active show':'';?>" id="sub3" role="tabpanel" aria-labelledby="sub3-tab">
                         <div class="titleCol">
                             <h3>Computational Sharding</h3>
                         </div>
@@ -181,7 +181,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub4" role="tabpanel" aria-labelledby="sub4-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='data-sharding'?' active show':'';?>" id="sub4" role="tabpanel" aria-labelledby="sub4-tab">
                         <div class="titleCol">
                             <h3>Data Sharding</h3>
                         </div>
@@ -199,7 +199,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub5" role="tabpanel" aria-labelledby="sub5-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='multicast'?' active show':'';?>" id="sub5" role="tabpanel" aria-labelledby="sub5-tab">
                         <div class="titleCol">
                             <h3>Multicast</h3>
                         </div>
@@ -212,7 +212,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub6" role="tabpanel" aria-labelledby="sub6-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='lower-level-library'?' active show':'';?>" id="sub6" role="tabpanel" aria-labelledby="sub6-tab">
                         <div class="titleCol">
                             <h3>Lower Level Library (LLL)</h3>
                         </div>
@@ -242,7 +242,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='trust-and-weight'?' active show':'';?>" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
                         <div class="titleCol">
                             <h3>Trust and Weight</h3>
                         </div>
@@ -254,7 +254,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub8" role="tabpanel" aria-labelledby="sub8-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='reputation-channels'?' active show':'';?>" id="sub8" role="tabpanel" aria-labelledby="sub8-tab">
                         <div class="titleCol">
                             <h3>pBFT + Reputation Channels (L1)</h3>
                         </div>
@@ -264,7 +264,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub9" role="tabpanel" aria-labelledby="sub9-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='trust-network'?' active show':'';?>" id="sub9" role="tabpanel" aria-labelledby="sub9-tab">
                         <div class="titleCol">
                             <h3>pBFT + PoS Trust Network (L2)</h3>
                         </div>
@@ -276,7 +276,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub10" role="tabpanel" aria-labelledby="sub10-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='mining-pool'?' active show':'';?>" id="sub10" role="tabpanel" aria-labelledby="sub10-tab">
                         <div class="titleCol">
                             <h3>Decentralized Mining Pool (L3)</h3>
                         </div>
@@ -286,7 +286,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub11" role="tabpanel" aria-labelledby="sub11-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='checking-and-balancing'?' active show':'';?>" id="sub11" role="tabpanel" aria-labelledby="sub11-tab">
                         <div class="titleCol">
                             <h3>Checking and Balancing</h3>
                         </div>
@@ -315,7 +315,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub12" role="tabpanel" aria-labelledby="sub12-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='l1-reputation-channels'?' active show':'';?>" id="sub12" role="tabpanel" aria-labelledby="sub12-tab">
                         <div class="titleCol">
                             <h3>L1 Reputation Channels</h3>
                         </div>
@@ -326,7 +326,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub13" role="tabpanel" aria-labelledby="sub13-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='l2-staking-pool'?' active show':'';?>" id="sub13" role="tabpanel" aria-labelledby="sub13-tab">
                         <div class="titleCol">
                             <h3>Decentralized Staking Pool (L2)</h3>
                         </div>
@@ -339,7 +339,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub14" role="tabpanel" aria-labelledby="sub14-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='l3-mining-pool'?' active show':'';?>" id="sub14" role="tabpanel" aria-labelledby="sub14-tab">
                         <div class="titleCol">
                             <h3>Decentralized Mining Pool (L3)</h3>
                         </div>
@@ -351,7 +351,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub15" role="tabpanel" aria-labelledby="sub15-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='peer-discovery'?' active show':'';?>" id="sub15" role="tabpanel" aria-labelledby="sub15-tab">
                         <div class="titleCol">
                             <h3>Peer Discovery</h3>
                         </div>
@@ -365,7 +365,7 @@ require_once("./header.php");
                         </div>
                     </div>
 
-                    <div class="customTab tab-pane fade" id="sub16" role="tabpanel" aria-labelledby="sub16-tab">
+                    <div class="customTab tab-pane fade<?php echo $_REQUEST['s']=='reputation-incentive-structures'?' active show':'';?>" id="sub16" role="tabpanel" aria-labelledby="sub16-tab">
                         <div class="titleCol">
                             <h3>Reputation Incentive Structures</h3>
                         </div>

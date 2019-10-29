@@ -17,6 +17,7 @@ RewriteRule ^whitepapers$ whitepapers.php
 RewriteRule ^roadmap$ roadmap.php
 RewriteRule ^economics$ economics.php
 RewriteRule ^apps$ apps.php
+RewriteRule ^what-tritium$ what-tritium.php
 RewriteRule ^faq$ faq.php
 RewriteRule ^software-stack$ software-stack.php
 RewriteRule ^assets$ assets.php
