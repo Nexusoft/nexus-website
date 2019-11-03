@@ -78,7 +78,7 @@ require_once("./header.php");
               <div class="titleCol">
                 <h3 >What is Tritium?</h3>
               </div>
-              <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack with a revolutionary register-based contract engine, that processes 2k to 25k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
+              <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack that powers a register-based contract engine, processing from 2k to 25k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
             </div>
             <div class="btnRow">
               <a href="./what-tritium" class="btn btn-primary">Read More</a>
@@ -86,7 +86,7 @@ require_once("./header.php");
           </div>
           <div class="col-md-6">
             <div class="chainImg text-center">
-              <img src="images/d-apps.svg" width="140" alt="chain" />
+              <img src="images/roadmap/Tritium1.png" width="240" alt="chain" />
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ require_once("./header.php");
               <div class="titleCol">
                 <h3>Nexus Wallet</h3>
               </div>
-              <p class="textJustify">The Nexus Wallet is a secure desktop application that you can login to from any computer without having to store your private keys.  The Wallet allows you to send and receive NXS, view transaction history, and stake. It  also features a platform to install and create modules for DApps, and an interface that can be customized with your own skins.</p>
+              <p class="textJustify">The Nexus Wallet is a secure desktop application that you can login to from any computer through a Decentralized Login System, therefore you do not have to store your private keys. The Wallet allows you to send and receive NXS, view transaction history, and stake. It also features a platform to install and create modules for DApps, and an interface that can be customized with your own skins.</p>
             </div>
             <div class="btnRow">
               <a href="./wallet" class="btn btn-primary">Read More</a>

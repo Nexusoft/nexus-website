@@ -79,7 +79,7 @@ require_once("./header.php");
             <h6>Login To Your Wallet</h6>
           </div>
           <div class="summary-area text-justify">
-            <p>You are able to access your Nexus Wallet anywhere, anytime, by simply downloading the application and logging in (via username, password, and pin). A huge advantage of the Nexus Wallet is that users will no longer have the burden of storing private keys</p>
+            <p>You are able to access your Nexus Wallet by a <a href=signature-chains>Decentralized Login System</a>, anywhere, anytime, by simply downloading the application and logging in (via username, password, and pin). A huge advantage of the Nexus Wallet is that users will no longer have the burden of storing private keys on a hard drive or hardware wallet, or rely on third party custodian services. A wallet.dat file for key storage (a common necessity in legacy blockchain systems) is no longer required.</p>
           </div>
         </div>
         <div class="wallet-features-area">
@@ -211,7 +211,7 @@ require_once("./header.php");
                     <img src="images/security-b.svg" alt="security-b" />
                   </span>
                   <h5>Signature Chains</h5>
-                  <p>Your wallet is accessed by a technology called <a href="javascript:;" class="themeColor">Signature Chains</a> which not only enable you to log in to your wallet anywhere, they also provide higher security through the use of a PIN, Password Recovery, Login System, Quantum Resistance, Reversible Transactions and the future use of Password Managers and Biometrics.</p>
+                  <p><a href="javascript:;" class="themeColor">  <a href=signature-chains>Signature Chains</a> provide higher security through the use of a PIN, Password Recovery, Decentralized Login System, Quantum Resistance, Reversible Transactions and the future use of Password Managers and Biometrics.</p>
                 </div>
               </div>
             </div>
@@ -247,8 +247,8 @@ require_once("./header.php");
                   <span class="img-box">
                     <img src="images/security-3.svg" alt="security-3" />
                   </span>
-                  <h5>Login System</h5>
-                  <p>Given that the Nexus Wallet is accessed through a login system, a wallet.dat file for key storage (a common requirement in legacy blockchain systems) is no longer required.</p>
+                  <h5>Decentralized Login System</h5>
+                  <p>You are able to access your Nexus Wallet anywhere, anytime, by simply downloading the application and logging in (via username, password, and pin). Users no longer have the burden of storing private keys.</p>
                 </div>
               </div>
             </div>

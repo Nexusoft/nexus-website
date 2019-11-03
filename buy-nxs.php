@@ -316,7 +316,7 @@ require_once("./header.php");
                     </div>
                     <div class="heading">
                       <h5>Install the Nexus Wallet</h5>
-                      <p>Some people keep their NXS balance on the exchange. This involves some risk. The exchange could go offline, the exchange could go out of business, your account could become inaccessible, or, in the worst case, your account could be compromised and your currency lost. To have personal control of your funds, you can use the Nexus wallet. Please follow the instructions <a href="javascript:;" class="themeColor">here</a> to download and install the wallet. and sync it to the Nexus network.</p>
+                      <p>Some people keep their NXS balance on the exchange. This involves some risk. The exchange could go offline, the exchange could go out of business, your account could become inaccessible, or, in the worst case, your account could be compromised and your currency lost. To have personal control of your funds, you can use the Nexus wallet. Please read the <a href=wallet-guide>Wallet Guide</a> for instructions on how to download and install the wallet.</p>
                       <h5>Send NXS to Your Wallet</h5>
                       <p>After your wallet is installed and synced up, you are ready to withdraw your NXS currency to it.</p>
                       <div class="circle-List">
@@ -331,7 +331,7 @@ require_once("./header.php");
                           <li>Click the Withdrawal button.</li>
                         </ul>
                       </div>
-                      <p>Bittrex will process your withdrawal and you should shortly receive it in your Nexus wallet. Now you both own and have full control of your Nexus currency. Be sure to review the relevant <a href="javascript:;" class="themeColor">Wallet</a> and <a href="javascript:;" class="themeColor">FAQ</a> sections on wallet security and making backups. You may also want to review <a href="javascript:;" class="themeColor">Mining and Minting</a> to learn about how to stake your coins. By staking, you can earn some additional NXS for helping operate the Nexus network. Note: If you send NXS to your wallet before it is fully synchronized to the network, your transaction may not show up. Rest assured, you still have it. It will appear when the wallet completes the syncing process.</p>
+                      <p>Bittrex will process your withdrawal and you should shortly receive it in your Nexus wallet.</p>
                     </div>
                   </div>
                 </div>

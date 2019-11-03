@@ -58,17 +58,24 @@ require_once("./header.php");
                 <div class="contentWrapper tab-content" id="myTabContent">
                   <div class="intro-Wrapper customTab tab-pane fade show active" id="over" role="tabpanel" aria-labelledby="over-tab">
                     <div class="titleCol">
-                      <p>Nexus is accessible through technology we built called ‘Signature Chains’, 
-                        a decentralized blockchain account that allows you to login from any computer with a username, password, 
-                        and pin, without the need for a wallet.dat file or constantly rescanning the database. 
-                        They are comparable to a personal blockchain that allows decentralized access through a login system, removing the need to store a private key.
-                        Sigchains deterministically create a mathematical ‘lock’ that only your login credentials can unlock.</p>
-                      <p>Sigchains provide the foundation for features such as digital identity and managing assets, whilst maintaining pseudo-anonymity 
-                        for privacy. In our opinion, they are a very important step for mainstream adoption across all blockchain use cases. 
-                        Contrarily, legacy blockchain designs rely on the safe keeping of the private key. This renders these systems susceptible to human error, 
-                        boding for the need for complex hardware designed specifically to store private keys securely. 
-                        Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, 
-                        and therefore are not a reliable replacement for authorization systems.</p>
+                      <p>A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage these keys, most cryptocurrencies use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access funds.                 </p>
+
+                        <p class="customText textJustify">
+We believe that the adoption of blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses. These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely. Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.
+</p>
+
+                        <p class="customText textJustify">
+Therefore, we developed a decentralized login system: Signature Chains. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’. Signature Chains support the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials (username, password and pin). 
+                        </p>
+
+                        <p class="customText textJustify">
+Signature Chains can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards. 
+</p>
+
+                        <p class="customText textJustify">
+Signature Chains are also available for DApp developers to build with, furthering our mission of making blockchain technology more accessible. Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy. In our opinion, they are a very important step for mainstream adoption across all blockchain use cases.</p>
+
+                        <p class="customText textJustify">
                       <p>Fundamentally, a Sigchain decouples the private key from the user account, therefore one is unbound by the possession or security 
                         of a single private key. The private key becomes obsolete when the next transaction is generated, producing higher levels of security 
                         compared to the continual reuse of a private key, as is the case with other blockchain technologies.

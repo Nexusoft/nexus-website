@@ -98,7 +98,7 @@ require_once("./header.php");
                      </p>
 
                         <p class="customText textJustify">
-Our contract engine follows this architecture as an improvement compared to other blockchain-powered virtual machines such as the EVM (Ethereum Virtual Machine) that still use the older stack architecture. The improved efficiency gained through the use of registers makes developing on Nexus not only easier, but also much more efficient and scalable.
+Our contract engine follows this architecture as an improvement to other blockchain-powered virtual machines such as the EVM (Ethereum Virtual Machine) that still use the older stack architecture. The improved efficiency gained through the use of registers makes developing on Nexus not only easier, but also much more efficient and scalable.
                       </p>
                   </div>
 
@@ -138,16 +138,19 @@ We have followed this approach for the primary reason that smart contracts canno
                           A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage these keys, most cryptocurrencies use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access funds.                 </p>
 
                         <p class="customText textJustify">
-We believe that the adoption of blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives or hardware wallets, and the risk of sending funds to unspendable addresses. Therefore, we developed a decentralized login system: 
-<a href=signature-chains>Signature Chains</a>. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’.
-                        </p>
-
-                        <p class="customText textJustify">
-Signature Chains are available for DApp developers to build with, eliminating the requirement of users to store private keys. This furthers our mission of making blockchain technology more accessible. 
+We believe that the adoption of blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses. These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely. Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.
 </p>
 
                         <p class="customText textJustify">
-This technology also supports the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials. The decentralized login system can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards.
+Therefore, we developed a decentralized login system: <a href=signature-chains>Signature Chains</a>. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’. Signature Chains support the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials (username, password and pin). 
+                        </p>
+
+                        <p class="customText textJustify">
+Signature Chains can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards. 
+</p>
+
+                        <p class="customText textJustify">
+Signature Chains are also available for DApp developers to build with, furthering our mission of making blockchain technology more accessible. Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy. In our opinion, they are a very important step for mainstream adoption across all blockchain use cases.
 
 
 

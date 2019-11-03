@@ -39,7 +39,7 @@ require_once("./header.php");
                         <a class="nav-link subMenu" id="sub2-tab" data-toggle="tab" href="#sub2" role="tab" aria-controls="sub2" aria-selected="false">Centralized Databases</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub3-tab" data-toggle="tab" href="#sub3" role="tab" aria-controls="sub3" aria-selected="false">Fraction Reserve Banking</a>
+                        <a class="nav-link subMenu" id="sub3-tab" data-toggle="tab" href="#sub3" role="tab" aria-controls="sub3" aria-selected="false">Fractional Reserve Banking</a>
                       </li>
                     </ul>
                   </div>
