@@ -201,16 +201,17 @@ require_once("./header.php");
           <div class="col-lg-6">
             <div class="content-area coloredBg">
               <div class="titleCol">
-                <h3>Login to your Digital Identity</h3>
+                <h3>DApps</h3>
               </div>
               <div class="des">
                 <p class="textJustify">
-                DApps built on Nexus will be accessible through a technology we designed called Signature Chains, a decentralized blockchain account that allows you to login to Nexus DApps  from any computer with a username, password, and pin. A sigchain is a personal blockchain account that provides the foundation to  build a digital identity and to manage assets.
+                Developers can use our API to build with contracts, which can facilitate the management of ownership rights and decentralized exchange of many different kinds of assets and tokens.
                 </p>
               </div>
             </div>
+
             <div class="btnRow">
-              <a href="./digital-identity" class="btn btn-white">Read More</a>
+              <a href="./dapps" class="btn btn-white">Read More</a>
             </div>
           </div>
         </div>

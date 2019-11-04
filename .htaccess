@@ -5,6 +5,7 @@ RewriteRule ^team$ our-team.php
 RewriteRule ^wallet$ nexus-wallet.php
 RewriteRule ^buy-nxs$ buy-nxs.php
 RewriteRule ^digital-identity$ digital-identity.php
+RewriteRule ^dapps$ dapps.php
 RewriteRule ^3dc$ three-d-chain.php
 RewriteRule ^wallet-guide$ wallet-guide.php
 RewriteRule ^what-nexus$ what-nexus.php

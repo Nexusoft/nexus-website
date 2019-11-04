@@ -88,12 +88,10 @@ require_once("./header.php");
                       <p class="mt-4"><strong>GPU Solo Miners (AMD):</strong></p>
                       <ul class="ul-upper-latin">
                       <li><a href="http://nexusminingpool.com/downloads/wolf0miner64.zip">Windows x64 Solo Miner</a></li>
-                      <li><a href="https://github.com/wolf9466/Wolf-Niro-Miner" target="_blank" rel="noopener noreferrer">Solo Miner Source Code [GitHub]</a></li>
                       </ul>
                       <p class="mt-4"><strong>GPU Solo Miners (Nvidia):</strong></p>
                       <ul class="ul-upper-latin">
                       <li><a href="https://nexusearth.com/miners/SKMiner-v.0.1.3_optimized_by_Mumus.rar">SK-Miner Windows</a></li>
-                      <li><a href="http://nexusoft.io/platform/binaries/miners/skminer_nvidia.rar">SK-Miner Source Code</a></li>
                       <li><a href="https://github.com/BitSlapper/SKMiner" target="_blank" rel="noopener noreferrer">SK-Miner GitHub</a></li>
                       </ul>
                       <p class="mt-4"><strong>GPU Pool Miners:</strong></p>

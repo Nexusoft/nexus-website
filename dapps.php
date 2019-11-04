@@ -30,6 +30,12 @@ require_once("./header.php");
 </p>
  <p class="customText textJustify">
 Most DApps will likely begin development as private networks, launching as Sister or Hybrid Networks, to eventually become their own self-contained ecosystems. With the Amine upgrade, a file sharing system will be introduced, that will be used to store additional files associated with DApps.
+</p>
+</p>
+</p>
+<p class="innerText"><a href=what-tritium class="btn btn-primary">What is Tritium</a></p>
+                 </div>
+
 
            </div>
           

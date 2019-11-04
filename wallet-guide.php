@@ -471,8 +471,7 @@ ol li {
                     <li>Trust score takes 84 days of successful staking to reach 50% trust weight, and 364 days to reach 100%.</li>
                   </ul>
                 </div>
-                <p>To read more about staking, please see <a href="javascript :;" class="themeColor">Stake NXS</a>, the <a href="javascript :;" class="themeColor">FAQs</a>, or read the whitepaper <a href="javascript :;" class="themeColor">Nexus
-                    Proof-of-Stake with Tritium Trust</a>(for advanced staking information).</p>
+                </p>
               </div>
               <div class="send-nxs customTab tab-pane fade" id="send-NXS" role="tabpanel" aria-labelledby="send-NXS-tab">
                 <div class="heading">
@@ -645,11 +644,17 @@ ol li {
                 <p>– Reset Style Settings : to revert back to the original wallet color theme. Then scroll down and click : ‘Save Settings’ to implement these changes.</p>
                 <p><strong>Import Custom Theme :</strong> A variety of custom themes created by the Nexus community can be imported into the wallet. The below link holds a repository of community made themes. The background can be imported from
                   your local machine, or enter a URL and the wallet will download the background for you. Acceptable formats are PNG/JPEG/BMP/TIFF/GIF.</p>
-                <p><a href="javascript :;" class="themeColor">Theme Repository</a></p>
-                <p><strong>Export Custom Theme : </strong></p>
+                <div class="themeBtn">
+              <div class="btn-areas">
+                <a href="https://github.com/KenCorma/Nexus-Wallet-Themes" class="btn btn-primary capitalize">Skin Repository</a>
+               
+<p><strong>Export Custom Theme : </strong></p>
                 <p>Themes are Json files that are read by the system and apply changes to the interface. When you export a theme, you will be prompted to save the json file to your computer. Below is a link to the theme guide which describes how
                   to develop themes. If you would like to, please request that your theme is included in the official repository for it to be shared with the community. </p>
-                <p><a href="javascript :;" class="themeColor">Theme Guide</a></p>
+
+<div class="btn-areas">
+                <a href="https://github.com/Nexusoft/NexusInterface/blob/master/docs/Themes.md" class="btn btn-primary capitalize">Design Your Own Skin</a>               
+
                 <div class="heading">
                   <h6>E) Modules</h6>
                 </div>

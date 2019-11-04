@@ -49,19 +49,22 @@ require_once("./header.php");
                         <a class="nav-link subMenu" id="sub5-tab" data-toggle="tab" href="#sub5" role="tab" aria-controls="sub5" aria-selected="false">Decentralized Exchange</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub6-tab" data-toggle="tab" href="#sub6" role="tab" aria-controls="sub6" aria-selected="false">Tokenization Protocols</a>
+                        <a class="nav-link subMenu" id="sub6-tab" data-toggle="tab" href="#sub6" role="tab" aria-controls="sub6" aria-selected="false">Assets</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub7-tab" data-toggle="tab" href="#sub7" role="tab" aria-controls="sub7" aria-selected="false">TAO Name System (TNS)</a>
+                        <a class="nav-link subMenu" id="sub7-tab" data-toggle="tab" href="#sub7" role="tab" aria-controls="sub7" aria-selected="false">Tokens</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub8-tab" data-toggle="tab" href="#sub8" role="tab" aria-controls="sub8" aria-selected="false">Lower Level Library</a>
+                        <a class="nav-link subMenu" id="sub8-tab" data-toggle="tab" href="#sub8" role="tab" aria-controls="sub8" aria-selected="false">TAO Name System (TNS)</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub9-tab" data-toggle="tab" href="#sub9" role="tab" aria-controls="sub9" aria-selected="false">Hybrid Networks</a>
+                        <a class="nav-link subMenu" id="sub9-tab" data-toggle="tab" href="#sub9" role="tab" aria-controls="sub9" aria-selected="false">Lower Level Library</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub10-tab" data-toggle="tab" href="#sub10" role="tab" aria-controls="sub10" aria-selected="false">Locator Identifier Separation Protocol</a>
+                        <a class="nav-link subMenu" id="sub10-tab" data-toggle="tab" href="#sub10" role="tab" aria-controls="sub10" aria-selected="false">Hybrid Networks</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link subMenu" id="sub11-tab" data-toggle="tab" href="#sub11" role="tab" aria-controls="sub11" aria-selected="false">Locator Identifier Separation Protocol</a>
                       </li>
                     </ul>
                   </div>
@@ -83,7 +86,7 @@ require_once("./header.php");
                         </p>
 
                         <p class="customText textJustify">
-                            Therefore, we have developed an easily accessible and versatile <a href=software-stack>Software Stack</a> where data can be operated on, its ownership transferred between users, and whereby conditions define the behavior of actions. Our design not only provides numerous ready-made contract functionalities through elegant design, it is also able to scale with the growing demand of smart contracts.
+                            Therefore, we have developed an easily accessible and versatile Software Stack where data can be operated on, its ownership transferred between users, and whereby conditions define the behavior of actions. Our design not only provides numerous ready-made contract functionalities through elegant design, it is also able to scale with the growing demand of smart contracts.
                         </p>
                       </div>
                   </div>
@@ -94,7 +97,7 @@ require_once("./header.php");
                       <h3>Register Based Contract Engine</h3>
                     </div>
                       <p class="customText textJustify">
-                          A register is the fastest storage medium inside your computer’s CPU (Central Processing Unit), that the processor uses to cache data in between calculations. This has become a more desirable architecture for computer design as an improvement to a much older architecture called a ‘stack’. 
+                          A register is the fastest storage medium inside your computer’s CPU (Central Processing Unit), that the processor uses to cache data in between calculations. This has become a more desirable architecture for computer design as an improvement to a much older architecture called a ‘stack’.
                      </p>
 
                         <p class="customText textJustify">
@@ -110,7 +113,7 @@ Our contract engine follows this architecture as an improvement to other blockch
                     <p class="customText textJustify">
                         Our <a href=software-stack?s=api>Application Programming Interface</a> (API) is for developers to build Decentralized Applications (DApps) and Hybrid Networks. The API can be used for the recording of Supply Chains, Digital Asset Licensing, Financial Assets, Records, Licenses, Certificates, and Securitized Token Offerings (STOs). </p>
 
-                        <p class="customText textJustify"> 
+                        <p class="customText textJustify">
 To add flexibility, a developer can make non-standard API calls with custom conditions to provide additional functionality to the DApp that is unavailable through the standard API. This can be further augmented with Domain-Specific Languages on the lower API layer.
                     </p>
                   </div>
@@ -121,11 +124,15 @@ To add flexibility, a developer can make non-standard API calls with custom cond
                       <h3>Conditional Contracts</h3>
                     </div>
                     <p class="customText textJustify">
-                        A basic Nexus contract is comprised of three layers: data <a href=software-stack?s=register>(Registers)</a>, programmable actions <a href=software-stack?s=operation>(Operations)</a>, and accounts <a href=signature-chains>(Signature Chains)</a>. Together, these layers verify the information of a system or Decentralized Application (DApp), following logic that closely relates to agreements and contracts between people. 
+                        A basic Nexus contract is comprised of three layers: data <a href=software-stack?s=register>(Registers)</a>, programmable actions <a href=software-stack?s=operation>(Operations)</a>, and accounts <a href=signature-chains>(Signature Chains)</a>. Together, these layers verify the information of a system or Decentralized Application (DApp), following logic that closely relates to agreements and contracts between people.
                         </p>
 
                         <p class="customText textJustify">
-We have followed this approach for the primary reason that smart contracts cannot be realized with existing language designs, they require a new architecture. This is in direct contrast to Ethereum’s language Solidity, which closely resembles Javascript, or EOS’ use of Web Assembly (WASM), both of which were designed for web development rather than building secure financial applications.
+We have followed this approach for the primary reason that smart contracts cannot be realized with existing language designs, they require a new architecture. This is in direct contrast to EOS’ use of Web Assembly (WASM), which was designed for web development rather than building secure financial applications.
+</p>
+
+                        <p class="customText textJustify">
+Conditional Contracts allow a user to set requirements in order for a contract to be fulfilled, such as contract time expiration, the decentralized exchange of an asset, or a non-custodial escrow services.
                     </p>
                   </div>
 
@@ -142,11 +149,11 @@ We believe that the adoption of blockchain technology will always be limited if 
 </p>
 
                         <p class="customText textJustify">
-Therefore, we developed a decentralized login system: <a href=signature-chains>Signature Chains</a>. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’. Signature Chains support the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials (username, password and pin). 
+Therefore, we developed a decentralized login system: <a href=signature-chains>Signature Chains</a>. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’. Signature Chains support the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials (username, password and pin).
                         </p>
 
                         <p class="customText textJustify">
-Signature Chains can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards. 
+Signature Chains can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards.
 </p>
 
                         <p class="customText textJustify">
@@ -167,22 +174,79 @@ Signature Chains are also available for DApp developers to build with, furtherin
                      </p>
                  </div>
 
-                 <!-- tokenization protocols -->
+
+                 <!-- assets -->
                  <div class="customTab tab-pane fade" id="sub6" role="tabpanel" aria-labelledby="sub6-tab">
                     <div class="titleCol">
-                      <h3>Tokenization Protocols</h3>
+                      <h3>Assets</h3>
+                    </div>
+
+                    <p class="customText textJustify">
+Assets are used to create a record of a digital or physical asset on the blockchain, in order to track ownership and facilitate peer-to-peer exchange. The registration of assets can be facilitated by DApps to create many decentralized and automated services. Some examples of assets that can be registered on the Nexus Blockchain include:</p>
+                       <p class="customText textJustify" style="font-weight: 600">Digital Assets and Media:</p>
+                      <p class="customText textJustify">
+Music, Audio Books, E-books, Graphics & Photography Film, TV shows, Games, Software and Apps.</p>
+                       <p class="customText textJustify" style="font-weight: 600">
+
+
+Supply Chain Certificates (Standards, Authenticity, Quality Assurance, Customs, Titles):</p>
+                      <p class="customText textJustify">
+Agricultural Produce & Fish, Minerals, Timber, Livestock, Electricity, Pharmaceuticals, Electrical Goods and Components, Luxury Goods, Antiques, Art, Branded goods, Customs Records, Cars, Motor Cycles, Boats.</p>
+ <p class="customText textJustify" style="font-weight: 600">
+
+Financial Assets:</p>
+                      <p class="customText textJustify">
+Company Registrations and Securitized Tokens, Land Titles.</p>
+
+                       <p class="customText textJustify" style="font-weight: 600">
+
+Personal Records, Licenses and Certificates:</p>
+                      <p class="customText textJustify">
+Birth Certificates, Digital Identification, Medical Records, Educational and Professional Certificates, References (Landlord and Employment), Education, Insurance Records, Marriage Certificates, Driving & other Licenses.</p>
+                       <p class="customText textJustify" style="font-weight: 600">
+
+Voting Systems:</p>
+                      <p class="customText textJustify">
+Local HOA (Home Owner Association), Law Making Bodies, Political Voting (Presidents, Senators, Congress, Parliament), and Investor Voting in company decisions.</p>
+                       <p class="customText textJustify" style="font-weight: 600">
+
+Intellectual Property:</p>
+                      <p class="customText textJustify">
+Patents, Trademarks, Internet Domains (DNS, TNS).</p>
+                       <p class="customText textJustify" style="font-weight: 600">
+
+Gaming Assets:</p>
+                      <p class="customText textJustify">
+In Game Tokens, Virtual Assets.</p>
+                       <p class="customText textJustify" style="font-weight: 600">
+
+Rewards:</p>
+                      <p class="customText textJustify">
+Loyalty Points, Airmiles. </p>
+                 </div>
+
+                 <!-- tokens -->
+                 <div class="customTab tab-pane fade" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
+                    <div class="titleCol">
+                      <h3>Tokens</h3>
                     </div>
                      <p class="customText textJustify">
-                         Some believe that our future societies will use tokenization for many purposes. This is a novel idea, especially considering that the current use of tokens has been limited to speculative assets. Alternatively, Tritium provides many uses of tokens that will produce value across many industries.
-                       </p>
+                         Some believe that our future societies will use tokenization for many purposes. This is a novel idea, considering that the current use of tokens has been limited to speculative assets, such as Initial Coin Offerings (ICOs). Conversely, Nexus fungible tokens can facilitate the transparent and automatic payment of Royalties and Dividend payouts.</p>
 
-                        <p class="customText textJustify">The most prominent protocol is the use of fungible tokens for the division of ownership of assets and companies, that on the blockchain enforce transparent and accountable ‘revenue splits’ based on token allocation.  </p>
+                        <p class="customText textJustify">
+Tokens can represent partial ownership or rights to an underlying digital or physical asset. The token allocation determines how the revenue is distributed, and the revenue is paid out to the holders in a direct peer-to-peer manner. This is in direct contrast to current manual systems that are used to facilitate these types of payments, which are often slow and costly to operate.</p>
 
-                        <p class="customText textJustify">Tokenized assets enforce partial ownership or rights, enabling true peer-to-peer exchange for the purpose of Royalty Payments, and for the distribution of Dividends. Token protocols have the capability, with the correct utility and technology, to create more decentralized and responsible social systems.
+                        <p class="customText textJustify">
+                     The diagram above shows the flow of an automatic payment of a shared revenue stream. In this example, the token (called TKN) distribution is 50-25-25. The process follows these steps:
+</p>
+
+                        <p class="customText textJustify">
+User pays a license fee (here it is 1000NXS) for use of an asset.
+The token holders are notified to claim their percentage of the payment (DEBIT), which is represented by their total token balance divided by the total token supply. Each token holder credits their account by proving their right to this payment with their TKN balance.
 
                      </p>
 <p class="innerText"><a href=stos class="btn btn-primary">STOs</a></p>
-               
+
 </p>
 <p class="innerText"><a href=digital-rights class="btn btn-primary">Digital Rights Management</a></p>
                  </div>
@@ -190,7 +254,7 @@ Signature Chains are also available for DApp developers to build with, furtherin
 
 
                  <!-- TAO name system. -->
-                 <div class="customTab tab-pane fade" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
+                 <div class="customTab tab-pane fade" id="sub8" role="tabpanel" aria-labelledby="sub8-tab">
                     <div class="titleCol">
                       <h3>TAO Name System</h3>
                     </div>
@@ -202,7 +266,7 @@ Signature Chains are also available for DApp developers to build with, furtherin
                  </div>
 
                  <!-- lower level library -->
-                 <div class="customTab tab-pane fade" id="sub8" role="tabpanel" aria-labelledby="sub8-tab">
+                 <div class="customTab tab-pane fade" id="sub9" role="tabpanel" aria-labelledby="sub9-tab">
                     <div class="titleCol">
                       <h3>Lower Level Library</h3>
                     </div>
@@ -210,12 +274,12 @@ Signature Chains are also available for DApp developers to build with, furtherin
                          The <a href=3dc?s=lower-level-library>Lower Level Library</a> (LLL) is a high-performance ‘Template Library’ designed to power emerging-web technologies. Most web technology today is clunky, centralized, and over-engineered as a result of decades of development. The LLL is simple, powerful, and lightweight. It contains three main components: Cryptography (LLC), Database (LLD), and Protocol (LLP).</p>
 
                         <p class="customText textJustify">
-The Cryptography component contains <a href=quantum-resistance>Quantum Resistant</a> cryptography, the Database component out performs Google’s LevelDB by orders of magnitude, and the Protocol component handles well over 450k requests per second. The LLL is the foundation to the <a href=roadmap>TAO framework</a>, while being able to support other web technologies with high reliability, performance, and extensibility. 
+The Cryptography component contains <a href=quantum-resistance>Quantum Resistant</a> cryptography, the Database component out performs Google’s LevelDB by orders of magnitude, and the Protocol component handles well over 450k requests per second. The LLL is the foundation to the <a href=roadmap>TAO framework</a>, while being able to support other web technologies with high reliability, performance, and extensibility.
                      </p>
                  </div>
 
                  <!-- hybrid networks -->
-                 <div class="customTab tab-pane fade" id="sub9" role="tabpanel" aria-labelledby="sub9-tab">
+                 <div class="customTab tab-pane fade" id="sub10" role="tabpanel" aria-labelledby="sub10-tab">
                     <div class="titleCol">
                       <h3>Hybrid Networks</h3>
                     </div>
@@ -228,7 +292,7 @@ A Hybrid Network is an ideal choice for any individual, company, or large enterp
                  </div>
 
                  <!-- LISP -->
-                 <div class="customTab tab-pane fade" id="sub10" role="tabpanel" aria-labelledby="sub10-tab">
+                 <div class="customTab tab-pane fade" id="sub11" role="tabpanel" aria-labelledby="sub11-tab">
                     <div class="titleCol">
                       <h3>LISP</h3>
                     </div>

@@ -31,165 +31,198 @@
       $social_img = '3dc.jpg';
       $social_url = '3dc';
       break;
+
     case 'what-tritium':
       $social_title = 'What is Tritium?';
       $social_img = 'tritium.png';
       $social_url = 'what-tritium';
       break;
+
     case 'assets':
       $social_title = 'Assets';
       $social_img = 'assets.jpg';
       $social_url = 'assets';
       break;
+
     case 'buy-nxs':
       $social_title = 'Purchase';
       $social_img = 'purchase.jpg';
       $social_url = 'buy-nxs';
       break;
+
     case 'dao':
       $social_title = 'DAO Technology';
       $social_url = 'dao';
       break;
+
     case 'decentralization':
       $social_title = 'Decentralization';
       $social_img = 'decentralization.jpg';
       $social_url = 'decentralization';
       break;
+
     case 'assets':
       $social_title = 'Assets';
       $social_img = 'assets.jpg';
       $social_url = 'assets';
       break;
-      case 'digital-identity':
-      $social_title = 'Digital Identity';
-      $social_img = 'digital-identity.jpg';
-      $social_url = 'digital-identity';
+
+    case 'dapps':
+      $social_title = 'Decentralized Applications';
+      $social_img = 'app.jpg';
+      $social_url = 'dapps';
       break;
-      case 'digital-rights':
+
+    case 'digital-rights':
       $social_title = 'Digital Rights Management';
       $social_img = 'digital-rights.jpg';
       $social_url = 'digital-rights';
       break;
-      case 'economics':
+
+    case 'economics':
       $social_title = 'Economics';
       $social_img = 'eco.jpg';
       $social_url = 'economics';
       break;
-      case 'embassies':
+
+    case 'embassies':
       $social_title = 'Nexus Embassies';
       $social_img = 'Nexus-Embassies.jpg';
       $social_url = 'embassies';
       break;
-      case 'faq':
+
+    case 'faq':
       $social_title = 'FAQ';
       $social_img = 'FAQ.jpg';
       $social_url = 'faq';
       break;
-      case 'lisp':
+
+    case 'lisp':
       $social_title = 'LISP';
       $social_img = 'LISP.jpg';
       $social_url = 'lisp';
       break;
-      case 'mine':
+      
+    case 'mine':
       $social_title = 'Mine';
       $social_img = 'mine.jpg';
       $social_url = 'mine';
       break;
-      case 'nexus-currency':
+
+    case 'nexus-currency':
       $social_title = 'Cryptocurrency';
       $social_img = 'cryptocurrency.jpg';
       $social_url = 'cryptocurrency';
       break;
-      case 'nexus-wallet':
+
+    case 'nexus-wallet':
       $social_title = 'Nexus Wallet';
       $social_img = 'wallet.jpg';
       $social_url = 'wallet';
       break;
-      case 'our-team':
+
+    case 'our-team':
       $social_title = 'Nexus Team';
       $social_img = 'bannerteam.jpg';
       $social_url = 'team';
       break;
-      case 'privacy':
+
+    case 'privacy':
       $social_title = 'Privacy';
       $social_img = 'FAQ.jpg';
       $social_url = 'privacy';
       break;
-      case 'quantum-resistance':
+
+    case 'quantum-resistance':
       $social_title = 'Quantum Resistance';
       $social_img = 'Quantum-Resistance.jpg';
       $social_url = 'quantum-resistance';
       break;
-      case 'roadmap':
+
+    case 'roadmap':
       $social_title = 'Roadmap';
       $social_img = 'roadmap.jpg';
       $social_url = 'roadmap';
       break;
-      case 'signature-chains':
+
+    case 'signature-chains':
       $social_title = 'Signature Chains';
       $social_img = 'sigchain.jpg';
       $social_url = 'signature-chains';
       break;
-      case 'software-stack':
+
+    case 'software-stack':
       $social_title = 'Software Stack';
       $social_img = 'software-stack.jpg';
       $social_url = 'software-stack';
       break;
-      case 'stake':
+
+    case 'stake':
       $social_title = 'Stake';
       $social_img = 'stack.jpg';
       $social_url = 'stake';
       break;
-      case 'stos':
+
+    case 'stos':
       $social_title = 'Securitized Token Offerings';
       $social_img = 'stos.jpg';
       $social_url = 'stos';
       break;
-      case 'supply-chains':
+
+    case 'supply-chains':
       $social_title = 'Supply Chains';
       $social_img = 'supply-chains.jpg';
       $social_url = 'supply-chains';
       break;
-      case 'terms':
+
+    case 'terms':
       $social_title = 'Terms of Use';
       $social_img = 'FAQ.jpg';
       $social_url = 'terms';
       break;
-      case 'tokens':
+
+    case 'tokens':
       $social_title = 'Tokens';
       $social_img = 'token.jpg';
       $social_url = 'tokens';
       break;
-      case 'trust':
+
+    case 'trust':
       $social_title = 'Trust';
       $social_img = 'trust.jpg';
       $social_url = 'trust';
       break;
-      case 'wallet-guide':
+
+    case 'wallet-guide':
       $social_title = 'Wallet Guide';
       $social_img = 'wallet-copy.jpg';
       $social_url = 'wallet-guide';
       break;
-      case 'what-blockchain':
+
+    case 'what-blockchain':
       $social_title = 'What is Blockchain';
       $social_img = 'what-blockchain.jpg';
       $social_url = 'what-blockchain';
       break;
-      case 'what-nexus':
+
+    case 'what-nexus':
       $social_title = 'What is Nexus?';
       $social_img = 'what-is-nexus.jpg';
       $social_url = 'what-nexus';
       break;
-      case 'whitepapers':
+
+    case 'whitepapers':
       $social_title = 'White Papers';
       $social_img = 'white-paper.jpg';
       $social_url = 'whitepapers';
       break;
-      case 'working-groups':
+
+    case 'working-groups':
       $social_title = 'Working Groups';
       $social_img = 'working-group.jpg';
       $social_url = 'working-groups';
       break;
+
     default:
       $social_title = 'Homepage';
   }
@@ -264,6 +297,9 @@
                         <a href="<?php echo $url;?>/what-tritium">What Is Tritium</a>
                       </li>
                       <li>
+                        <a href="<?php echo $url;?>/dapps">DApps</a>
+                      </li>
+                      <li>
                         <a href="<?php echo $url;?>/software-stack">Software Stack</a>
                       </li>
                       <li>
@@ -292,9 +328,6 @@
                   <li>
                     <a href="JavaScript:void(0)">Solutions</a>
                     <ul class="d-submenu">
-                      <li>
-                        <a href="<?php echo $url;?>/digital-identity">Digital Identity</a>
-                      </li>
                       <!-- <li>
                         <a href="<?php echo $url;?>/" disabled>Assets</a>
                       </li>
