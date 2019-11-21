@@ -49,10 +49,10 @@ require_once("./header.php");
                         <a class="nav-link subMenu" id="sub5-tab" data-toggle="tab" href="#sub5" role="tab" aria-controls="sub5" aria-selected="false">Decentralized Exchange</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub6-tab" data-toggle="tab" href="#sub6" role="tab" aria-controls="sub6" aria-selected="false">Assets</a>
+                        <a class="nav-link subMenu" id="sub6-tab" data-toggle="tab" href="#sub6" role="tab" aria-controls="sub6" aria-selected="false">Asset Management</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="sub7-tab" data-toggle="tab" href="#sub7" role="tab" aria-controls="sub7" aria-selected="false">Tokens</a>
+                        <a class="nav-link subMenu" id="sub7-tab" data-toggle="tab" href="#sub7" role="tab" aria-controls="sub7" aria-selected="false">Token Protocols</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link subMenu" id="sub8-tab" data-toggle="tab" href="#sub8" role="tab" aria-controls="sub8" aria-selected="false">TAO Name System (TNS)</a>
@@ -145,22 +145,24 @@ Conditional Contracts allow a user to set requirements in order for a contract t
                           A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage these keys, most cryptocurrencies use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access funds.                 </p>
 
                         <p class="customText textJustify">
-We believe that the adoption of blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses. These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely. Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.
-</p>
+We believe that the adoption of blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses.
+These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely.
+Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.
+                        </p>
 
                         <p class="customText textJustify">
 Therefore, we developed a decentralized login system: <a href=signature-chains>Signature Chains</a>. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’. Signature Chains support the <a href=wallet>Nexus Wallet</a>, making it accessible from any computer simply by logging in with your credentials (username, password and pin).
                         </p>
 
                         <p class="customText textJustify">
-Signature Chains can be integrated with various security measures such as biometrics and hardware password managers. We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards.
-</p>
+Signature Chains can be integrated with various security measures such as biometrics and hardware password managers.
+We view this approach as being fundamental to the adoption of blockchain by the general public, while it also improves current security standards.
+                        </p>
 
                         <p class="customText textJustify">
-Signature Chains are also available for DApp developers to build with, furthering our mission of making blockchain technology more accessible. Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy. In our opinion, they are a very important step for mainstream adoption across all blockchain use cases.
-
-
-
+Signature Chains are also available for DApp developers to build with, furthering our mission of making blockchain technology more accessible.
+Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy.
+In our opinion, they are a very important step for mainstream adoption across all blockchain use cases.
                       </p>
                  </div>
 
@@ -178,77 +180,83 @@ Signature Chains are also available for DApp developers to build with, furtherin
                  <!-- assets -->
                  <div class="customTab tab-pane fade" id="sub6" role="tabpanel" aria-labelledby="sub6-tab">
                     <div class="titleCol">
-                      <h3>Assets</h3>
+                      <h3>Asset Management</h3>
                     </div>
 
                     <p class="customText textJustify">
-Assets are used to create a record of a digital or physical asset on the blockchain, in order to track ownership and facilitate peer-to-peer exchange. The registration of assets can be facilitated by DApps to create many decentralized and automated services. Some examples of assets that can be registered on the Nexus Blockchain include:</p>
-                       <p class="customText textJustify" style="font-weight: 600">Digital Assets and Media:</p>
-                      <p class="customText textJustify">
-Music, Audio Books, E-books, Graphics & Photography Film, TV shows, Games, Software and Apps.</p>
-                       <p class="customText textJustify" style="font-weight: 600">
-
-
-Supply Chain Certificates (Standards, Authenticity, Quality Assurance, Customs, Titles):</p>
-                      <p class="customText textJustify">
-Agricultural Produce & Fish, Minerals, Timber, Livestock, Electricity, Pharmaceuticals, Electrical Goods and Components, Luxury Goods, Antiques, Art, Branded goods, Customs Records, Cars, Motor Cycles, Boats.</p>
- <p class="customText textJustify" style="font-weight: 600">
-
-Financial Assets:</p>
-                      <p class="customText textJustify">
-Company Registrations and Securitized Tokens, Land Titles.</p>
-
-                       <p class="customText textJustify" style="font-weight: 600">
-
-Personal Records, Licenses and Certificates:</p>
-                      <p class="customText textJustify">
-Birth Certificates, Digital Identification, Medical Records, Educational and Professional Certificates, References (Landlord and Employment), Education, Insurance Records, Marriage Certificates, Driving & other Licenses.</p>
-                       <p class="customText textJustify" style="font-weight: 600">
-
-Voting Systems:</p>
-                      <p class="customText textJustify">
-Local HOA (Home Owner Association), Law Making Bodies, Political Voting (Presidents, Senators, Congress, Parliament), and Investor Voting in company decisions.</p>
-                       <p class="customText textJustify" style="font-weight: 600">
-
-Intellectual Property:</p>
-                      <p class="customText textJustify">
-Patents, Trademarks, Internet Domains (DNS, TNS).</p>
-                       <p class="customText textJustify" style="font-weight: 600">
-
-Gaming Assets:</p>
-                      <p class="customText textJustify">
-In Game Tokens, Virtual Assets.</p>
-                       <p class="customText textJustify" style="font-weight: 600">
-
-Rewards:</p>
-                      <p class="customText textJustify">
-Loyalty Points, Airmiles. </p>
+                        Assets are used to create a record of a digital or physical asset on the blockchain, in order to track ownership and facilitate peer-to-peer exchange.
+                        The registration of assets can be facilitated by DApps to create many decentralized and automated services.
+                        Some examples of assets that can be registered on the Nexus Blockchain include:
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Digital Assets and Media:
+                    </p>
+                    <p class="customText textJustify">
+                        Music, Audio Books, E-books, Graphics & Photography Film, TV shows, Games, Software and Apps.
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Supply Chain Certificates (Standards, Authenticity, Quality Assurance, Customs, Titles):
+                    </p>
+                    <p class="customText textJustify">
+                        Agricultural Produce & Fish, Minerals, Timber, Livestock, Electricity, Pharmaceuticals, Electrical Goods and Components, Luxury Goods, Antiques, Art, Branded goods, Customs Records, Cars, Motor Cycles, Boats.
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Financial Assets:
+                    </p>
+                    <p class="customText textJustify">
+                        Company Registrations and Securitized Tokens, Land Titles.
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Personal Records, Licenses and Certificates:
+                    </p>
+                    <p class="customText textJustify">
+                        Birth Certificates, Digital Identification, Medical Records, Educational and Professional Certificates, References (Landlord and Employment), Education, Insurance Records, Marriage Certificates, Driving & other Licenses.
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Intellectual Property:
+                    </p>
+                    <p class="customText textJustify">
+                        Patents, Trademarks, Internet Domains (DNS, TNS).
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Gaming Assets:
+                    </p>
+                    <p class="customText textJustify">
+                        In Game Tokens, Virtual Assets.
+                    </p>
+                    <p class="customText textJustify" style="font-weight: 600">
+                        Rewards:
+                    </p>
+                    <p class="customText textJustify">
+                        Loyalty Points, Airmiles.
+                    </p>
                  </div>
 
                  <!-- tokens -->
                  <div class="customTab tab-pane fade" id="sub7" role="tabpanel" aria-labelledby="sub7-tab">
                     <div class="titleCol">
-                      <h3>Tokens</h3>
+                      <h3>Token Protocols</h3>
                     </div>
-                     <p class="customText textJustify">
-                         Some believe that our future societies will use tokenization for many purposes. This is a novel idea, considering that the current use of tokens has been limited to speculative assets, such as Initial Coin Offerings (ICOs). Conversely, Nexus fungible tokens can facilitate the transparent and automatic payment of Royalties and Dividend payouts.</p>
-
-                        <p class="customText textJustify">
-Tokens can represent partial ownership or rights to an underlying digital or physical asset. The token allocation determines how the revenue is distributed, and the revenue is paid out to the holders in a direct peer-to-peer manner. This is in direct contrast to current manual systems that are used to facilitate these types of payments, which are often slow and costly to operate.</p>
-
-                        <p class="customText textJustify">
-                     The diagram above shows the flow of an automatic payment of a shared revenue stream. In this example, the token (called TKN) distribution is 50-25-25. The process follows these steps:
-</p>
-
-                        <p class="customText textJustify">
-User pays a license fee (here it is 1000NXS) for use of an asset.
-The token holders are notified to claim their percentage of the payment (DEBIT), which is represented by their total token balance divided by the total token supply. Each token holder credits their account by proving their right to this payment with their TKN balance.
-
+                    <p class="customText textJustify">
+                         Some believe that our future societies will use tokenization for many purposes.
+                         This is a novel idea, considering that the current use of tokens has been limited to speculative assets, such as Initial Coin Offerings (ICOs).
+                         Conversely, Nexus fungible tokens can facilitate the transparent and automatic payment of Royalties and Dividend payouts.
+                    </p>
+                    <p class="customText textJustify">
+                         Tokens can represent partial ownership or rights to an underlying digital or physical asset.
+                         The token allocation determines how the revenue is distributed, and the revenue is paid out to the holders in a direct peer-to-peer manner.
+                         This is in direct contrast to current manual systems that are used to facilitate these types of payments, which are often slow and costly to operate.
+                    </p>
+                    <p class="customText textCenter"><img src="images/split-payments.png" style="width: 80%"></p>
+                    <p class="customText textJustify">
+                         The diagram above shows the flow of an automatic payment of a shared revenue stream. In this example, the token (called TKN) distribution is 50-25-25. The process follows these steps:
+                    </p>
+                    <p class="customText textJustify">
+                        1. User pays a license fee (here it is 1000NXS) for use of an asset.<br>
+                        2. The token holders are notified to claim their percentage of the payment (DEBIT), which is represented by their total token balance divided by the total token supply.<br>
+                        3. Each token holder credits their account by proving their right to this payment with their TKN balance.<br>
                      </p>
-<p class="innerText"><a href=stos class="btn btn-primary">STOs</a></p>
-
-</p>
-<p class="innerText"><a href=digital-rights class="btn btn-primary">Digital Rights Management</a></p>
+                     <p class="innerText textCenter"><a href=stos class="btn btn-primary" style="margin: 10px">STOs</a><a href=digital-rights class="btn btn-primary">Digital Rights Management</a></p></p>
                  </div>
 
 

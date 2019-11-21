@@ -176,15 +176,15 @@ ol li {
                     <li>Type this command:&nbsp;<code>shasum -a512 pathToFile</code>&nbsp;and press <em>Enter</em>&nbsp;(replace&nbsp;<code>pathToFile</code>&nbsp;with the path to the file that you’ve downloaded)</li>
                     </ol>
                     <p>&nbsp;</p>
-                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v1.2.4</h6>
+                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v2.0.7</h6>
                     <ul>
-                      <li>Windows Installer<br> <code>3c673672f0fcbecb915df04a7697f1565ff9d95fab3ab8187b95682357b0f22a7f559ff4c196d7255a775665714eaba9413fa07ec842ae2daae0123bfd80ef6d</code></li>
-                      <li>Windows Unpacked<br> <code>fc87a44eb60401fb64f20df1f026b52df4c881ae53450aed5ef8cb3f4e3c05550f2c77806757d2ad600b9abddf519bba4c875c18e19acf844cae85887acb6f2d</code></li>
-                      <li>Mac OSX Installer<br> <code>e0225d2d36023b4f88a396b8e22b05b9142d759d6c826b59cdd02e1a273efb6a286a8203e8b0b89fe1f1cf46185eda3c309b736a378313dfadbeb561328a8771</code></li>
-                      <li>Mac OSX Unpacked<br> <code>85e7685f33cf21d93b6713ea97eacc9a0dfe5fcf683c51e5077b6983e7a9514d0c0344fa49c39bad667e78f4d61c51b234cb28db75eeff0b8db880d40700104e</code></li>
-                      <li>Linux Deb<br> <code>4f7cd3d86ad8c415524aece4310e05d3e8f19a3572e00e5754a50c74092759c265be4cef27f18f045d2a83f90895a72f70ccfec490fdcb63d3064433c912b7f0</code></li>
-                      <li>Linux AppImage<br> <code>9e6bcd8485ec2468a78f84d0f3762d87107863c9e7751ca5f906331205e9abcb49e27d7eb8e80654019cd5914104e4cf11775465bc7e824b5eb7d3c2ebe02d65</code></li>
-                      <li>Linux Snap<br> <code>5560064ad85f3d1fddca215ca1619fb3efcf6253708a4f9f5f0698a170740e2ca0aa6066cece1bf17c8e193bdae3da2864aafa256e6ab9097ee08913b5514c1d<br></code></li>
+                      <li>Windows Installer<br> <code>9295febf9eb216242953a765e540c6036e5c5be3eca7bd301a4cb125142352d195c93e1e6ecbd9372603a42a1023012a42f245b1acc4750b4a994bc7e8ae5e37</code></li>
+                      <li>Windows Zip<br> <code>faf059cb9dfb2f0634401537155ec7a9ff04859936d65ed2a55db733af56d2c13eca2faf94805adef3ad792c595572ca3c77af469da0fb73b833474d6008f4bd</code></li>
+                      <li>Mac OSX Installer<br> <code>b1b8fda9a1ac699770aa0651fd6d373675e454fce8e1e10e946a145609b11f14942a99d34388f69ba05ccad17a81f39376ed80bfd76d6d80ad253b5666f7a33e</code></li>
+                      <li>Mac OSX Unpacked<br> <code>bf97c90d711ca8622d72076092f11bc85785b0198cd1328c380c496d860bb7bc9821999c605b9451ac1667ae4cc30d13ae13456df6f60276172c5acc2923707f</code></li>
+                      <li>Linux Deb<br> <code>61d958f6890baf7fb9200412c8b796d9888e8f96cc94f33f65a4c6d9d37a00bcd0857d4c855e02bc8f3687bbb2e936efd9944ecac7b1792970d55bbf8515eeed</code></li>
+                      <li>Linux AppImage<br> <code>0e6aab15662486058aa4dda530d892977e20e6664370a6c99c7cb14c514fc4324c73f763fc1683094344413b4821a6f1e676e5d04ad5e52d8a0abd9cd6e9e6ae</code></li>
+                      <li>Linux Snap<br> <code>e17953111276582825af0f2d65c66d52c6e0be3778349d609962264e7e1c5b693e4b2f02eba07fc372035831494171801893a1000d6cb9861d6dfc6b32f8e4af</code></li>
                     </ul>
                   </div>
                 </div>
@@ -221,7 +221,7 @@ ol li {
                   <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the
                     rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions :</p>
                   <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-                  <p class="text-uppercase">THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+                  <p class="text-uppercase">THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
                     NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
                     DEALINGS IN THE SOFTWARE.</p>
                   <p class="text-uppercase">IMPROPER USE OF THIS SOFTWARE COULD LEAD TO PERMANENT LOSS OF COIN.</p>
@@ -229,10 +229,10 @@ ol li {
               </div>
               <div class="synch synchronizing customTab tab-pane fade" id="synchronizing" role="tabpanel" aria-labelledby="synchronizing-tab">
                 <div class="heading">
-                  <h5>Step 4 – Synchronizing</h5>
+                  <h5>Step 4 – Synchronizing and QT Migration</h5>
                 </div>
                 <p>Before the wallet can be used, it needs to be synchronized with the Nexus Blockchain.</p>
-                <p>Synchronization can take place in two ways :</p>
+                <p>There are two ways in which the wallet can be synchronized:</p>
                 <div class="count-list">
                   <ul>
                     <li>Letting the wallet catch up with blocks on its own by just leaving the wallet open : approx 10 hours.</li>
@@ -254,18 +254,22 @@ ol li {
                     <img src="images/botstrap.png" alt="botstrap" />
                   </span>
                   <p>Please leave the wallet open while bootstrapping. Selecting the ‘Abort’ option will completely stop any progress which has been made with the download so far, and is not therefore advised.</p>
-                  <p>After your wallet has downloaded the Recent Database, you will see the notification ‘Extracting Database’. You will need to wait for this to complete. Again, if you click ‘Abort’ all progress will be lost. </p>
-                  <p>Once the extraction has finished, you will see the notification ‘Rescanning Database’, which will ensure that your wallet is up to date with the most recent transaction records.</p>
-                  <p>Upon completing the bootstrap, the wallet will show ‘Synchronising 99%’ (if you hover over the left icon in the top right menu). This is perfectly normal, and highlights that the final 1% of ‘catching up’ is taking place which
-                    takes place automatically. This should take 10-15 minutes.</p>
-                  <p>It is also important to remember that if you restart your core (when enabling staking for example) or close your wallet or if your device loses internet connection for even a minute, then you are likely to see that ‘Synchronising
-                    99%’ in the top right icon menu again. Just wait for your device to catch up. You DO NOT need to re-download the database again (the database is only for when you initially install your wallet, or if your wallet has been closed
-                    for a considerable period of time, a year for example).</p>
-                  <p>If you open your wallet and on all pages it says ‘Loading/syncing, please wait…’ for longer than 5 minutes, your core is not loading. In this scenario, we recommend restarting the wallet, and if that does not solve the problem,
-                    then please restart your device.</p>
-                  <p>NOTE : If you previously had a wallet on the computer that you are using, it will AUTOMATICALLY import your wallet.dat into the new wallet. You do not need to do anything but sync your wallet.</p>
-                  <p>Without a fully synchronised wallet, incoming transactions will not show up, balances will be missing, and you will be unable to send NXS. The wallet can be thought of as a window to view the blockchain – if your wallet is
-                    behind, and not in sync, it will not display the true status of your wallet on the blockchain.</p>
+
+</p>If the bootstrapping pop up is minimised (by clicking off the pop up) then you will see that the wallet will still be syncing with the blockchain on its own (this can be seen from the Synching arrows in the top right hand corner and the Block Count number increasing on the Overview page). When the bootstrap file is downloaded this will override any progress the wallet has made syncing on its own.</p>
+
+</p>After your wallet has downloaded the Recent Database, you will see the notification ‘Extracting Database’. You will need to wait for this to complete. Again, if you click ‘Abort’ all progress will be lost.</p> 
+
+</p>Once the extraction has finished, you will see the notification ‘Rescanning Database’, which will ensure that your wallet is up to date with the most recent transaction records.</p> 
+
+</p>Upon completing the bootstrap, the wallet will show 'Synchronising 99%' (if you hover over the left icon in the top right menu). This is perfectly normal, and highlights that the final 1% of ‘catching up’ is taking place which takes place automatically. This should take 10-15 minutes.</p>
+
+</p>It is also important to remember that if you restart your core (when enabling staking for example) or close your wallet or if your device loses internet connection for even a minute, then you are likely to see that 'Synchronising 99%' in the top right icon menu again. Just wait for your device to catch up. You DO NOT need to re-download the database again (the database is only for when you initially install your wallet, or if your wallet has been closed for a considerable period of time, a year for example).</p>
+
+</p>If you open your wallet and on all pages it says 'Loading/syncing, please wait...' for longer than 5 minutes, your core is not loading. In this scenario, we recommend restarting the wallet, and if that does not solve the problem, then please restart your device.</p>
+
+</p>NOTE: If you previously had a wallet on the computer that you are using, it will AUTOMATICALLY import your wallet.dat into the new wallet. You do not need to do anything but sync your wallet.</p>
+
+</p>Without a fully synchronised wallet, incoming transactions will not show up, balances will be missing, and you will be unable to send NXS. The wallet can be thought of as a window to view the blockchain - if your wallet is behind, and not in sync, it will not display the true status of your wallet on the blockchain.</p>
                 </div>
                 <div class="img-items">
                   <p>‘Synchronizing’, indicates that the wallet is catching up with the Nexus Blockchain, which can take some time. </p>
@@ -286,12 +290,11 @@ ol li {
                   <p>By encrypting, we mean password protecting your Nexus Wallet.</p>
                 </div>
                 <div class="img-items">
-                  <p>A newly downloaded wallet is unencrypted. The lock icon in the top right hand corner of your wallet will look like this as soon as you download the application :</p>
+                  <p>A newly downloaded wallet is unencrypted. The lock icon in the top right hand corner of your wallet will look like this as soon as you download the application:</p>
                   <span class="imgbox">
                     <img src="images/unecrypted.png" alt="backupimage" />
                   </span>
-                  <p>After you have installed the wallet and it is fully synchronized, a pop-up will prompt you to encrypt your wallet. Encrypting your wallet is recommended, as without encryption, NXS can be sent from your wallet without requiring
-                    password approval.</p>
+                  <p>Encrypting your wallet is recommended, as without encryption, NXS can be sent from your wallet without requiring password approval.</p>
                   <p>To encrypt your wallet, please follow these instructions :</p>
                   <p>Settings -> Security -> enter password -> re-enter password -> Encrypt and Restart</p>
                   <p><strong>It is imperative that your encryption password is both remembered and kept safe. </strong></p>
@@ -313,7 +316,7 @@ ol li {
                     <img src="images/not-logged-in.png" alt="not-logged-in" />
                   </p>
                   <p>The locked wallet icon in the top right hand corner highlights that the wallet has previously been encrypted, but you are not currently logged in.</p>
-                  <p>To login, go to the Settings -> Security page (or just click on the lock icon itself above) and enter your encryption password from Step 5.</p>
+                  <p>To login, go to Settings -> Security page (or just click on the lock icon itself above) and enter your encryption password from Step 5.</p>
                   <p>
                     <img src="images/password-security.png" alt="password-security" />
                   </p>
@@ -322,17 +325,15 @@ ol li {
                   <p>
                     <img src="images/logged-in.png" alt="logged-in" />
                   </p>
-                  <p>There are 2 additional login options on the Security page :</p>
+                  <p>There are 2 additional login options on the Security page:</p>
                   <div class="count-list">
                     <ul>
                       <li>
                         <span><strong>Login for staking & mining only</strong></span>
-                        <p>With this login setting enabled, the wallet will be locked in the sense of you will be unable to send NXS, but will be unlocked in that the NXS wallet balance can be staked or mined (which is not the case when the wallet
-                          status is ‘Not Logged in’).</p>
+                        <p>With this login setting enabled, the wallet will be unable to send NXS. However, the wallet will be able to stake or mine (which is not the case when the wallet status is ‘Not Logged in’). The following image will be displayed on the top right hand corner of the ‘Overview’ page.</p>
                         <p>
                           <img src="images/staking-login.png" alt="staking-login" />
                         </p>
-                        <p>When the wallet is locked for sending NXS, the following image will be displayed on the top right hand corner of the ‘Overview’ page</p>
                       </li>
                       <li>
                         <span> <strong>Set timeout for login</strong></span>
@@ -353,8 +354,17 @@ ol li {
               <div class="enable customTab tab-pane fade" id="enable-staking" role="tabpanel" aria-labelledby="enable-staking-tab">
                 <div class="heading">
                   <h5>Step 7 – Enable staking</h5>
-                  <p>By encrypting, we mean password protecting your Nexus Wallet.</p>
-                </div>
+                 <p>What is Staking?</p>
+                 </div>
+		<p>Proof of stake is an energy efficient form of mining based on ownership of a digital currency. This ownership represents a ‘stake’ in the sense of an interest in something. By staking, NXS holders can earn a ‘stake rate’ between 0.5% and 3.0% per year on their holdings. NXS can only be staked inside the official Nexus Wallet when in ‘staking mode’ and with a continuous internet connection (24 hours a day, 7 days a week). In return stakers are rewarded for operating the wallet (a Nexus node) and mining Proof of Stake blocks, which provides security to the network.</p>
+		<p>What is the ‘Stake Rate’?</p>
+		<p>This value represents your current annual NXS rate of return (%).</p> 
+		<p>The rate starts at 0.5%, and can increase to 3.0% after 12 months of consistent staking. The rate increase is non linear, slowing in terms of its increase over time. It takes several weeks of consistent staking to reach 1.0%, and around four months to reach 2.0%. With this rate, you can calculate the average amount of NXS you can expect to receive each day for staking.</p>
+		<p>Is there a minimum amount of NXS required to stake?
+		<p>It is possible to stake with any amount of NXS at a rate of 0.5%. However, as of the 6th of June 2019 it takes around ten 10,000 NXS to be able to reach the maximum stake rate of 3.0%.</p>
+     		<p>Similar to other forms of mining, ‘Proof of Stake’ mining has a level of ‘difficulty’. As more people successfully stake on the network, the difficulty of staking increases. This results in an increasing amount of NXS required to increase the stake rate. Furthermore, a larger balance of NXS in your wallet will increase the frequency of NXS rewards.</p>
+		<p>Enable Staking<p>
+<p>To enable staking - the wallet MUST be left open to stake. NXS Stake is earned by helping to operate and provide security to the network, and for that to happen the wallet must be left open and running with an internet connection 24/7.</p>
                 <p>You must be ‘logged in’ to the wallet or have the wallet ‘logged in for staking and mining only’, in order to stake your NXS.</p>
                 <p>You must have ‘staking enabled’ in order for your wallet to receive trust payments. This is to prevent people from unintentionally staking coins.</p>
                 <p><strong>Step 1</strong></p>
@@ -363,12 +373,11 @@ ol li {
                 <p>
                   <img src="images/enable-staking.png" alt="enable-staking" />
                 </p>
-                <p>When this setting is enabled, the following will be displayed when hovering your mouse over the Nexus logo icon in the top right hand corner :</p>
+                <p>When this setting is enabled, the following will be displayed when hovering your mouse over the Nexus logo icon in the top right hand corner (essentially the values will no longer be zero):</p>
                 <p><strong>Step 2</strong></p>
                 <p>A wallets first Proof of stake block is referred to as a ‘Genesis’ transaction. This may take three days or more to receive, and will require the wallet to be open and connected to the internet.</p>
                 <p>The receipt of a Genesis NXS transaction will be indicated in the page named ‘Transactions’.</p>
-                <p>After receiving a Genesis transaction, a staking wallet will receive ongoing ‘Trust Transactions’, as further staking rewards. Please note that your Genesis transaction is likely to be larger than that of subsequent Trust
-                  Transactions, and these will vary in size.</p>
+                <p>After receiving a Genesis transaction, a staking wallet will receive ongoing ‘Trust Transactions’, as further staking rewards. Please note that your Genesis transaction is likely to be larger than that of subsequent Trust Transactions, and these will vary in size.</p>
                 <p><strong>How do I unlock my Wallet to send NXS while staking?</strong></p>
                 <p>If you wish to send NXS, and your wallet is logged in for ‘staking and mining only’, please do the following :</p>
                 <div class="count-list">
@@ -398,7 +407,7 @@ ol li {
                   <p>
                     <img src="images/app-backup.png" alt="app-backup" />
                   </p>
-                  <p>You will notice the files are saved as .dat files – this is what is termed backing up your wallet.dat file.</p>
+                  <p>YYou will notice the files are saved as .dat files - this is what is termed ‘backing up your wallet.dat’.</p>
                   <p>A wallet without a backup could lead to a loss of access to your wallet if you were to experience a hard drive failure, or lose possession of your device. In addition to backing up your wallet after receiving a Genesis
                     transaction, it is also recommended that you periodically backup your wallet every few weeks.</p>
                 </div>
@@ -434,17 +443,13 @@ ol li {
                 <p><strong>Market Price (USD) : </strong>The value of 1NXS in your chosen default currency (in this case USD). </p>
                 <p><strong>Market Cap (USD) :</strong>The total value of all NXS. This is calculated by multiplying the Market Price (USD) x Total NXS Circulating Supply.</p>
                 <p><strong>24HR Change (USD%) : </strong>The value change in NXS over the last 24 hours.</p>
-                <p><strong>The figures on the right hand side of the Overview page : </strong></p>
-                <p><strong>Connections : </strong>This refers to the amount of random ‘nodes’ which are connected to yours. Sixteen is the maximum number of connections. More connections generally means your transactions and blocks will relay
-                  across the network more reliably.</p>
-                <p><strong>Stake Reward : </strong>This value represents your current annual NXS rate of return (%). The rate starts at 0.5%, and can increase to 3.0% after 12 months of consistent staking. staking is a form of mining based on
-                  ownership of a digital currency. NXS can only be staked inside the official Nexus Wallet when in staking is enabled, and with a continuous internet connection (24 hours a day, 7 days a week). In return, stakers are rewarded for
-                  operating the wallet (a Nexus node) which provides security to the network. The rate increase is nonlinear, slowing in terms of its increase over time. It takes several weeks of consistent staking to reach 1.0% and around four
-                  months to reach 2.0%. With this rate, you can calculate the average amount of NXS you can expect to receive over time for staking. </p>
-                <p><strong>Block Count : </strong>The block count is the ‘height’ of the blockchain. This number allows you to check with one of the Nexus Explorer applications to see if the block you are on is the current block (meaning you are
+                <p><strong>The figures on the right hand side of the Overview page: </strong></p>
+                <p><strong>Connections: </strong>This refers to the amount of random ‘nodes’ which are connected to yours. Sixteen is the maximum number of connections. More connections generally means your transactions and blocks will relay across the network more reliably. The max value here is 16 connections, but 16 connections are not required. Anything above 4 is adequate.</p>
+            	<p><strong>Block Count: </strong>The block count is the ‘height’ of the blockchain. This number allows you to check with one of the Nexus Explorer applications to see if the block you are on is the current block (meaning you are
                   up to date). If the block value on your wallet does not match that of a Nexus Explorer, then you are not in sync with the Nexus Blockchain and need to ‘Download the Recent Database’ to catch up with the Nexus Blockchain
                   (Settings -> Download Recent Database). Another way to tell if you are in sync or not, an easier way, is to look at the far left icon in the top right hand corner of the wallet. Synchronizing : not up to date. vs. Synchronized :
                   up to date.</p>
+		<p><strong>The values below relate to Staking.</strong></p>
                 <p><strong>Block Weight : </strong>Upon receipt of a Genesis transaction, this value will begin increasing slowly, reaching 100% in 3 days time. Every time you receive a staking transaction, the block weight resets.</p>
                 <div class="circle-List">
                   <ul>
@@ -462,13 +467,12 @@ ol li {
                     <li>Trust score takes 84 days of successful staking to reach 50% trust weight, and 364 days to reach 100%.</li>
                   </ul>
                 </div>
-                <p><strong>Stake Weight : </strong>The higher your stake weight, the greater your chances of receiving a trust transaction. The exact value is derived from your trust weight and block weight.</p>
+                <p><strong>Stake Weight: </strong>The higher your stake weight, the greater your chances of receiving a trust transaction. The exact value is derived from your trust weight and block weight.</p>
                 <div class="circle-List">
                   <ul>
                     <li>stake weight is a derivative value calculated from trust weight and block weight. It indicates their combined impact on chances to generate a staking transaction.</li>
                     <li>The value will change as trust weight and block weight change.</li>
                     <li>It is for display only as a metric, and is not directly used. Trust weight and block weight values are used.</li>
-                    <li>Trust score takes 84 days of successful staking to reach 50% trust weight, and 364 days to reach 100%.</li>
                   </ul>
                 </div>
                 </p>
@@ -497,10 +501,11 @@ ol li {
                 <p><strong>Pending : </strong>An unconfirmed transaction set by the user’s settings (default 3 confirmations)</p>
                 <p><strong>Immature : </strong>Generated blocks that have not been confirmed by the network (10 confirmations)</p>
                 <p><strong>Generate : </strong>NXS Generated by the network</p>
+		<p>Click on any transaction to see more details, such as the address, transaction ID, hash and number of confirmations:</p>
               </div>
               <div class="market-data customTab tab-pane fade" id="market-data" role="tabpanel" aria-labelledby="market-data-tab">
                 <div class="heading">
-                  <h5>Step 5 – Encrypting</h5>
+                  <h5>Market Data</h5>
                 </div>
                 <p>This page provides market data from two digital currency exchanges : Binance & Bittrex.</p>
                 <p>By clicking on the exchange logos, you will be directed to the respective NXS order books.</p>
@@ -538,14 +543,14 @@ ol li {
                 <p><strong>Auto update</strong></p>
                 <p>Rather than having to manually download a new wallet each time a new update is released, which is a common necessity with many digital currency wallets, the Nexus Wallet notifies you of an update to be accepted, comparable to
                   regular computer software updates.</p>
-                <p>We recommend this setting remains enabled. This setting enabled will automatically check for new versions and notify you if a new version is available. If automatic updates are not enabled, you will be required to manually
-                  download the new wallet version either from github.com/Nexusoft/NexusInterface or our Resources section on nexus.io.</p>
+                <p>We recommend this setting remains enabled. This setting enabled will automatically check for new versions and notify you if a new version is available. If automatic updates are not enabled, you will be required to manually download the new wallet version either from github.com/Nexusoft/NexusInterface or our website.</p>
                 <p>Any wallet updates will show in a pop up box. These updates must be installed as soon as possible. Not having your wallet on the newest version update will put your coins at risk, and could mean you are no longer synchronised
-                  with the Nexus Blockchain. Please do ensure you update your wallet as soon as you are notified of an update.</p>
+                  with the Nexus Blockchain.<p> 
+		<p>Please ensure you update your wallet as soon as you are notified of an update.</p>
                 <p><strong>Send anonymous usage data</strong></p>
                 <p>Send anonymous data usage to allow the Nexus developers to improve the wallet.</p>
                 <p><strong>Fiat Currency</strong></p>
-                <p>The option selected will be the currency in which the Balance, Market Price, Market Cap & 24hr change are represented in. The default currency is USD.</p>
+                <p>The option selected will be the currency in which the Balance, Market Price, Market Cap & 24hr is displayed in. The default currency is USD.</p>
                 <p><strong>Minimum Confirmations</strong></p>
                 <p>Minimum amount of confirmations before a block is accepted. The minimum number of confirmations is 1, but you are allowed to customize how many you require to wait before your wallet sees the transaction as valid. 3 to 6
                   confirmations are recommended to maintain high levels of security. </p>
@@ -576,40 +581,38 @@ ol li {
                 <p><strong>Enable mining</strong></p>
                 <p>With mining enabled, your wallet will run a special server called the ‘Mining LLP’, which will allow you to connect an external miner to your wallet for producing blocks on the Prime or Hash channels. </p>
                 <p><strong>Enable staking</strong></p>
-                <p>You must be ‘logged in’ to the wallet or have the wallet ‘logged in for staking and mining only’, in order to successfully receive your stake rewards. </p>
+                <p>You must be ‘logged in’ to the wallet or have the wallet ‘logged in for staking and mining only’, in order to stake.</p>
                 <p>You must also have ‘staking enabled’ in order for your wallet to receive trust payments. This is to prevent people from unintentionally staking coins. </p>
                 <div class="heading">
-                  <h6>Step 1 :</h6>
+                  <h6>Step 1 - Enable Staking</h6>
                 </div>
-                <p>Once logged in, you can enable staking by following these instructions :</p>
                 <p>Settings -> Core -> ‘Enable staking’</p>
-                <p>When this setting is enabled, the following image will be displayed on the top right hand corner of the ‘Overview’ wallet home page :</p>
                 <p>Add image</p>
-                <div class="heading">
-                  <h6>Step 2 :</h6>
+ <p>This will reset the core of the wallet.</p>
+ <p>Now the wallet has staking enabled, you need to log in.</p>
+  		<div class="heading">
+               <h6>Step 2 Login:</h6>
                 </div>
-                <p>When your wallet has mined its first Proof of stake block, it is referred to as a ‘Genesis’ transaction. This may take three days or more to receive, and will require the wallet to be open and connected to the internet.</p>
-                <p>The receipt of a Genesis NXS transaction will be indicated in the page named ‘Transactions’ under ‘transaction details’. </p>
-                <p>After receiving a Genesis transaction, a staking wallet will receive ongoing ‘Trust Transactions’ as further staking rewards. Please note that your Genesis transaction is likely to be larger than that of subsequent Trust
-                  Transactions, and these will vary in size.</p>
-                <p><strong>How do I unlock my Wallet to send NXS while staking?</strong></p>
-                <p>If you wish to send NXS, and your wallet is logged in for staking and mining only, you must log out and unlock your wallet :</p>
-                <div class="count-list">
-                  <ul>
-                    <li>Settings -> Security -> Log Out</li>
-                    <li>Settings -> Security -> Log in (with the ‘Login for staking only’ mode not selected (circle is grey and to the left).</li>
-                  </ul>
-                </div>
-                <p>By hovering your mouse over the Nexus logo an overview of your staking values are displayed. These values are also on the right-hand side of the Overview page, and explained in the wallet features section.</p>
-                <p><strong>Rescan Wallet</strong></p>
+		<p>Settings -> Core -> Security -> Login (normally or for ‘staking and mining only’)</p>
+		<p>You can tell your wallet is staking by looking at the Nexus logo in the top right hand corner of the wallet:</p>
+		<p>If your wallet is not staking, this could be due to one or more of the following:</p>
+		<p>Staking disabled (see step 1)</p>
+		<p>Not logged in (see step 2)</p>
+		<p>Not enough NXS in the wallet (can be checked by clicking on mining display setting)</p>
+		<p>A wallets first Proof of stake block is referred to as a ‘Genesis’ transaction. This may take three days or more to receive, and will require the wallet to be open and connected to the internet.</p>	
+	<p>The receipt of a Genesis NXS transaction will be indicated in the page named ‘Transactions’.</p> 
+	<p>After receiving a Genesis transaction, a staking wallet will receive ongoing ‘Trust Transactions’, as further staking rewards. Please note that your Genesis transaction is likely to be larger than that of subsequent Trust Transactions, and these will vary in size.</p>
+	<p>How do I unlock my Wallet to send NXS while staking?
+If you wish to send NXS, and your wallet is logged in for ‘staking and mining only’, please do the following:</p>
+	<p>1. Settings -> Security -> Log Out</p>
+	<p>2. Settings -> Security -> Log in (with the ‘Login for staking only’ mode disabled (circle is grey and to the left).</p>
+	<p>By hovering your mouse over the Nexus logo an overview of your staking values are displayed. These values are also on the right hand side of the Overview page, and explained in the wallet features section.</p>
+	<p><strong>Rescan Wallet</strong></p>
                 <p>Used to correct transaction/balance issues, scans over every block in the database. This could take up to 6 minutes depending on your device. Use this tool sparingly.</p>
                 <p><strong>Verbose Level</strong></p>
-                <p>Verbose level for logs shows more under the hood data on the network. We recommend that you run verbose level 0 if you don’t need to see a lot of logging information. If you experience wallet troubles though, more debug data is
-                  important for the developers to use to find bugs and push new releases. Use this setting at your own discretion.</p>
+                <p>Verbose level for logs shows more under the hood data on the network. We recommend that you run verbose level 0 if you don’t need to see a lot of logging information. If you experience wallet troubles though, more debug data is important for the developers to use to find bugs and push new releases. Use this setting at your own discretion.</p>
                 <p><strong>Manual Daemon Mode</strong></p>
-                <p>Enable manual daemon mode if you are running the daemon manually outside of the wallet. This will shut down your daemon. We only recommend this setting for intermediate to advanced users that want to keep their daemon up to
-                  date with the newest developments before releases are public. YOUR WALLET WILL NOT WORK if you have this setting enabled, and have failed to launch an external Daemon.<strong>If this doesn’t make sense to you, we recommend you
-                    not enable this setting.</strong></p>
+                <p>Enable manual daemon mode if you are running the daemon manually outside of the wallet. This will shut down your daemon. We only recommend this setting for intermediate to advanced users that want to keep their daemon up to date with the newest developments before releases are public. YOUR WALLET WILL NOT WORK if you have this setting enabled, and have failed to launch an external Daemon.<strong>If this doesn’t make sense to you, we recommend you not enable this setting.</strong></p>
                 <p><strong>Restart Core</strong></p>
                 <p>This button will restart the daemon. Do this if you believe your wallet is frozen, and it needs to be refreshed. Upon doing so, on most pages you will see the following text : ‘Loading daemon, Please Wait…’. It should take less
                   than 30 seconds before the wallet is refreshed. If your daemon doesn’t start back up in this timeframe, restart the wallet application.</p>
@@ -619,8 +622,7 @@ ol li {
                 <p>Under the security tab, you can change your password, and import private keys from another wallet.</p>
                 <p>A private key is what gives you access to your coins, and what is stored in your wallet.dat file. If you are a more advanced user and have made a backup of your wallet private keys, this is the area where you can import them
                   into your wallet. </p>
-                <p>PLEASE NOTE : you will need to run ‘rescan’ after importing new keys into your wallet. This is because your wallet needs to keep a list of the transactions that are associated with your private keys, in order to build new
-                  transactions and spend your funds. </p>
+                <p>PLEASE NOTE : you will need to run ‘rescan’ after importing new keys into your wallet. This is because your wallet needs to keep a list of the transactions that are associated with your private keys, in order to build new transactions and spend your funds. </p>
                 <p>Any keys that are imported into an encrypted wallet will automatically be encrypted up import. <strong>You DO NOT need to re-encrypt your wallet after you import new private keys.</strong></p>
                 <div class="heading">
                   <h6>D) Style</h6>
@@ -629,44 +631,38 @@ ol li {
                 <p>Turn the globe on the Overview page on or off. </p>
                 <p><strong>Overview Display</strong></p>
                 <p>Standard : The wallet comes with this overview display (Globe displayed on the Overview page).</p>
-                <p>Miner : Changes the 3 tabs in the bottom right of the Overview page : Prime Difficulty, Hash Difficulty, stake Difficulty</p>
+		<p><strong>Hidden Balance</strong></p>
+		</p>This is the same as the standard overview display, except here rather than showing your true balance for the ‘Balance’ and ‘Immature Balance’ fields on the Overview page, a hyphen will replace the Balance value.</p>
+</p>Miner: Changes the 3 tabs in the bottom right of the Overview page: Prime Difficulty, Hash Difficulty, Stake Difficulty.</p>
                 <p>None : Blank overview display.</p>
                 <p><strong>Nexus Address Format</strong></p>
-                <p>These different address formats are purely for visual purposes only – they do not change the address, and the spaces for ‘Segmented’ format and the ‘…’ in Truncated format are not included when copying and pasting the address.
+                <p>These different address formats are purely for visual purposes only – they do not change the address, and the spaces for ‘Segmented’ format and the ‘…’ in Truncated format are not included when copying and pasting the address.</p>
                 </p>
                 <p><strong>Theme</strong></p>
-                <p>We provide two default themes ‘Dark’ and Light’. </p>
+                <p>We provide two default themes Dark and Light.</p>
                 <p><strong>Background</strong></p>
-                <p>We provide two default default backgrounds ‘Twinkling stars’ or ‘Cosmic Light’.</p>
+                <p>We provide two default default backgrounds Twinkling stars and Cosmic Light.</p>
                 <p><strong>Color scheme</strong></p>
-                <p>Change the colors to customize your own theme. Upon changing a color in one of the default themes you will see that your ‘Theme’ changes from either Dark or Light to ‘Custom theme’. If you were to then revert back from Custom
-                  theme to Dark theme for example, and then back to ‘Custom theme’, you will find that your custom theme has been saved.</p>
+                <p>Change the colors to customize your own theme. Upon changing a color in one of the default themes you will see that your ‘Theme’ changes from either Dark or Light to ‘Custom theme’. If you were to then revert back from Custom theme to Dark theme for example, and then back to ‘Custom theme’, you will find that your custom theme has been saved.</p>
                 <p>– Reset Style Settings : to revert back to the original wallet color theme. Then scroll down and click : ‘Save Settings’ to implement these changes.</p>
-                <p><strong>Import Custom Theme :</strong> A variety of custom themes created by the Nexus community can be imported into the wallet. The below link holds a repository of community made themes. The background can be imported from
-                  your local machine, or enter a URL and the wallet will download the background for you. Acceptable formats are PNG/JPEG/BMP/TIFF/GIF.</p>
-                <div class="themeBtn">
-              <div class="btn-areas">
-                <a href="https://github.com/KenCorma/Nexus-Wallet-Themes" class="btn btn-primary capitalize">Skin Repository</a>
-               
-<p><strong>Export Custom Theme : </strong></p>
-                <p>Themes are Json files that are read by the system and apply changes to the interface. When you export a theme, you will be prompted to save the json file to your computer. Below is a link to the theme guide which describes how
-                  to develop themes. If you would like to, please request that your theme is included in the official repository for it to be shared with the community. </p>
-
-<div class="btn-areas">
-                <a href="https://github.com/Nexusoft/NexusInterface/blob/master/docs/Themes.md" class="btn btn-primary capitalize">Design Your Own Skin</a>               
-
+                <p><strong>Import Custom Theme :</strong> A variety of custom themes created by the Nexus community can be imported into the wallet. The below link holds a repository of community made themes. The background can be imported from your local machine, or enter a URL and the wallet will download the background for you. Acceptable formats are PNG/JPEG/BMP/TIFF/GIF.</p>
+                <a href=https://github.com/KenCorma/Nexus-Wallet-Themes class="btn btn-primary" style="margin: 10px;">Skin Repository</a>
+		<p>Export Custom Theme: </p> 
+ <p>Themes are Json files that are read by the system and apply changes to the interface. When you export a theme, you will be prompted to save the json file to your computer. Below is a link to the theme guide which describes how to develop themes. If you would like to, please request that your theme is included in the official repository for it to be shared with the community. </p> 
+<a href=https://github.com/Nexusoft/NexusInterface/blob/master/docs/Themes.md class="btn btn-primary">Design Your Own Skin</a>
                 <div class="heading">
                   <h6>E) Modules</h6>
                 </div>
                 <p>Security is very important, and therefore modules are sandboxed to prevent any misuse.</p>
                 <p>To import a module, simply drag the file into the center of this page.</p>
                 <p>Module app icons will appear in the bottom menu to the right of the Console icon.</p>
-                <p>Documentation on how to write modules : <a href="javascript :;" class="themeColor">https ://nexusoft.github.io/nw-modules-documentation/</a></p>
+                <p>Documentation on how to write modules : <a href=https://nexusoft.github.io/nw-modules-documentation/ class="themeColor">https://nexusoft.github.io/nw-modules-documentation/</a></p>
                 <p>We recommend using one of these links as a starting point :</p>
-                <p>React-Redux Example : <a href="javascript :;" class="themeColor">https ://github.com/Nexusoft/react_redux_module_example</a></p>
-                <p>React Example : <a href="javascript :;" class="themeColor">https ://github.com/Nexusoft/simple_react_module_example</a></p>
-                <p>HTML Example : <a href="javascript :;" class="themeColor">https ://github.com/Nexusoft/minimal_module_example</a></p>
-              </div>
+                <p>React-Redux Example : <a href=https://nexusoft.github.io/nw-modules-documentation/ class="themeColor">https://github.com/Nexusoft/react_redux_module_example</a></p>
+                <p>React Example : <a href=https://github.com/Nexusoft/simple_react_module_example class="themeColor">https://github.com/Nexusoft/simple_react_module_example</a></p>
+                <p>HTML Example : <a href=https://github.com/Nexusoft/minimal_module_example class="themeColor">https://github.com/Nexusoft/minimal_module_example</a></p>
+          </div>
+
               <div class="console customTab tab-pane fade" id="console" role="tabpanel" aria-labelledby="console-tab">
                 <div class="heading">
                   <h5>Console</h5>
