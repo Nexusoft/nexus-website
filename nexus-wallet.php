@@ -34,10 +34,10 @@ require_once("./header.php");
               <div class="col-md-6">
                 <div class="download-buttons text-center">
                   <div class="heading mb-3">
-                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v1.2.4</h6>
+                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v2.0.7</h6>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-MacOSX-1.2.4.dmg" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.0.7/nexus_wallet-MacOSX-2.0.7.dmg" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -46,7 +46,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-setup-Win-1.2.4.exe" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.0.7/nexus_wallet-setup-Win-2.0.7.exe" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -55,7 +55,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v1.2.4/nexus_wallet-Linux-1.2.4.AppImage" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.0.7/nexus_wallet-Linux-2.0.7.AppImage" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -79,7 +79,7 @@ require_once("./header.php");
             <h6>Login To Your Wallet</h6>
           </div>
           <div class="summary-area text-justify">
-            <p>You are able to access your Nexus Wallet by a <a href=signature-chains>Decentralized Login System</a>, anywhere, anytime, by simply downloading the application and logging in (via username, password, and pin). A huge advantage of the Nexus Wallet is that users will no longer have the burden of storing private keys on a hard drive or hardware wallet, or rely on third party custodian services. A wallet.dat file for key storage (a common necessity in legacy blockchain systems) is no longer required.</p>
+            <p>You are able to access your Nexus Wallet by a <a href=signature-chains>Decentralized Login System</a>, anywhere, anytime, by simply downloading the application and logging in (via username, password, and pin). A huge advantage of the Nexus Wallet is that users no longer have the burden of storing private keys on a hard drive or hardware wallet, or rely on third party custodian services. A wallet.dat file for key storage (a common necessity in legacy blockchain systems) is no longer required.</p>
           </div>
         </div>
         <div class="wallet-features-area">
@@ -261,7 +261,7 @@ require_once("./header.php");
                     <img src="images/shield-2.svg" alt="shield-2" />
                   </span>
                   <h5>Quantum Resistance</h5>
-                  <p>The key pair to your wallet is also changed with every transaction, and the public key is hidden until it is used. The result of this is a high security standard with support for multiple signature schemes such as FALCON</p>
+                  <p>The key pair to your wallet is also changed with every transaction, and the public key is hidden until it is used. The result of this is a high security standard with support for multiple signature schemes such as FALCON.</p>
                 </div>
               </div>
             </div>
@@ -309,7 +309,7 @@ require_once("./header.php");
             <h6>Protecting Your Wallet</h6>
           </div>
           <div class="text-justify">
-            <p>Your Wallet is the safest place to store your NXS. If coins are stored on an exchange or other custodial wallet, then the risk of coins being lost or stolen increases. To ensure you maintain ownership, we recommend that NXS is held in a password protected (encrypted) Nexus Wallet, or a recovery enabled signature chain. Remember: your wallet, your crypto. If your coins are stored somewhere else, they are not yours.</p>
+            <p>Your Wallet is the safest place to store your NXS. If coins are stored on an exchange or other custodial wallet, then the risk of coins being lost or stolen increases. To ensure you maintain ownership, we recommend that NXS is held in a password protected (encrypted) Nexus Wallet, or a recovery enabled Signature Chain. Remember: your wallet, your crypto. If your coins are stored somewhere else, they are not yours.</p>
             <p>Nexus is an open source technology, licensed under an MIT agreement (<a href="https://github.com/Nexusoft/LLL-TAO/blob/master/COPYING.MD" class="themeColor">click here</a> to view license). You are the sole custodian of your coins, meaning there is no one that can recover your coins or encryption passwords if they are lost. In the case of technical difficulties, the Nexus Community will be happy to help with Wallet related queries.</p>
           </div>
         </div>

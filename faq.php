@@ -10,7 +10,7 @@ require_once("./header.php");
         <div class="row">
           <div class="col-md-12">
             <div class="bannerText">
-              <h2>Frequently Asked Qustions</h2>
+              <h2>Frequently Asked Questions</h2>
             </div>
           </div>
         </div>

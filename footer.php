@@ -38,6 +38,7 @@
                         <li><a href="https://github.com/Nexusoft/LLL-TAO"><img src="images/github.png" alt="github">Github</a></li>
                         <li><a href="./wallet"><img src="images/tritiumWallert.png" alt="tritiumWallert">Nexus Wallet</a></li>
                         <li><a href="./whitepapers"><img src="images/wtpaper.png" alt="wtpaper">White Papers</a></li>
+                        <li><a href="https://nexusearth.threadless.com/"><img src="images/shirt-icon.png" alt="Shop">Merchandise</a></li>
                       </ul>
                     </div>
                   </div>

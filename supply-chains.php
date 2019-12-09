@@ -124,8 +124,8 @@ require_once("./header.php");
                         <li>The newly certified farm can then issue their own product certificates that would be linked to the issued certification. The farm would be authorized to create product certificates for the duration of the certificate, which would require annual renewal.</li>
                         <li>With the help of an IoT device the weight and the coordinates of the container could be recorded, and this information added to the mutable fields of the digital certificate to record ongoing data about the product.</li>
                       </ol>
-                      <p>The data format of the digital certificates would be standardized by FlyOrganics to record metadata such as:</p>
-                      <p><a href="javascript:;"><b>Product Certificate:</b></a><br>
+                      <p>The data format of the product certificates would be standardized by FlyOrganics to record metadata such as:</p>
+                     
                         Certificate: 0x8060836f57ad22cb737b<br>
                         Serial Number: 1F-92835473829<br>
                         Certifier: FlyOrganic<br>

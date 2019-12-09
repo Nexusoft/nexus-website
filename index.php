@@ -78,7 +78,7 @@ require_once("./header.php");
               <div class="titleCol">
                 <h3 >What is Tritium?</h3>
               </div>
-              <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack that powers a register-based contract engine, processing from 2k to 25k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
+              <p class="textJustify">The Tritium upgrade transforms the Nexus blockchain into a seven-layered software stack that powers a register-based contract engine, processing from 5k to 45k contracts per second. Tritium is designed to be scalable, decentralized, and easy-to-use.</p>
             </div>
             <div class="btnRow">
               <a href="./what-tritium" class="btn btn-primary">Read More</a>
@@ -107,7 +107,7 @@ require_once("./header.php");
               <h3>Cryptocurrency</h3>
             </div>
           <p class="textJustify">
-          Cryptocurrency is an important facet to Nexus, which is why we have our own native currency called ‘NXS’. This currency is the backbone of our ecosystem as it rewards miners to build blocks, and provides a reward rate to stakers of between 0.5% to 3.0 per annum for securing the network.
+          NXS is the cryptocurrency which runs on the Nexus Blockchain. It is the backbone of the Nexus ecosystem, as it rewards miners to build blocks, and provides a 0.5% - 3.0% annual reward rate to stakers for securing the network.
          </p>
           </div>
           <div class="icon-itemss">

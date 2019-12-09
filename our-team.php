@@ -182,7 +182,7 @@ require_once("./header.php");
 
           <br><br>
           <div class="headingCol textCenter mb-4">
-            <h3>Awesome Community Members</h3>
+            <h3>Community Contributors</h3>
             <br>
           </div>
           <div class="team-area mb-4">
@@ -216,6 +216,41 @@ require_once("./header.php");
                   </div>
                   <div class="back-side">
                     <p>April has been actively involved in the Nexus community since 2017. True to the name of Nexus, it was the connections of the many that brought her to the community and she became a contributor to support its vision, values and innovations. Her interests in economics, technology, investments and compliance provided meaningful contributions to co-writing content. April’s experience and constant research helped define terminology, provide context and varying perspectives which support Nexus’ solutions.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row team-items justify-content-center">
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-17.png" alt="..." style="border-radius:50%">
+                    </div>
+                    <div class="info">
+                      <h4>JUKKA</h4>
+                      <span>Slack ID: @berserk</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>Jukka has been actively involved in the Nexus community since 2016. Having a strong background in telecommunications and network security, he was intrigued by Nexus and it's unique feature set and vision. Using his skills in ICT security, Jukka has been proactively helping the team to build robust and resilient foundations for Nexus. Eager to be part of the growing Nexus community and true change, motivates him to hack for fun and for a better world.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamImg-18.png" alt="..." style="border-radius:50%">
+                    </div>
+                    <div class="info">
+                      <h4>NINO TEODOSIJEVIC</h4>
+                      <span>Slack ID: @Nino00</span><br>
+                      <span>Telegram: @Nino00slav</span>
+                    </div>
+                  </div>
+                  <div class="back-side">
+                    <p>The impact that new technologies such as a truly decentralized blockchain could have on existing systems, is what fascinates me the most. I discovered Nexus in 2017, and was especially attracted by the prospect of a truly decentralized internet. The awesome Nexus team and their ‘no comprises’ approach - to do it the right way, instead of going the easy and wrong route, is why I started to help and support Nexus' Vision. I am active in all community channels for all questions, and my technical background helps me support the community with wallet problems. Due to my work in power engineering and energy economics, I am particularly interested in the impact of blockchain on the wholesale markets, energy trading, and the possibility of shared renewable assets.</p>
                   </div>
                 </div>
               </div>

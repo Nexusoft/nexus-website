@@ -8,6 +8,7 @@ RewriteRule ^digital-identity$ digital-identity.php
 RewriteRule ^dapps$ dapps.php
 RewriteRule ^3dc$ three-d-chain.php
 RewriteRule ^wallet-guide$ wallet-guide.php
+RewriteRule ^tritium-guide$ tritium-guide.php
 RewriteRule ^what-nexus$ what-nexus.php
 RewriteRule ^stake$ stake.php
 RewriteRule ^mine$ mine.php
@@ -16,6 +17,7 @@ RewriteRule ^quantum-resistance$ quantum-resistance.php
 RewriteRule ^lisp$ lisp.php
 RewriteRule ^whitepapers$ whitepapers.php
 RewriteRule ^roadmap$ roadmap.php
+RewriteRule ^audits$ audits.php
 RewriteRule ^economics$ economics.php
 RewriteRule ^apps$ apps.php
 RewriteRule ^what-tritium$ what-tritium.php

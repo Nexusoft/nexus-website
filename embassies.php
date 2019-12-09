@@ -85,8 +85,7 @@ a {
               Tempe, AZ 85280<br>
               <br>
               1-623-565-8545<br>
-              <a href="mailto:thenexusembassy@nexus.io">thenexusembassy@nexus.io</a><br>
-              <a href="mailto:partnerships@nexus.io">partnerships@nexus.io</a></p>
+              <a href="mailto:contact@nexus.io">contact@nexus.io</a></p>
           </div>
           <div class="headingCol customSpace">
             <h2>UK Embassy</h2>

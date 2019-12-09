@@ -11,6 +11,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153070833-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153070833-1');
+  </script>
+
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
@@ -42,6 +53,12 @@
       $social_title = 'Assets';
       $social_img = 'assets.jpg';
       $social_url = 'assets';
+      break;
+
+    case 'audits':
+      $social_title = 'Audits';
+      $social_img = 'code-audits.jpg';
+      $social_url = 'audits';
       break;
 
     case 'buy-nxs':
@@ -102,7 +119,7 @@
       $social_img = 'LISP.jpg';
       $social_url = 'lisp';
       break;
-      
+
     case 'mine':
       $social_title = 'Mine';
       $social_img = 'mine.jpg';
@@ -414,6 +431,9 @@
                       </li>
                       <li>
                         <a href="<?php echo $url;?>/roadmap">Roadmap</a>
+                      </li>
+                      <li>
+                        <a href="<?php echo $url;?>/audits">Audits</a>
                       </li>
                     </ul>
                   </li>

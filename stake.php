@@ -26,7 +26,7 @@ require_once("./header.php");
         <div class="customInner" style="max-width:850px;margin:auto">
           <div class="headingCol customSpace">
             <!-- <h2>STAKE NXS</h2> -->
-            <span class="customText textJustify">Staking is an energy efficient form of mining that provides security to the Nexus Blockchain. NXS can only be staked inside the official Nexus Wallet when in ‘staking mode’ and with a continuous internet connection (24 hours a day, 7 days a week). This ownership represents a stake in the sense of an interest in something. Staking provides security to the network, and thus stakers earn a Stake Rate which ranges between 0.5% - 3.0% per year on their NXS holdings.</span>
+            <span class="customText textJustify">Staking is an energy efficient form of mining that provides security to the Nexus Blockchain. NXS can only be staked inside the official <a href=/wallet>Nexus Wallet</a> when staking is enabled, and with a continuous internet connection (24 hours a day, 7 days a week). This ownership represents a stake in the sense of an interest in something. Staking provides security to the network, by which you can earn a Stake Rate which ranges between 0.5% - 3.0% per year on your staked NXS holdings.</span>
           </div>
           <div class="headingCol customSpace">
             <h6>What is the Stake Rate?</h6>

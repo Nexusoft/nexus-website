@@ -117,8 +117,8 @@ require_once("./header.php");
                     </div>
                     <div class="heading mt-4">
                       <h5>Object Registers</h5>
-                      <p>Object Registers are programmable type-safe objects recorded with a predetermined structure which describes an asset, token, or programmer’s object. They can be used for a wide variety of purposes including company shares, digital assets, certificates, data files, and accounts. Data fields inside the object carry specifiers that define whether the field can be mutable, making the object itself able to enforce certain fields to have read-only or write access.<br>An example of this can be seen below:</p>
-                      <p><a style="text-decoration:underline" href="">Photographic Asset</a><br>
+                      <p>Object Registers are programmable type-safe objects recorded with a predetermined structure which describes an asset, token, or programmer’s object. They can be used for a wide variety of purposes including company shares, digital assets, certificates, data files, and accounts. Data fields inside the object carry specifiers that define whether the field can be mutable, making the object itself able to enforce certain fields to have read-only or write access.</p>
+
                           Image ID: 108629084398374<br>
                           License Type: Enhanced <br>
                           Image Title: Arizona Sunset 
