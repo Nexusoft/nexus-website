@@ -14,7 +14,7 @@ ol li {
 </style>
   <!-- bannerSection starts -->
   <section>
-    <div class="bannerSection inner_bg guides-bg">
+    <div class="bannerSection inner_bg guides_bg">
       <canvas class="background"></canvas>
       <div class="container">
         <div class="bannerText">

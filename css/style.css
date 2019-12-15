@@ -1327,6 +1327,14 @@ WALLET GUIDE LAYOUT CLOSE
 }
 
 /*==============================
+  GUIDES PAGE LAYOUT START
+===============================*/
+.guides_bg {
+  background-image: url('../images/guides.jpg');
+  background-color: #40a8ef;
+}
+
+/*==============================
   WHITEPAPER PAGE LAYOUT START
 ===============================*/
 .whitepaper_bg {
