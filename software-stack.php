@@ -164,7 +164,7 @@ require_once("./header.php");
                     </div>
                     <div class="heading mt-4">
                       <h5>Overlays</h5>
-                      <p>Our overlay of choice is LISP (Location Indicator Separation Protocol). This creates better connectivity between peers as the overlay functions as a layer of ‘elevated trust’ to the internet when combined with the ledger (blockchain), which increases the safety, reliability, and security of the online experience.</p>
+                      <p>Our overlay of choice is LISP (Location Indicator Separation Protocol). This creates better connectivity between peers as the overlay functions as a layer of ‘elevated trust’ to the Internet when combined with the ledger (blockchain), which increases the safety, reliability, and security of the online experience.</p>
                     </div>
                     <div class="heading mt-4">
                       <h5>IPv6</h5>

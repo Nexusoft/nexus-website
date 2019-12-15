@@ -78,7 +78,7 @@ ol li {
                         <a class="nav-link" id="staking-tab" data-toggle="tab" href="#staking" role="tab" aria-controls="staking" aria-selected="false">Staking</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link subMenu" id="stake-settings-tab" data-toggle="tab" href="#stake-settings" role="tab" aria-controls="stake-settings" aria-selected="false">Settings</a>
+                        <a class="nav-link subMenu" id="stake-settings-tab" data-toggle="tab" href="#stake-settings" role="tab" aria-controls="stake-settings" aria-selected="false">Stake Settings</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link subMenu" id="stake-begin-tab" data-toggle="tab" href="#stake-begin" role="tab" aria-controls="stage-begin" aria-selected="false">Begin Staking</a>
@@ -108,7 +108,7 @@ ol li {
                   <div class="intro-Wrapper customTab tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
                     <div class="titleCol">
                         <h3>Introduction</h3>
-                        <p>If you have any Wallet related issues, or any general questions please join one of the <u>Nexus Community Channels</u> and post a message asking for help. The Nexus community consists of a diverse array of friendly and helpful individuals - one of which will point you in the right direction whatever your query.</p>
+                        <p>If you have any Wallet related issues, or any general questions please join one of the Nexus Community Channels found in the footer, and post a message asking for help. The Nexus community consists of a diverse array of friendly and helpful individuals - one of which will point you in the right direction whatever your query.</p>
 
                         <h3>Disclaimer and Loss of Password</h3>
                         <p>NXS is a peer-to-peer cryptocurrency that provides fast, low-cost, borderless, and secure transactions without the requirement of a bank or third-party intermediary. You personally own your NXS and Nexus Wallet, they are not owned or governed by a central authority. This is in direct contrast to a bank, in which the money held inside an account is legal property of the bank rather than the account holder. Nexus provides individuals with economic freedom, and with this freedom comes true responsibility for the safety of your own finances.</p>
@@ -134,7 +134,7 @@ ol li {
                   <div class="customTab tab-pane fade" id="download" role="tabpanel" aria-labelledby="download-tab">
                     <div class="titleCol headingCol">
                         <h2>Download</h2>
-                        <p>Download the Wallet specific to your type of device from the Nexus website (<u>https://www.nexus.io/Wallet</u>).</p>
+                        <p>Download the <a href=/wallet>Nexus Wallet</a> specific to your type of device.</p>
                         <p style="width: 100%; text-align: center"><img src="images/guide/Image_0.png" /></p>
                         <p>Click on the downward pointing arrow, and then double click on the Nexus Wallet icon.</p>
                         <p style="width: 100%; text-align: center"><img src="images/guide/Image_1.png" /></p>
@@ -216,7 +216,7 @@ ol li {
 
                   <div class="customTab tab-pane fade" id="functions" role="tabpanel" aria-labelledby="functions-tab">
                     <div class="titleCol headingCol">
-                        <h2>Wallet Funtions</h2>
+                        <h2>Wallet Functions</h2>
                         <p>Your wallet contains lots of gadgets to play with. Refer to this section if you would like to get more familiar with the core functionality.</p>
                     </div>
                   </div>

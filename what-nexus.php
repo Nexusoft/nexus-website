@@ -58,7 +58,6 @@ require_once("./header.php");
             <p class="customText textJustify">To learn more about Nexus and to meet our community, please join one of our community channels, which can be found in the footer. </p>
           </div>
           <div class="btnRow" style="margin: 65px 0 80px">
-            <a href="./working-groups" class="btn btn-primary">Working Groups</a>
           </div>
         </div>
       </div>

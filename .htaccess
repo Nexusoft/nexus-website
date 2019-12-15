@@ -2,6 +2,7 @@ RewriteEngine On
 
 RewriteRule ^cryptocurrency$ nexus-currency.php
 RewriteRule ^team$ our-team.php
+RewriteRule ^guides$ guides.php
 RewriteRule ^wallet$ nexus-wallet.php
 RewriteRule ^buy-nxs$ buy-nxs.php
 RewriteRule ^digital-identity$ digital-identity.php

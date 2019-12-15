@@ -61,6 +61,12 @@
       $social_url = 'audits';
       break;
 
+    case 'guides':
+      $social_title = 'Guides';
+      $social_img = 'guides.jpg';
+      $social_url = 'guides';
+      break;
+
     case 'buy-nxs':
       $social_title = 'Purchase';
       $social_img = 'purchase.jpg';
@@ -421,7 +427,7 @@
                         <a href="<?php echo $url;?>/" disabled>What is Blockchain?</a>
                       </li> -->
                       <li>
-                        <a href="<?php echo $url;?>/wallet-guide">Wallet Guide</a>
+                        <a href="<?php echo $url;?>/tritium-guide">Wallet Guide</a>
                       </li>
                       <li>
                         <a href="<?php echo $url;?>/faq">FAQ</a>

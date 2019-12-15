@@ -114,7 +114,7 @@ require_once("./header.php");
                       </p><ol start="2">
                       <li> NXS can be earned through Staking</li>
                       </ol>
-                      <p>Staking is anenergy efficient form of mining that provides security to the Nexus Blockchain.<span>NXS can only be staked inside the official Nexus Wallet when in ‘staking mode’ and with a continuous internet connection (24 hours a day, 7 days a week).<span>This ownership represents a ‘stake’ in the sense of an interest in something.In return, ‘stakers’ are rewarded for providing security to the network, and<span>can earn a ‘stake rate’ of between 0.5% and 3.0% per year on their NXS holdings.<br></p>
+                      <p>Staking is an energy efficient form of mining that provides security to the Nexus Blockchain.<span>NXS can only be staked inside the official Nexus Wallet when in ‘staking mode’ and with a continuous internet connection (24 hours a day, 7 days a week).<span>This ownership represents a ‘stake’ in the sense of an interest in something.In return, ‘stakers’ are rewarded for providing security to the network, and<span>can earn a ‘stake rate’ of between 0.5% and 3.0% per year on their NXS holdings.<br></p>
                       <p class="textCenter"><b></b></p>
                       <p class="textCenter"><a class="btn btn-primary" href="./stake">Stake</a></p>
                       <p class="textCenter"><b></b></p>
@@ -140,47 +140,105 @@ require_once("./header.php");
                     <div class="headingCol customSpace textJustify">
                       <h5>1. What are Nexus’ most notable innovations?</h5>
                       <p class="mb-0"style="font-weight: 600"><b>Seven Layer Software Stack</b></p>
-                      <p>To the best of our knowledge, Nexus is the only blockchain that uses a seven-layered software stack that includes a 64-bit register-based contract engine.&nbsp;The architecture powers decentralized applications or ‘Dapps’.&nbsp;Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model.&nbsp;Please visit the <a href="./software-stack">Nexus Software Stack</a> page for more details.</p>
+                      <p>Through our research we found that most projects built on Ethereum do not use the Ethereum Virtual Machine (EVM) for its turing completeness, i.e. its ability to do universal computation. What businesses require from blockchain technology are contracts that function more like real world actions between people, with the addition of an immutable data layer capable of managing rights and ownership. Therefore, Nexus developed an easily accessible and versatile Software Stack where data can be operated on, its ownership transferred between users, and whereby conditions define the behavior of actions. The design not only provides numerous ready-made contract functionalities, it is also able to scale with the growing demand of smart contracts.</p>
 
+<p>The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based contract engine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model. &nbsp;</p>
+	<p class="textCenter">&nbsp;<a href="./software-stack" class="btn btn-primary">Software Stack</a></p>
+<p></p>
+<p class="mb-0"style="font-weight: 600"><b>Register-Based Contact Engine</b></p>
 
-                      <p class="mb-0"style="font-weight: 600"><b>Network Overlays</b></p>
-                      <p>The Network is responsible for the end-to-end communication between nodes, handling the relaying and receiving of ledger level data. To advance the functionality of the Network Layer, we are the only blockchain to use the LISP Overlay. It provides many necessary features for ease of use, decentralization, security, scalability, and&nbsp;for secure access schemes for hybrid networks. The LISP Overlay provides IPv6 functionality to the network, which allows the user to control&nbsp; their IP address through cryptography.&nbsp;LISP creates better connectivity between peers, as the overlay functions as a layer of ‘elevated trust’ to the internet when combined with the ledger (blockchain) which increases the safety, reliability, and security of online experience.&nbsp;</p>
-                      <p class="textCenter"><a class="btn btn-primary" href="./lisp">LISP</a></p>
-                      
-                      <p class="mb-0"style="font-weight: 600"><b>Lower Level Library</b></p>
-                      <p>The Lower Level Library (LLL) is the foundation of Nexus from which everything else is built upon. Written in C++ code, it is modular which means that developers can plug new types of processing into the engine and retain high levels of performance. It includes the following protocols:</p>
+<p>A register is the fastest storage medium inside your computer’s CPU (Central Processing Unit), that the processor uses to cache data in between calculations. The Nexus Contract engine follows this architecture as an improvement to other blockchain-powered virtual machines such as the EVM (Ethereum Virtual Machine) that still use the older stack architecture. The improved efficiency gained through the use of registers makes developing on Nexus not only easier, but also much more efficient and scalable.</p>
+
+<p class="mb-0"style="font-weight: 600"><b>Conditional Contracts</b></p>
+                      <p>Nexus Contracts facilitate the function of intermediaries and are governed solely by the mathematics and code that runs on our 64-bit Register Virtual Machine.</p>
+                      <p>Nexus Contracts are designed to feel like ‘actual’ real world contracts between people. A basic Nexus contract is comprised of three layers: data (Registers), programmable actions (Operations), and accounts (Signature Chains). Together, these layers verify the information of a system or Decentralized Application (DApp), following logic that closely relates to agreements and contracts between people. These actions are filtered through the use of ‘programmable conditions’ that define a more complex contract between two or more users. All the layers together form the foundation of the Dapp following the philosophy: “A blockchain is a verification system, not a computation engine.”</p> 
+			<p>Nexus has followed this approach for the primary reason that smart contracts cannot be realized with existing language designs, they require a new architecture. This is in direct contrast to EOS’ use of Web Assembly (WASM), which was designed for web development rather than building secure financial applications.
+Conditional Contracts allow a user to set requirements in order for a contract to be fulfilled, such as contract time expiration, the decentralized exchange of an asset, or a non-custodial escrow services.</p>  
+	<p></p>
+		<p class="mb-0"style="font-weight: 600"><b>Signature Chains</b></p>
+
+<p>Nexus has moved away from the UTXO transaction-based system and has implemented an architecture named Signature Chains. When a user makes a transaction, it is chained to the users previous transactions, creating a chain of signatures. Alternatively, when a user transfers an asset to another user, this is again recorded on their Signature Chain.</p> 
+<p>Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy.
+This type of architecture offers higher scaling potential, as only one signature needs to be verified per transaction. Comparing a single UTXO transaction could contain 1000’s of inputs, to transact even a small amount of coins.</p>
+<p class="textCenter">&nbsp;<a href="./signature-chains" class="btn btn-primary">Signature Chains</a></p>
+	<p></p>
+		<p class="mb-0"style="font-weight: 600"><b>Decentralized Login System</b></p>
+                  <p>Signature Chains also provide a decentralized login system. This technology still uses public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored as a lock in ‘mathematical hyperspace’, that only your login credentials (username, password and pin) can unlock.</p> 
+		<p>Signature Chains support the Nexus Wallet, making it accessible from any computer simply by logging in with your credentials. This removes the need for a wallet.dat file to access private keys, constantly rescanning the database, the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses.</p> 
+		<p>Signature Chains are also available for DApp developers to build with, furthering Nexus’ mission of increasing the accessibility of blockchain technology. Signature Chains are comparable to a personal blockchain, and provide the foundation for features such as Managing Assets, whilst maintaining pseudo-anonymity for privacy.</p>
+	<p></p>
+                    <p class="mb-0"style="font-weight: 600"><b>API Integration</b></p>
+                      <p>The Nexus wallet provides a HTTP powered API. This layer provides an interface that allows developers to gain direct access to blockchain functionality. The Nexus API is for developers to build DApps and Hybrid Networks. Developers can use the API to build with contracts, which can facilitate the management of ownership rights and decentralized exchange of many different kinds of assets and tokens. The API can be used for the recording of Supply Chains, Digital Asset Licensing, Financial Assets, Records, Licenses, Certificates, and Securitized Token Offerings (STOs).</p>
+		<p>The Nexus API is based on a simple verb and noun semantics, and accepts a wide variety of encoding. It is the gateway into the blockchain, that can be used without direct access to the lower levels of the software stack, making development on Nexus as easy as developing a web application.</p>
+                      <p>Developers can build Dapps simply in any language using our API, avoiding unnecessary mistakes being made. To add flexibility, a developer can make non-standard API calls with custom conditions to provide additional functionality to the DApp that is unavailable through the standard API. This can be further augmented with Domain-Specific Languages on the lower API layer. We hope this will reduce the learning curve associated with developing contracts, therefore stimulating the growth of the developer community. An SDK in Python is currently available.</p>
+		<p></p>
+		<p class="mb-0"style="font-weight: 600"><b>Modular Wallet</b></p>
+	<p>The Nexus Wallet has a modular architecture that provides a platform for developers to build Wallet Modules with the Nexus API. Wallet Modules embed directly into the Wallet as extensions to the standard logical and interface layers of the software stack.</p>
+		<p></p>
+                      <p class="mb-0"style="font-weight: 600"><b>Decentralized Exchange</b></p>
+			<p>Assets and tokens hosted on Nexus fulfill the requirement of managing and storing ownership rights, and also provide another unique utility: decentralized exchange. Through the use of conditional contracts, without custodian services, anyone is able to transact between different tokens and assets. There is no authority that designates the process of listing, and there are no other parties involved in the exchange other than the buyer and the seller.</p>
+                      <p></p>
+		<p class="mb-0"style="font-weight: 600"><b>Tokenization Protocols</b></p>
+			<p>Nexus fungible tokens can facilitate the transparent and automatic payment of Royalties and Dividend payouts. Tokens can represent partial ownership or rights to an underlying digital or physical asset. The token allocation determines how the revenue is distributed, and the revenue is paid out to the holders in a direct peer-to-peer manner. This is in direct contrast to current manual systems that are used to facilitate these types of payments, which are often slow and costly to operate.</p> 
+<p></p>
+		<p class="mb-0"style="font-weight: 600"><b>TAO Name System (TNS)</b></p>
+		<p>The TAO Name System (TNS) is similar to Domain Name System (DNS), allowing users to create and exchange names with one another that point to different objects, without having to use large hexadecimal addresses. These names can resolve to register addresses such as assets and tokens, or become aliases for user identification.</p> 
+<p></p>
+                    <p class="mb-0"style="font-weight: 600"><b>Hybrid Blockchain</b></p> 
+                      <p>A Hybrid Network on Nexus is geared towards any individual, company, or large enterprise wishing to manage their own private network, without the added complexity of worrying about system or network security and protection of critical user data.</p>
+			<p>‘Hybrid’ by definition means a combination of two different elements, to result in something new. Our Hybrid technology combines properties of public and private systems. The public network generates security and decentralization through higher levels of immutability, access control schemes, and custom validation algorithms, while the private network provides autonomy, privacy, and isolation.</p>
+
+                      <p>The Nexus Hybrid Blockchain has the following properties and features:&nbsp;</p>
                       <ul>
-                      <li>LLC (Lower Level Cryptography)</li>
-                      <li>LLP (Lower Level Protocol)</li>
-                      <li>LLD (Lower Level Database)</li>
+                      <li>The existing system or application gains the security properties of the hybrid blockchain</li>
+                      <li>The private blockchain gains the security parameters of the public blockchain</li>
+                      <li>The potential to comply with GDPR, similar to that of a private database or Cloud service</li>
+                      <li>Permissioned access schemes supported by LISP (Location-ID Separation Protocol) forming a VPN (Virtual Private Network)</li>
+                      <li>Semi-permissioned access scheme to create tiers of data access between users, service providers, and partners to form an ecosystem</li>
                       </ul>
-</b></p>
+                      <p class="textCenter mt-4 mb-4">&nbsp;</p>
+		<p class="mb-0"style="font-weight: 600"><b>Quantum Resistance</b></p>
+		<p>Signature Chains use a one-time signature scheme that signs one message per key. Signature Chains enhance the security of existing DSA (Digital Signature Algorithm), by hashing the public key until it is used while changing the key pair with every transaction. Signature Chains reduce the window of quantum vulnerability to the period between making a transaction and the inclusion of the transaction in the ledger.</p>
 
-                     <p class="mb-0"style="font-weight: 600"><b>Three Mining Channels</b></p>
-                      <p>Two Proof of Work (PoW) channels (Prime and Hashing) and one Proof of Stake (PoS) channel are used to secure the network. Consensus is balanced between all three channels as it is based on collective chain weight,&nbsp; providing a higher resistance to 51% attacks compared to single algorithm blockchains. As the TAO framework is developed, these three forms of consensus will become the three layers of the 3DC.</p>
-                     <p class="mb-0"style="font-weight: 600"><b>Trust</b></p>
+<p>Nexus has also integrated the following cryptographic functions: FALCON (a second round contender for the NIST Post-Quantum cryptography competition), Argon2 (winner of the password hashing competition, and a superior alternative to S-Crypt or B-Crypt), and Keccak (winner of the SHA3 competition).</p>
+<p class="textCenter">&nbsp;<a href="./quantum-resistance" class="btn btn-primary">Quantum Resistance</a></p> 
+<p></p>                  
+                      		       <p class="mb-0"style="font-weight: 600"><b>Network Overlays</b></p>
+                      <p>The Network is responsible for the end-to-end communication between nodes, handling the relaying and receiving of ledger level data. To advance the functionality of the Network Layer, we are the only blockchain to use the Locator Identifier Separation Protocol (LISP) overlay. LISP was developed by Dino Farinacci who was the first Fellow (the most senior rank or title one can achieve in engineering) of Cisco.</p>
+		<p>LISP provides many necessary features for ease of use, decentralization, security, scalability, and for secure access schemes for hybrid networks. Some of the below features are fully integrated, and others are being deployed through the <a href="./roadmap">TAO Framework</a>.</p> 
+
+		<p>LISP increases the reliability and security of communication between nodes, and is responsible for network scaling through multicast, identification through a static EID (Endpoint Identifiers), and authentication by using these identifiers.</p>
+		<p>The LISP Overlay also provides IPv6 functionality to the network, which allows the user to control  their IP address through cryptography. Through IPv6 addressing LISP provides ample capacity for the emerging IoT industry. It will be used in a critical capacity with the release of the Amine upgrade, which uses the Network (IP) layer to shard data and assign identifiers to data segments for management of the distributed database, without the loss of security or privacy.</p>
+        <p class="textCenter"><a class="btn btn-primary" href="./lisp">LISP</a></p>
+</b></p>
+                     		<p class="mb-0"style="font-weight: 600"><b>Lower Level Library</b></p>
+                      <p>The Lower Level Library (LLL) is a high-performance ‘Template Library’ designed to power emerging-web technologies. The LLL is simple, powerful, and lightweight. It contains three main components: Cryptography (LLC), Database (LLD), and Protocol (LLP).</p>
+              		<p>The Lower Level Database (LLD) is Nexus’ modular storage engine, which according to tests done by Nexus, is capable of outperforming most existing embedded database engines, achieving 100,000 writes and reads to disk in 0.33 seconds – rivaling Google’s LevelDB.</p>
+			<p>The Lower Level Protocol (LLP) is a core component of the Network Layer, a light and fast protocol that allows developers to customize their packet design and message interpretation. It gains scalability through simplicity and is capable of managing a large number of simultaneous connections.</p>
+			<p>The Lower Level Cryptography (LLC) is a light library that contains many useful cryptographic functions such as Post-Quantum Cryptography, AES, and Argon2.</p>       
+</b></p>
+		<p class="mb-0"style="font-weight: 600"><b>Three Mining Channels</b></p>
+			<p>Two Proof of Work (PoW) channels (Prime and Hashing) and one Proof of Stake (PoS) channel are used to secure the network. Consensus is balanced between all three channels as it is based on collective chain weight,  providing a higher resistance to 51% attacks compared to single algorithm blockchains. As the TAO framework is developed, these three forms of consensus will become the three layers of the 3DC.</p>
+</b></p>
+		<p class="mb-0"style="font-weight: 600"><b>Prime Channel</b></p>
+		<p>The Prime Channel is a Proof-of-Work consensus mechanism that uses 308-digit dense prime clusters. This makes the Prime Channel more ASIC resistant than usual hash mining.</p> 
+</b></p>
+		<p class="mb-0"style="font-weight: 600"><b>Hashing Channel</b></p>
+		<p>This second channel is another Proof-of-Work channel, but it uses Hashcash as its mining algorithm. This has miners searching for SHA-3 hashes, which is similar to the Bitcoin SHA-256 hashes, but four times the size of the Bitcoin block hashes.</p> 
+</b></p>
+		<p class="mb-0"style="font-weight: 600"><b>Proof of Stake Channel</b></p>
+ 		<p>The final channel is a reputation-based staking consensus method where users mint new NXS by holding and staking the coins that they hold. Four attributes determine the rate of return:</p> 
+</b></p>
+ 		<p class="mb-0"style="font-weight: 600"><b>Trust</b></p>
                       <p>Nexus implements a reputation mechanism called ‘trust’ that records the consistent time that a node contributes to the validation process. Trust decreases three times faster than it accrues and translates into a variable stake reward of between 0.5% to 3% per annum.&nbsp; Trust also benefits the Network layer, where nodes can determine the reputation or reliability of the nodes they are talking to, increasing security against ‘Sybil Attacks’.</p>
                       <p class="textCenter">&nbsp;<a href="./trust" class="btn btn-primary">Trust</a></p>
-                      <p class="mb-0"style="font-weight: 600"><b>Signature Chains</b></p>
-                      <p>Nexus is accessible through technology we designed called ‘Signature Chains’,&nbsp;a decentralized blockchain account that allows&nbsp;you to login from any computer with a username, password, and pin, without the need for a wallet.dat file or constantly rescanning the database. They are comparable to a personal blockchain that allows decentralized access through a login system, removing the need to store a private key.&nbsp;Sigchains deterministically create a mathematical ‘lock’ that only your login credentials can unlock.</p>
-                      <p class="textCenter">&nbsp;<a href="./signature-chains" class="btn btn-primary">Signature Chains</a></p>
-                      <p class="mb-0"style="font-weight: 600"><b>Contracts</b></p>
-                      <p>Nexus Contracts facilitate the function of intermediaries and are governed solely by the mathematics and code that runs on our 64-bit Register Virtual Machine.</p>
-                      <p>From our research, we found an interesting common ground between most projects built on Ethereum: developers do not use the Ethereum Virtual Machine (EVM) for its turing completeness, they abstract away from it, relying only on the EVM for storing data, proving ownership, and to manage accounts or tokens. These types of virtual machines are comparable to placing everything in one space, with the intention of programming all interactions as one would program a universal computer. Though this design is important for modern day computers, systems such as blockchains benefit more from simplicity and elegance in order to scale effectively.&nbsp;</p>
-                      <p>Nexus Contracts are the culmination of this research, designed to feel like ‘actual’ real world contracts between people. A basic contract is composed of objects (Registers), users (Sigchains), and actions (Operations). These actions are filtered through the use of ‘programmable conditions’ that define a more complex contract between two or more users. All the layers together form the foundation of the Dapp following the philosophy: “A blockchain is a verification system, not a computation engine.”</p>
-                     
-                    <p class="mb-0"style="font-weight: 600"><b>API Integration</b></p>
-                      <p>The Nexus wallet provides a HTTP powered API. This layer provides an interface that allows developers to gain direct access to blockchain functionality. It is based on a simple verb and noun semantics, and accepts a wide variety of encoding. It is the gateway into the blockchain, that can be used without direct access to the lower levels of the software stack, making development on Nexus as easy as developing a web application.</p>
-                      <p>Developers can build Dapps simply in any language using our API, avoiding unnecessary mistakes being made. If a Dapp developer wishes, they can make non-standard API calls with custom conditions to provide additional functionality to the Dapp that is unavailable through the standard API. This can be further augmented with Domain Specific Languages on the lower API layer.&nbsp;We hope this will reduce the learning curve associated with developing contracts, therefore stimulating the growth the developer community. An SDK in Python is currently available.</p>
-                      <p></p>
-                    <p class="mb-0"style="font-weight: 600"><b>Modules and Applications</b></p>
-                      <p>The Nexus Wallet has a modular architecture that provides a platform for developers to build modules and applications that embed directly into it, as extensions to the standard logical and interface layers of the software stack.</p>
-                      <p></p>
-                    <p class="mb-0"style="font-weight: 600"><b>Hybrid Blockchain</b></p>
-                      <p>Hybrid blockchain combines the benefits of a public blockchain, private blockchain, and private database. Benefits of a hybrid blockchain include: scalability, privacy, automation and high levels of security.</p>
-                      <p></p>
-                     <p class="mb-0"style="font-weight: 600"><b>Three-Dimensional Chain</b></p>
-                      <p>The Three Dimensional Chain (3DC) transforms the ledger into a multi-layered processing system, in order to scale securely and maintain a high degree of decentralization. It is a promising candidate for solving the ‘Blockchain Trilemma’, an opinion that only two of the three qualities, Security, Decentralization and Scalability, are achievable concurrently.&nbsp;It chains together cryptographic primitives into a multi-dimensional immutable object, and has three core dimensions: pBFT + reputation channels <b>(X)</b>, immutability or authenticity <b>(Y)</b>, and time <b>(Z)</b>. The upgrades of Amine and Obsidian will add another layer of transaction processing ‘L2’ and ‘L3’, to the base layer ‘L1’. </p>
+</b></p>
+	<p class="mb-0"style="font-weight: 600"><b>Three Dimensional Chain</b></p>
+<p>As the protocol is further developed, the above three forms of consensus will become the three layers of the Three Dimensional Chain (3DC). The architecture will reduce miner centralization, and will be more efficient in on-chain scaling.</p> 
+
+<p>The 3DC will transform the ledger into a multi-layered processing system, in order to scale securely and maintain a high degree of decentralization. It is a promising candidate for solving the ‘Blockchain Trilemma’, an opinion that only two of the three qualities, Security, Decentralization and Scalability, are achievable concurrently.</p>  
+
+<p>It chains together cryptographic primitives into a multi-dimensional immutable object, and has three core dimensions: pBFT + reputation channels (X), immutability or authenticity (Y), and time (Z). The upgrades of Amine and Obsidian will add another layer of transaction processing ‘L2’ and ‘L3’, to the base layer ‘L1’.</p> 
                       <p class="textCenter">&nbsp;<a href="./3dc" class="btn btn-primary">3DC</a></p>
                     </div>
 
@@ -205,20 +263,15 @@ require_once("./header.php");
                       <p>Nexus is unique among blockchain technology in that we use three channels to secure the network: two Proof of Work (PoW) channels (Prime and Hashing) and one Proof of Stake (PoS) channel. Consensus is balanced between all three channels as it is based on collective chain weight, providing a higher resistance to 51% attacks compared to single algorithm blockchains. As the TAO framework is developed, these three forms of consensus will become the three layers of the <a href="./3dc">3DC</a>.</p>
                       <p>Nexus can respond to an increased hashrate in the space of one block, while each of the channels scales independently of the other. This stabilizes block time at ~50 seconds and ensures no single channel can monopolize block production. Every 20 minutes, the Nexus protocol automatically creates a checkpoint. This prevents blocks from being created or modified prior to this checkpoint, thus protecting the chain from malicious attempts to introduce an alternate chain.<br></p>
                     </div>
-
                     <div class="headingCol customSpace textJustify">
-                      <h5>5. What is Trust?</h5>  
-                      <p>Nexus implements a reputation mechanism called ‘Trust’ that records the consistent time that a node contributes to the validation process. Trust decreases three times faster than it accrues and translates into a variable stake reward of between 0.5% to 3% per annum.&nbsp; Trust also benefits the Network layer, where nodes can determine the reputation or reliability of the nodes they are talking to, increasing security against ‘Sybil Attacks’.</p>
-                      <p class="textCenter mt-4 mb-4"><a class="btn btn-primary" href="./trust">Trust</a></p>
-                    </div>
+                      <h5>5. Does Nexus have smart contracts? What is a smart contract? </h5>
+         	<p class="mb-0"style="font-weight: 600"><b>Does Nexus have smart contracts?</b></p>
 
-                    <div class="headingCol customSpace textJustify">
-                      <h5>6. Does Nexus have smart contracts? What is a smart contract? </h5>
-                      <p class="mb-0"><b>Does Nexus have smart contracts?</b></p>
                       <p>Yes, the Nexus architecture has a 64-bit register-based Virtual Machine for contract processing. &nbsp;</p>
                       <p class="textCenter mt-4 mb-4"><a class="btn btn-primary" href="./software-stack">Software Stack</a>&nbsp;<a class="btn btn-primary" href="./apps">Decentralized Applications</a></p>
                       <p></p>
-                      <p class="mb-0"><b>What is a smart contract?</b></p>
+			<p class="mb-0"style="font-weight: 600"><b>What is a smart contract?</b></p>
+
                       <p>Smart Contracts are self-executing. Their design is to enforce the terms and conditions of a contract through programmable logic, reducing the need for third party intermediaries such as brokers and banks. Smart Contracts are an additional layer of processing above the ledger layer, i.e what is known as ‘the blockchain’, and are comparable to small computer programs that hold a state of information. The calculations of the contract are carried out by the processing nodes of a blockchain, which change the state of the information. Given that the calculations or processing is carried out by distributed consensus, the state of a Smart Contract is immutable.</p>
                       <p>Bitcoin was introduced with built-in Smart Contract functionality, which it calls ‘scripts’. Ethereum augmented these capabilities into its ‘Turing Complete Smart Contracts’, through a custom programming language called Solidity, which is then compiled into assembly language that is run on the Ethereum Virtual Machine (EVM).&nbsp;</p>
                       <p>Though very capable, Ethereum has experienced some issues in regards to security, performance, and ease-of-use, largely because of its Turing complete and 256-bit native design. Some notable cases include the $75m DAO hack on Ethereum, and the $286m Parity bug. Vulnerabilities existed due to the large complexity of a Turing complete system, and the resulting difficulty of resolving bugs in a protocol written in immutable code.</p>
@@ -226,7 +279,7 @@ require_once("./header.php");
                       <p></p>
                     </div>
                     <div class="headingCol customSpace textJustify">
-                      <h5>7. Why are quantum computers a threat to blockchain technology, and is NXS quantum resistant?</h5>
+                      <h5>6. Why are quantum computers a threat to blockchain technology, and is NXS quantum resistant?</h5>
                       <p>Classical computing uses an array of transistors. These transistors form the heart of your computer (the CPU). Each transistor is capable of being either on or off, and these states are used to represent the numerical values 1 and 0. Binary digits’ (bits) number of states depends on the number of transistors available, according to the formula (2^n) + 1, with <i>n</i> being the number of transistors. Classical computers can only be in one of these states at any one time, so the speed of your computer is limited to how fast it can change state.</p>
                       <p>Quantum computers on the other hand, use what are termed quantum bits or ‘qubits’ which are represented by the quantum spin of electrons or photons. These particles are placed into a state called superposition, allowing the qubit to assume a value of 1 and 0 simultaneously, generally resulting in an exponential increase in computational power over their classical counterparts.</p>
                       <p>With the rise in the power of classical computers and the emergence of quantum computers, public keys are becoming increasingly vulnerable. Most cryptocurrency addresses are created by hashing or obscuring the public key, however, once a user transfers funds from this address, the public key is then revealed on the blockchain. In the realm of classical computing there is little risk with this method. However, a Quantum Computer running Shor’s algorithm could break most public key cryptography in little to no time at all, resulting&nbsp;in funds being stolen.&nbsp;Though most conjectures range from five to ten years before security could begin to break, Nexus has prepared by integrating a number of cryptographic innovations that support increased levels of quantum resistance. </p>
@@ -235,7 +288,7 @@ require_once("./header.php");
                       <p class="textCenter mt-4 mb-4"><a class="btn btn-primary" href="./quantum-resistance">Quantum Resistance</a></p>
                     </div>
                     <div class="headingCol customSpace textJustify">
-                      <h5>8. What are the scaling issues facing Blockchain?</h5>  
+                      <h5>7. What are the scaling issues facing Blockchain?</h5>  
                       <p> </p>
                       <p>The fundamental issue of scaling comes down to what is termed the ‘Blockchain Trilemma’, an opinion that only two of the three qualities,&nbsp;Security, Decentralization and Scalability, &nbsp;are achievable concurrently.&nbsp;</p>
                       <p>Please read the&nbsp;<a href="./3dc">The Three Dimensional Chain</a>&nbsp;for details on how&nbsp;Nexus is implementing an architecture that is a promising candidate to solving the ‘Blockchain Trilemma’,&nbsp;and&nbsp;<a href="https://hackernoon.com/the-ethereum-blockchain-size-has-exceeded-1tb-and-yes-its-an-issue-2b650b5f4f62">The Ethereum Blockchain is over 1TB</a>&nbsp;for further reading.</p>
@@ -244,30 +297,13 @@ require_once("./header.php");
                       <p>&nbsp;</p>
                     </div>
                     <div class="headingCol customSpace textJustify">
-                      <h5>9. How does Nexus intend to solve the scaling challenges facing blockchain? What is the 3-Dimensional Blockchain (3DC)?</h5>  
+                      <h5>8. How does Nexus intend to solve the scaling challenges facing blockchain? What is the 3-Dimensional Blockchain (3DC)?</h5>  
                       <p>Please read the&nbsp;<a href="./3dc">The Three Dimensional Chain</a>&nbsp;for details on how&nbsp;Nexus is implementing an architecture that is a promising candidate for solving the ‘Blockchain Trilemma’.</p>
                     </div>
                     <div class="headingCol customSpace textJustify">
-                      <h5>10. What is LISP?</h5>  
-                      <p>To advance the functionality of the Network Layer, Nexus uses the LISP (Locator Identifier Separation Protocol) Overlay. It&nbsp;is a protocol designed by a small group of Cisco engineers who are responsible for many of the protocols that power today’s Internet. LISP provides important advancements to the Network Layer, and many necessary features for ease of use, decentralization, security, scalability, and&nbsp;for secure access schemes for hybrid networks.&nbsp;Nexus is the only blockchain which uses LISP.&nbsp;Some of the below features are fully integrated, and others are being deployed through the <a href="./roadmap">TAO Framework</a>.</p>
-                      <p class="textCenter mt-4 mb-4"><a class="btn btn-primary" href="./lisp">LISP</a></p>
-                      <p></p>
-                    </div>
+                                            <p></p>
                     <div class="headingCol customSpace textJustify">
-                      <h5>11. What is the Nexus 'Hybrid Blockchain’?</h5>  
-                      <p>Hybrid by definition means a combination of two different elements, to result in something new. Our Hybrid technology combines properties of public and private systems, to provide enterprise ready blockchain networks. This is achieved by using the public blockchain network to provide higher levels of immutability, access control schemes, and custom validation algorithms.</p>
-                      <p>The Nexus Hybrid Blockchain has the following properties and features:&nbsp;</p>
-                      <ul>
-                      <li>The existing system or application gains the security properties of the hybrid blockchain</li>
-                      <li>The private blockchain gains the security parameters of the public blockchain</li>
-                      <li>The potential to comply with GDPR, similar to that of a private database or Cloud service</li>
-                      <li>Permissioned access schemes supported by LISP (Location-ID Separation Protocol) forming a VPN (Virtual Private Network)</li>
-                      <li>Semi-permissioned access scheme to create tiers of data access between users, service providers, and partners to form an ecosystem</li>
-                      </ul>
-                      <p class="textCenter mt-4 mb-4">&nbsp;</p>
-                    </div>
-                    <div class="headingCol customSpace textJustify">
-                      <h5>12. What are the limitations of the current infrastructure of the Internet?</h5>  
+                      <h5>9. What are the limitations of the current infrastructure of the Internet?</h5>  
                       <p>Today the Internet relies on both large cables that run across the ocean floor, and geosynchronous satellites. The main drawbacks resulting from the state of the current Internet infrastructure are as follows: </p>
                       <ul>
                       <li>4 billion people are without Internet connection.</li>
@@ -279,7 +315,7 @@ require_once("./header.php");
                       </ul>
                     </div>
                     <div class="headingCol customSpace textJustify">
-                      <h5>13. How will Nexus improve the current internet?</h5>  
+                      <h5>10. How will Nexus improve the current internet?</h5>  
                       <p>Some organizations have deployed cube satellites into LEO (Lower Earth Orbit), however their models are dependent on centralized ownership and management. One of our longer term visions, is to tokenize satellite ownership, whereby token holders will be entitled to the revenue earned and voting rights, in order to facilitate decentralized ownership and management. When you combine this with affordable antennas and local area mesh networks, we envision the beginning of a new Internet. </p>
                       <p>We welcome all parties whom would like to become a part of this collaborative economy, to connect with us.</p>
                     </div>

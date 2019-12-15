@@ -220,6 +220,7 @@ require_once("./header.php");
                 </div>
               </div>
           </div>
+
           <div class="row team-items justify-content-center">
               <div class="col-md-6 col-lg-4 single-item">
                 <div class="item">
@@ -251,7 +252,27 @@ require_once("./header.php");
                   </div>
                   <div class="back-side">
                     <p>The impact that new technologies such as a truly decentralized blockchain could have on existing systems, is what fascinates me the most. I discovered Nexus in 2017, and was especially attracted by the prospect of a truly decentralized internet. The awesome Nexus team and their ‘no comprises’ approach - to do it the right way, instead of going the easy and wrong route, is why I started to help and support Nexus' Vision. I am active in all community channels for all questions, and my technical background helps me support the community with wallet problems. Due to my work in power engineering and energy economics, I am particularly interested in the impact of blockchain on the wholesale markets, energy trading, and the possibility of shared renewable assets.</p>
+                 </div>
+                </div>
+              </div>
+	   </div>
+
+	   <div class="row team-items justify-content-center">
+              <div class="col-md-6 col-lg-4 single-item">
+                <div class="item">
+                  <div class="front-side">
+                    <div class="thumb">
+                      <img src="images/teamimg-chezak.png" alt="..." style="border-radius:50%">
+                    </div>
+                    <div class="info">
+                      <h4>CHEKAZ</h4>
+                      <span>Slack ID: @ChekaZ</span><br>
+                      <span>Telegram: @ChekaZ</span>
+                    </div>
                   </div>
+                  <div class="back-side">
+                    <p>Chekaz entered the crypto space in early 2013, and has been an addict of crypto since. He has developed for various altcoins since 2013 and also joined the Feathercoin Team later that year. He founded his own Cryptoproject in 2017, called Trezarcoin & also a Blockchain Company in Germany which invented CoinKit.</p>
+		 </div>
                 </div>
               </div>
             </div>
