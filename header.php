@@ -430,6 +430,9 @@
                         <a href="<?php echo $url;?>/tritium-guide">Wallet Guide</a>
                       </li>
                       <li>
+                        <a href="<?php echo $url;?>/guides">Guides</a>
+                      </li>
+                      <li>
                         <a href="<?php echo $url;?>/faq">FAQ</a>
                       </li>
                       <li>

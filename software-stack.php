@@ -100,7 +100,7 @@ require_once("./header.php");
                       <p>Operations are instructions or actions that give registers context, and define more complex contract logic. A contract is an object containing: a register pre-state (the register that is being operated on that was passed upwards from the Register Layer), a primitive operation (only one primitive operation per contract), and a set of conditions (any amount of conditional operations).</p>
                     </div>
                     <div class="heading mt-4">
-                      <h5>Primitive Operations</h5>  
+                      <h5>Primitive Operations</h5>
                       <p>The current iteration of the Operations Layer contains 16 primitive operations, and 54 conditional operations and types. The primitive operations can be best described as the actions taking place on the register such as: WRITE, DEBIT, TRANSFER, APPEND, etc. These actions themselves cause the register to change its state in some way or form, including its movement from one signature chain to another.</p>
                     </div>
                     <div class="heading mt-4">
@@ -121,7 +121,7 @@ require_once("./header.php");
 
                           Image ID: 108629084398374<br>
                           License Type: Enhanced <br>
-                          Image Title: Arizona Sunset 
+                          Image Title: Arizona Sunset
                       </p>
                       <p>The above example displays a meta-data format for a photographic asset that is stored in a programmable object register. This format can be augmented with mutable and immutable type specifiers, meaning that a field such as ‘Image Title’ in the example above, could be mutable and able to be modified, while the other fields would remain immutable.</p>
                     </div>
@@ -144,11 +144,11 @@ require_once("./header.php");
                     <div class="heading mt-4">
                       <h5>Signature Chains</h5>
                       <p>A <a href="./signature-chains">Signature Chain</a> is a decentralized blockchain account that allows you to login from any computer with a username, password, and pin, without the need for wallet.dat files or constantly rescanning the database. They are comparable to a personal blockchain that allows decentralized access through the login system, removing the need to store private keys. Sigchains deterministically create a mathematical 'lock' that only your login credentials can unlock. </p>
-                      <p>Fundamentally, a Signature Chain decouples the private key from the account, therefore one is not bound by possession or security of this single private key. The private key becomes obsolete when the next transaction is generated, producing higher levels of security compared to the continual reuse of a private key, as is the case with other blockchain technologies. Other benefits come from the efficiency gained by reducing the requirement of storing a large amount of signatures on disk, and the ability to use a variety of key types such as FALCON for increased <a href="">Quantum Resistance</a>.</p>
+                      <p>Fundamentally, a Signature Chain decouples the private key from the account, therefore one is not bound by possession or security of this single private key. The private key becomes obsolete when the next transaction is generated, producing higher levels of security compared to the continual reuse of a private key, as is the case with other blockchain technologies. Other benefits come from the efficiency gained by reducing the requirement of storing a large amount of signatures on disk, and the ability to use a variety of key types such as FALCON for increased <a href="./quantum-resistance">Quantum Resistance</a>.</p>
                     </div>
                     <div class="heading mt-4">
                       <h5>Consensus</h5>
-                      <p>Two Proof of Work (PoW) channels (Prime and Hashing) and one Proof of Stake (PoS) channel are used to secure the network. Consensus is balanced between all three channels as it is based on collective chain weight, providing a higher resistance to 51% attacks compared to single algorithm blockchains. As the TAO framework is developed, these three forms of consensus will become the three layers of the <a href="">3DC</a>.</p>
+                      <p>Two Proof of Work (PoW) channels (Prime and Hashing) and one Proof of Stake (PoS) channel are used to secure the network. Consensus is balanced between all three channels as it is based on collective chain weight, providing a higher resistance to 51% attacks compared to single algorithm blockchains. As the TAO framework is developed, these three forms of consensus will become the three layers of the <a href="./three-d-chain">3DC</a>.</p>
                     </div>
                     <div class="heading mt-4">
                       <h5>Reputation</h5>

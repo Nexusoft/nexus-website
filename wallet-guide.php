@@ -176,15 +176,15 @@ ol li {
                     <li>Type this command:&nbsp;<code>shasum -a512 pathToFile</code>&nbsp;and press <em>Enter</em>&nbsp;(replace&nbsp;<code>pathToFile</code>&nbsp;with the path to the file that you’ve downloaded)</li>
                     </ol>
                     <p>&nbsp;</p>
-                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v2.0.7</h6>
+                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v2.1.1</h6>
                     <ul>
-                      <li>Windows Installer<br> <code>9295febf9eb216242953a765e540c6036e5c5be3eca7bd301a4cb125142352d195c93e1e6ecbd9372603a42a1023012a42f245b1acc4750b4a994bc7e8ae5e37</code></li>
-                      <li>Windows Zip<br> <code>faf059cb9dfb2f0634401537155ec7a9ff04859936d65ed2a55db733af56d2c13eca2faf94805adef3ad792c595572ca3c77af469da0fb73b833474d6008f4bd</code></li>
-                      <li>Mac OSX Installer<br> <code>b1b8fda9a1ac699770aa0651fd6d373675e454fce8e1e10e946a145609b11f14942a99d34388f69ba05ccad17a81f39376ed80bfd76d6d80ad253b5666f7a33e</code></li>
-                      <li>Mac OSX Unpacked<br> <code>bf97c90d711ca8622d72076092f11bc85785b0198cd1328c380c496d860bb7bc9821999c605b9451ac1667ae4cc30d13ae13456df6f60276172c5acc2923707f</code></li>
-                      <li>Linux Deb<br> <code>61d958f6890baf7fb9200412c8b796d9888e8f96cc94f33f65a4c6d9d37a00bcd0857d4c855e02bc8f3687bbb2e936efd9944ecac7b1792970d55bbf8515eeed</code></li>
-                      <li>Linux AppImage<br> <code>0e6aab15662486058aa4dda530d892977e20e6664370a6c99c7cb14c514fc4324c73f763fc1683094344413b4821a6f1e676e5d04ad5e52d8a0abd9cd6e9e6ae</code></li>
-                      <li>Linux Snap<br> <code>e17953111276582825af0f2d65c66d52c6e0be3778349d609962264e7e1c5b693e4b2f02eba07fc372035831494171801893a1000d6cb9861d6dfc6b32f8e4af</code></li>
+                      <li>Windows Installer<br> <code>a84174f67a0fe622e7e5dd86dd678cd6c32c85f3c930cc5533ab67348dcc052c6ebe3ece6bfdde3df18eb99df924cd2ccc69fc9f1e120895bf089a44101d649f</code></li>
+                      <li>Windows Zip<br> <code>89adead0e60292b42117ba0361884433d3e587c036f74ff55ecba7bcdc8fe0c5c4ebc555d4e458f87a3cd537018aa9d364ab624d80014c4a03fb9ae5e5517030</code></li>
+                      <li>Mac OSX Installer<br> <code>e4c68c1c1d0ff60c8e7d52ab8174f8ccd6ed3755bc3d4cef2583efc4c772ffb3ae5afad43f0c6eaf2c2c87e0df16d444caa3aefbeb32588628b202eb17dde676</code></li>
+                      <li>Mac OSX Unpacked<br> <code>ceedbd2d973ea94a17f3e0f879e4870515d824602031dc76f320e281a75bd4c33334a84e26fbde749fb762230a8127b4b4fa4b950da5180714a565e69e7dc6fd</code></li>
+                      <li>Linux Deb<br> <code>ef360d2a21bcc9c642233f44902df597ddad32db5abe2e361be711d09548c716bc36435e565d3fcda3bbc46e2173739a12ad76640487a14a26fcfea0a7f38ef2</code></li>
+                      <li>Linux AppImage<br> <code>25373bbdfb1fda87c450b4345fb3ac31987ef4749ed1a861f8ae5c6e6ed2fc43dbab8ab58ad992970ad54ef72c6797ea34fd4cb07ee4c8a903f1acd1a752c3d2</code></li>
+                      <li>Linux Snap<br> <code>2535bea18e3400e5e345861136c5cbb0e15912f726e7ae9d46f747b88f1a4af92254f9328228cb6858ff0a14028a900d976c6617d069f0d1b66312798c8668fa</code></li>
                     </ul>
                   </div>
                 </div>
@@ -257,9 +257,9 @@ ol li {
 
 </p>If the bootstrapping pop up is minimised (by clicking off the pop up) then you will see that the wallet will still be syncing with the blockchain on its own (this can be seen from the Synching arrows in the top right hand corner and the Block Count number increasing on the Overview page). When the bootstrap file is downloaded this will override any progress the wallet has made syncing on its own.</p>
 
-</p>After your wallet has downloaded the Recent Database, you will see the notification ‘Extracting Database’. You will need to wait for this to complete. Again, if you click ‘Abort’ all progress will be lost.</p> 
+</p>After your wallet has downloaded the Recent Database, you will see the notification ‘Extracting Database’. You will need to wait for this to complete. Again, if you click ‘Abort’ all progress will be lost.</p>
 
-</p>Once the extraction has finished, you will see the notification ‘Rescanning Database’, which will ensure that your wallet is up to date with the most recent transaction records.</p> 
+</p>Once the extraction has finished, you will see the notification ‘Rescanning Database’, which will ensure that your wallet is up to date with the most recent transaction records.</p>
 
 </p>Upon completing the bootstrap, the wallet will show 'Synchronising 99%' (if you hover over the left icon in the top right menu). This is perfectly normal, and highlights that the final 1% of ‘catching up’ is taking place which takes place automatically. This should take 10-15 minutes.</p>
 
@@ -358,7 +358,7 @@ ol li {
                  </div>
 		<p>Proof of stake is an energy efficient form of mining based on ownership of a digital currency. This ownership represents a ‘stake’ in the sense of an interest in something. By staking, NXS holders can earn a ‘stake rate’ between 0.5% and 3.0% per year on their holdings. NXS can only be staked inside the official Nexus Wallet when in ‘staking mode’ and with a continuous internet connection (24 hours a day, 7 days a week). In return stakers are rewarded for operating the wallet (a Nexus node) and mining Proof of Stake blocks, which provides security to the network.</p>
 		<p>What is the ‘Stake Rate’?</p>
-		<p>This value represents your current annual NXS rate of return (%).</p> 
+		<p>This value represents your current annual NXS rate of return (%).</p>
 		<p>The rate starts at 0.5%, and can increase to 3.0% after 12 months of consistent staking. The rate increase is non linear, slowing in terms of its increase over time. It takes several weeks of consistent staking to reach 1.0%, and around four months to reach 2.0%. With this rate, you can calculate the average amount of NXS you can expect to receive each day for staking.</p>
 		<p>Is there a minimum amount of NXS required to stake?
 		<p>It is possible to stake with any amount of NXS at a rate of 0.5%. However, as of the 6th of June 2019 it takes around ten 10,000 NXS to be able to reach the maximum stake rate of 3.0%.</p>
@@ -545,7 +545,7 @@ ol li {
                   regular computer software updates.</p>
                 <p>We recommend this setting remains enabled. This setting enabled will automatically check for new versions and notify you if a new version is available. If automatic updates are not enabled, you will be required to manually download the new wallet version either from github.com/Nexusoft/NexusInterface or our website.</p>
                 <p>Any wallet updates will show in a pop up box. These updates must be installed as soon as possible. Not having your wallet on the newest version update will put your coins at risk, and could mean you are no longer synchronised
-                  with the Nexus Blockchain.<p> 
+                  with the Nexus Blockchain.<p>
 		<p>Please ensure you update your wallet as soon as you are notified of an update.</p>
                 <p><strong>Send anonymous usage data</strong></p>
                 <p>Send anonymous data usage to allow the Nexus developers to improve the wallet.</p>
@@ -599,8 +599,8 @@ ol li {
 		<p>Staking disabled (see step 1)</p>
 		<p>Not logged in (see step 2)</p>
 		<p>Not enough NXS in the wallet (can be checked by clicking on mining display setting)</p>
-		<p>A wallets first Proof of stake block is referred to as a ‘Genesis’ transaction. This may take three days or more to receive, and will require the wallet to be open and connected to the internet.</p>	
-	<p>The receipt of a Genesis NXS transaction will be indicated in the page named ‘Transactions’.</p> 
+		<p>A wallets first Proof of stake block is referred to as a ‘Genesis’ transaction. This may take three days or more to receive, and will require the wallet to be open and connected to the internet.</p>
+	<p>The receipt of a Genesis NXS transaction will be indicated in the page named ‘Transactions’.</p>
 	<p>After receiving a Genesis transaction, a staking wallet will receive ongoing ‘Trust Transactions’, as further staking rewards. Please note that your Genesis transaction is likely to be larger than that of subsequent Trust Transactions, and these will vary in size.</p>
 	<p>How do I unlock my Wallet to send NXS while staking?
 If you wish to send NXS, and your wallet is logged in for ‘staking and mining only’, please do the following:</p>
@@ -647,8 +647,8 @@ If you wish to send NXS, and your wallet is logged in for ‘staking and mining 
                 <p>– Reset Style Settings : to revert back to the original wallet color theme. Then scroll down and click : ‘Save Settings’ to implement these changes.</p>
                 <p><strong>Import Custom Theme :</strong> A variety of custom themes created by the Nexus community can be imported into the wallet. The below link holds a repository of community made themes. The background can be imported from your local machine, or enter a URL and the wallet will download the background for you. Acceptable formats are PNG/JPEG/BMP/TIFF/GIF.</p>
                 <a href=https://github.com/KenCorma/Nexus-Wallet-Themes class="btn btn-primary" style="margin: 10px;">Skin Repository</a>
-		<p>Export Custom Theme: </p> 
- <p>Themes are Json files that are read by the system and apply changes to the interface. When you export a theme, you will be prompted to save the json file to your computer. Below is a link to the theme guide which describes how to develop themes. If you would like to, please request that your theme is included in the official repository for it to be shared with the community. </p> 
+		<p>Export Custom Theme: </p>
+ <p>Themes are Json files that are read by the system and apply changes to the interface. When you export a theme, you will be prompted to save the json file to your computer. Below is a link to the theme guide which describes how to develop themes. If you would like to, please request that your theme is included in the official repository for it to be shared with the community. </p>
 <a href=https://github.com/Nexusoft/NexusInterface/blob/master/docs/Themes.md class="btn btn-primary">Design Your Own Skin</a>
                 <div class="heading">
                   <h6>E) Modules</h6>

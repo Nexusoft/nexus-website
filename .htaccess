@@ -16,6 +16,7 @@ RewriteRule ^mine$ mine.php
 RewriteRule ^signature-chains$ signature-chains.php
 RewriteRule ^quantum-resistance$ quantum-resistance.php
 RewriteRule ^lisp$ lisp.php
+RewriteRule ^three-d-chain$ three-d-chain.php
 RewriteRule ^whitepapers$ whitepapers.php
 RewriteRule ^roadmap$ roadmap.php
 RewriteRule ^audits$ audits.php

@@ -37,8 +37,8 @@ a {
           <div class="headingCol customSpace" style="max-width:850px;margin:auto">
             <!-- <h2>STAKE NXS</h2> -->
             <p class="customText textJustify">Nexus is comprised of three Embassies. Each of the Nexus Embassies is a nonprofit entity created for the purpose of technological and business development, alongside education. As nonprofit entities, they have no owners, are represented by a volunteer board of directors, and are operated by teams of creatives and delegates.</p>
-            <p class="customText textJustify">The Nexus Embassies are independently funded by a portion of each NXS block that is mined. The NXS automatically transfers into ‘Keys’ which are allocated between the Embassies. Each Embassy is sovereign, creating a decentralized organization for network wide governance.</p>
-            <p class="customText textJustify">The allocation of keys is reviewed every year, and voted on by the Nexus community, by meetings that review Embassy performance.</p>
+            <p class="customText textJustify">The Nexus Embassies are independently funded by a portion of each NXS block that is mined. The NXS automatically transfers into the Embassy Signature Chains. Each Embassy is sovereign, creating a decentralized organization for network wide governance.</p>
+            <p class="customText textJustify">Embassy Funding is reviewed every year, and voted on by the Nexus community.</p>
           </div>
           <div class="headingCol customSpace">
             <h2>US Embassy</h2>

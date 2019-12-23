@@ -56,7 +56,7 @@ ol li {
 
                 <div class="contentWrapper tab-content" id="myTabContent">
                   <div class="intro-Wrapper customTab tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
-                    <div class="titleCol">
+                    <div class="titleCol headingCol">
                         <h2>Introduction</h2>
                         <p>Here you will find a list of advanced guides to help you use the <a href=/wallet>Nexus Wallet</a> for purposes such as registering Assets, creating Tokens and Namespaces. If you have any further questions please join one of the Nexus Community Channels found in the footer, and post a message asking for help.</p>
                     </div>
@@ -73,20 +73,21 @@ ol li {
 
                         <h2>What can Assets be used for?</h2>
                         <p>Allowing users to store arbitrary data in a blockchain is not a new concept - we've been able to do that since the early days of Bitcoin. What's unique about Nexus' register-based blockchain is that all changes to a register - including changes to the data and to the ownership of it - are captured in the transactions recorded on the blockchain. Not only does this allow us to validate data changes via consensus rules, but it also allows us to view the entire history of changes to the data in a register and its ownership.</p>
-                        <p>It becomes an audit log for data, allowing users to see what that data looked like and who owned it at any point in time. That's a hugely powerful concept and opens the door to many use cases where a history of the data is required, e.g. supply chains, postal tracking, land/real estate deeds, certificates of authenticity, art watermarking, wills, etc. Each Asset is owned by a Signature Chain, which is great for situations where there is one single owner of an Asset. However, what about those use cases where partial ownership is required, for example where a piece of real estate is owned by two or more investors and they want to prove their ownership via a public blockchain? Nexus solves this by allowing an Asset to be tokenized, which means that the ownership of an Asset is transferred to a token rather than a Signature Chain. Once tokenized, any users that hold the tokens in their Signature Chain become partial owners of the Asset, much like owning shares in a company.</p>
+                        <p>It becomes an audit log for data, allowing users to see what that data looked like and who owned it at any point in time. That's a hugely powerful concept and opens the door to many use cases where a history of the data is required, e.g. supply chains, postal tracking, land/real estate deeds, certificates of authenticity, art watermarking, wills, etc. Each Asset is owned by a Signature Chain, which is great for situations where there is one single owner of an Asset.
+                        <p>However, what about those use cases where partial ownership is required, for example where a piece of real estate is owned by two or more investors and they want to prove their ownership via a public blockchain? Nexus solves this by allowing an Asset to be tokenized, which means that the ownership of an Asset is transferred to a token rather than a Signature Chain. Once tokenized, any users that hold the tokens in their Signature Chain become partial owners of the Asset, much like owning shares in a company.</p>
                         <p>Furthermore, tokenized Assets provide the ability for shared revenue to be automatically distributed in the form of NXS payments to the partial owners of the Asset, based on the percentage of tokens held. This is useful for use cases such as the automatic payment of dividends for Security Token Offerings (STO's), and for the distribution of royalties from revenue earned from an Asset such as a music album.</p>
 
                         <h2>How do I create an Asset?</h2>
                         <p>The Nexus API provides a straightforward and intuitive interface for users to create, update, and transfer Assets. To create a basic Asset you can use the Wallet console or Nexus command line interface (CLI) and issue a simple command:</p>
-                        <p>assets/create/asset name=myfirstasset data=this_is_some_data</p>
+                        <p><code>assets/create/asset name=myfirstasset data=this_is_some_data</code></p>
                         <p>The create/asset API method allows the Asset to be defined in several different formats. Shown above is the basic format, which is the default. In the basic format the data is supplied in key=value pairs, all data is treated internally as a string (a series of alphanumeric characters), and all data is immutable (cannot be changed). The create/asset API alternatively allows complex Assets to be defined using JSON format.</p>
                         <p>The following example shows how an Asset might be used to store the title deeds to a property:</p>
-                        <p>assets/create/asset<br><br>
-                        name=deed1A<br>
-                        address=1640 Riversdale Drive, CA<br>
-                        deed-id=494563494<br>
-                        certificate-url=http://www.property.com/deeds/494563494.pdf<br>
-                        certificate-md5-hash=67ac5a9362efdef5a52e5438c4ad7bda
+                        <p><code>assets/create/asset</code><br><br>
+                        <code>name=deed1A</code><br>
+                        <code>address=1640 Riversdale Drive, CA</code><br>
+                        <code>deed-id=494563494</code><br>
+                        <code>certificate-url=http://www.property.com/deeds/494563494.pdf</code><br>
+                        <code>certificate-md5-hash=67ac5a9362efdef5a52e5438c4ad7bda</code>
                         </p>
 
                         <h2>What does it cost to create an Asset?</h2>
@@ -97,7 +98,7 @@ ol li {
 
                         <h2>How do I transfer an Asset?</h2>
                         <p>You can transfer ownership of an Asset to another Signature Chain with a simple API command specifying the name/address of the Asset you own, and the username/genesis of the recipient:</p>
-                        <p>assets/transfer/asset name=myasset username=bob</p>
+                        <p><code>assets/transfer/asset name=myasset username=bob</code></p>
 
                         <h2>How do I define which fields are editable?</h2>
                         <p>In order to update data in an Asset, you have to initially create them using a JSON format, as opposed to the basic format shown above. Using the JSON format allows you to specify field type, length, mutability, and an initial value for each data field in the Asset.</p>
@@ -105,7 +106,7 @@ ol li {
 		              </div>
 		              <div class="customTab tab-pane fade" id="tokens" role="tabpanel" aria-labelledby="tokens-tab">
                     <div class="titleCol headingCol">
-                       <h2>What is Token?</h2>
+                       <h2>What is a Token?</h2>
 	                     <p>In the broader sense, tokens can be thought of as virtual currencies that exist on a blockchain.</p>
 
                        <h2>What can Tokens be used for?</h2>
@@ -142,11 +143,29 @@ ol li {
                             <li>currentsupply - the number of circulating tokens that have been distributed to token accounts</li>
                             <li>balance - the number of tokens that have not yet been distributed (maxsupply - currentsupply)</li>
                         </ul>
+                        <br>
 
                         <h2>How do I create a token?</h2>
                         <p>Tokens can easily be created through the Nexus Wallet or the console/CLI. The user defines  a new token so that it can be distributed, traded, or used to tokenize an asset.</p>
-                        <p>In the wallet interface, go to the User module, click on Tokens, then Create New Token:</p>
-                        <p>Give the token a name (optional), supply, and decimals values and click Create token!</p>
+                        <p>To create a new Token, go to the User module in the Wallet, and please follow the below instructions:</p>
+
+                        <ol>
+                          <li>Click on Tokens.</li>
+                          <li>Click Create new Token.</li>
+
+                          <p style="width: 100%; text-align: center"><img src="images/guide/imagecreatetoken.png" /></p>
+
+                          <li>Choose a Token Name.</li>
+
+                          <p style="width: 100%; text-align: center"><img src="images/guide/imagenewtoken.png" /></p>
+
+                          <li>Choose the total number of Tokens to be created.</li>
+                          <li>Choose the amount of significant digits the Token will have.</li>
+                          <li>At the top of the box, the fee will be displayed in NXS for creating your supply of tokens.</li>
+                          <li>Click Create Token.</li>
+                          <li>Pay Fees.</li>
+                        </ol>
+
                         <p>To achieve the same using the console use the following command:</p>
                         <p>tokens/create/token name=My Token supply=100 decimals=2</p>
 

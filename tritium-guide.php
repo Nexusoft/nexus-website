@@ -383,12 +383,11 @@ ol li {
                         <p>Note that there is currently 0 NXS for the Stake amount, and the Unstaked amount is 10,000NXS. This is because this Trust Account is new and has not completed Staking genesis, yet.
                            At this point, there is a 72 hour period before the account will start Staking. As long as you don’t add/remove any NXS from the Trust Account, it will begin Staking automatically at the end of this 72 hour period.
                         </p>
-                        <p>Remember that your Wallet has to be left open and logged into. Also, note that the time it takes to mine your first stake block varies based on the current level of Staking difficulty on the network. It usually takes xxxxxxxxx. However, the size of your balance affects the time it will take.</p>
+                        <p>Remember that your Wallet has to be left open and logged into. Also, note that the time it takes to mine your first stake block varies based on the current level of Staking difficulty on the network. However, the size of your balance affects the time it will take.</p>
                         <p>When your Wallet mines its first Proof of Stake block, it will move your balance from ‘Unstaked amount’ to ‘Stake amount’. The corresponding stake reward for finding the block will appear in your transaction history (see Transaction module) as a Genesis transaction. </p>
-                        <p>MAYBE INSERT IMAGE OF TRANSACTION PAGE WITH A GENESIS TX</p>
                         <p>The stake reward is paid to your trust account, and will show as a balance in the ‘Unstaked amount’. This balance is currently unstaked.</p>
 
-                        <p style="width: 100%; text-align: center">Here is an image of the same Trust Account after it has mined its first Proof of Stake block.
+                        <p style="width: 100%; text-align: center">Here is an image of the same Trust Account after it has mined its first Proof of Stake block.</p>
                            <img src="images/guide/Image_18.png" />
                         </p>
                         <p>Note that the ‘Unstaked amount’ has moved to ‘Stake amount’. This will only happen when your Wallet mines your Proof of Stake genesis. Also note that the stake reward was paid to the ‘Unstaked amount’. This balance is spendable (you can choose to send the NXS to another account, such as your Default Account, without affecting your Trust Score), or you can later choose the NXS to your Stake amount, which will be discussed below.</p>
