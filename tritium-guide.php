@@ -539,7 +539,7 @@ ol li {
                            <li>It is for display only as a metric, and is not directly used. Trust weight and block weight values are used.</li>
                         </ul>
 
-                        <p>To read more about Staking, please see the following webpage <a href="./stake">Stake</a></p>
+                        <p>To read more about Staking, please see the following webpage <a href=/stake>Stake</a></p>
                         <p>For more technical details on Staking, see the following white paper <a href="./whitepapers">Proof-of-Stake with Tritium Trust</a></p>
                     </div>
                   </div>

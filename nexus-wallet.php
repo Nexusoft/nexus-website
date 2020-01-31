@@ -34,10 +34,10 @@ require_once("./header.php");
               <div class="col-md-6">
                 <div class="download-buttons text-center">
                   <div class="heading mb-3">
-                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v2.1.1</h6>
+                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v2.1.3</h6>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.1/nexus_wallet-MacOSX-2.1.1.dmg" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-MacOSX-2.1.3.dmg" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -46,7 +46,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.1/nexus_wallet-setup-Win-2.1.1.exe" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-setup-Win-2.1.3.exe" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -55,7 +55,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.1/nexus_wallet-Linux-2.1.1.AppImage" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-Linux-2.1.3.AppImage" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -139,17 +139,6 @@ require_once("./header.php");
             </div>
           </div>
         </div>
-        <div class="module-area text-center">
-          <div class="headingCol">
-            <h6>Modules</h6>
-          </div>
-          <div class="text-justify">
-            <p>The Nexus Wallet provides a platform to easily install and create modules which give access to features such as Contracts, Tokens, and Assets. Building a Nexus module is as easy as developing a web page; you do not need any specialist blockchain programming skills. Modules can be built using other available APIs, or the APIs provided through Nexus.</p>
-          </div>
-          <div class="buton mt-3">
-            <a href="https://nexusoft.github.io/nw-modules-documentation/" class="btn btn-primary capitalize">Develop</a>
-          </div>
-        </div>
         <div class="custom-area text-center">
           <div class="headingCol">
             <h6>Customizable Skins</h6>
@@ -186,17 +175,6 @@ require_once("./header.php");
                 <a href="https://github.com/Nexusoft/NexusInterface/blob/master/docs/Themes.md" class="btn btn-primary capitalize">Design Your Own Skin</a>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="stacking-area text-center">
-          <div class="headingCol">
-            <h6>Staking</h6>
-          </div>
-          <div class="text-justify">
-            <p>Help secure the network by staking with your Wallet. Minimum requirements are a continuous Internet connection (24 hours a day, 7 days a week), and a balance in your Wallet. In return, you can earn a stake rate between 0.5% and 3.0% per year, which deposits every time you receive a new trust transaction.</p>
-          </div>
-          <div class="buton mt-3">
-            <a href="./stake" class="btn btn-primary capitalize">Stake</a>
           </div>
         </div>
         <div class="security-area" style="margin-top:50px;">

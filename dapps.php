@@ -23,20 +23,38 @@ require_once("./header.php");
   <section>
     <div class="colSpace">
       <div class="container">
-        <div class="customInner" style="max-width:850px;margin:auto">
+        <div class="customInner" style="max-width:850px; margin:auto">
           <div class="customSpace">
+            
             <p class="customText textJustify">
-                With the rising concerns of privacy relating to social media, communication, and how our personal data is used, Decentralized Applications (DApps) have become very popular.
-                Unlike regular apps and centralized services, DApps give you control of your data.
+                Nexus is built to verify the authenticity of data, being a verification system, not a computation engine. The following five reasons are the most prominent factors why our seven layer software stack improves the developer experience over similar platforms such as Ethereum, EOS, and Waves: Security Model, Automated Key Management, Object Modeling, Restful API, and Scaling Model. Below we have included a comparison table between other similar platforms, to elucidate the unique qualities of our development environment.
             </p>
+            <p style="width: 100%; text-align: center"><img src="images/comparison.png"></p>
+
+            <div class="titleCol"><h3>Security</h3></div>
             <p class="customText textJustify">
-                With Tritium, developers can use our API to build with conditional contracts, which can facilitate the management of ownership rights and decentralized exchange of many different kinds of assets and tokens.
-                As the ownership of assets and tokens on Nexus is validated by a decentralized consensus, DApps on Nexus can replace the requirement for trusted third parties across many industries.
-            </p>
+                Our security model combines together many different technologies that make Nexus resilient to the evolving threats coming from Quantum Computing, Blockchain, and Security in general. We follow best practices with professional security audits, open source code review, and utilizing modern standards in cryptography such as SHA3. We also provide the option to the end user or developer to use purely Quantum Resistant Cryptography (FALCON) rather than Classical Cryptography Standards (ECDSA).
+           </p>
+
+           <div class="titleCol"><h3>Automated Key Management</h3></div>
             <p class="customText textJustify">
-                Most DApps will likely begin development as private networks, launching as Sister or Hybrid Networks, to eventually become their own self-contained ecosystems.
-                With the Amine upgrade, a distributed file system will be introduced that will be used to store additional files associated with DApps.
-            </p>
+              Key management on Nexus is automated via a ‘decentralized authentication system’ we call ‘Signature Chains’. This not only gives the end user a better experience in managing their personal property, it also removes the burden of key management, which often requires third party plugins such as MetaMask. Signature Chains integrate into existing application frameworks that already rely on authorization systems through username and password combinations, and thereby provide DApp developers the ability to integrate blockchain functionality as an elevated layer into existing applications without much architectural modification.
+           </p>
+
+           <div class="titleCol"><h3>Object Modelling</h3></div>
+            <p class="customText textJustify">
+            Our architecture is ‘object oriented’ meaning that immutable data objects can be modified via ‘operations’. Object modeling gives developers access to a toolkit of important functions for managing objects in an application that require some objects to maintain a history and native immutability. Specific fields in objects, however, can be configured as mutable or immutable. This is very useful for applications that rely on a dynamic state, such as the progression of ownership, location, and quantity etc. Immutability on the other hand guarantees that certain states remain unchanged, such as a serial number, even if grouped in an object with many dynamic states.
+           </p>
+
+           <div class="titleCol"><h3>Restful API</h3></div>
+            <p class="customText textJustify">
+            Contrary to the designs of projects such as Ethereum, EOS, or Cardano, our DApp developer environment is API driven, meaning that as a developer you can integrate blockchain functionality into your apps without being inhibited by the many nuances of using an emerging programming language such as Solidity. This ensures a safer and higher quality production code, while reducing the overall cost of the software.
+           </p>
+
+           <div class="titleCol"><h3>Scaling Model</h3></div>
+            <p class="customText textJustify">
+            Scaling is a requirement, not a feature. The architecture must be able to handle large volumes of contracts, while also maintaining the same, if not higher levels of security. We have partially achieved this through our TAO Framework (3DC), which is currently one-third complete. When fully implemented, it will provide full scalability, security, and decentralization through a globally sharded decentralized consensus network, necessary for the long term sustainability of Nexus.
+           </p>
             <p class="innerText"><a href=what-tritium class="btn btn-primary">What is Tritium</a></p>
         </div>
       </div>

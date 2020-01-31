@@ -36,7 +36,7 @@ a {
         <div class="customInner">
           <div class="headingCol customSpace" style="max-width:850px;margin:auto">
             <!-- <h2>STAKE NXS</h2> -->
-            <p class="customText textJustify">Nexus is comprised of three Embassies. Each of the Nexus Embassies is a nonprofit entity created for the purpose of technological and business development, alongside education. As nonprofit entities, they have no owners, are represented by a volunteer board of directors, and are operated by teams of creatives and delegates.</p>
+            <p class="customText textJustify">Nexus is comprised of two Embassies. Each of the Nexus Embassies is a nonprofit entity created for the purpose of technological development and adoption, alongside education. As nonprofit entities, they have no owners, are represented by a volunteer board of directors, and are operated by teams of creatives and delegates.</p>
             <p class="customText textJustify">The Nexus Embassies are independently funded by a portion of each NXS block that is mined. The NXS automatically transfers into the Embassy Signature Chains. Each Embassy is sovereign, creating a decentralized organization for network wide governance.</p>
             <p class="customText textJustify">Embassy Funding is reviewed every year, and voted on by the Nexus community.</p>
           </div>
@@ -87,6 +87,8 @@ a {
               1-623-565-8545<br>
               <a href="mailto:contact@nexus.io">contact@nexus.io</a></p>
           </div>
+
+          <!--
           <div class="headingCol customSpace">
             <h2>UK Embassy</h2>
             <div class="team-area">
@@ -133,6 +135,7 @@ a {
             CM23 3UZ<br>
               <a href="mailto:nexusuk@nexus.io">nexusuk@nexus.io</a></p>
           </div>
+      -->
           <div class="headingCol customSpace">
             <h2>AUS Embassy</h2>
             <div class="team-area">
@@ -178,7 +181,7 @@ a {
                         <img src="images/teamImg-14.png" alt="...">
                       </div>
                       <div class="info">
-                        <h4>NIC Henry</h4>
+                        <h4>NIC HENRY</h4>
                         <h5>AUS Embassy Board of Directors</h5>
                         <span>Slack ID: @Nicco</span>
                       </div>

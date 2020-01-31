@@ -38,10 +38,12 @@ require_once("./header.php");
 
                         <p class="customText textJustify">This model is designed to produce an annual growth rate in the supply of a NXS similar to the annual growth rate of the total world supply of gold. Gold is an asset which has often been favored in times of economic crisis as a hedge against the inflation of fiat currencies, due to the scarcity of its supply and difficulty to increase it. </p>
           </div>
+          <!--
           <div class="headingCol">
             <h6>Fee Model</h6>
             <p class="customText textJustify">Unlike Bitcoin or conventional cryptocurrencies, the transaction fees for NXS are ‘burned’ (destroyed) and removed from the available supply of NXS. The result of this, being 0.01 NXS per transaction on average, is that with enough transaction volume the growth of the supply of NXS due to mining and staking rewards can be eliminated. New growth in the supply helps to build an ecosystem around NXS, while the burned transaction fees maintain the scarcity of supply. If post 2024 transaction volume exceeds 9 transactions per second, the supply of NXS would not increase, because the total amount of fees burned would equal the total NXS produced for that year.</p>
           </div>
+      -->
           <div class="btnRow" style="margin: 65px 0 80px">
             <a href="./decentralization?s=sub3" class="btn btn-primary">Fractional Reserve Banking</a>
           </div>

@@ -36,10 +36,19 @@ require_once("./header.php");
           <div class="headingCol">
             <h6>Is there a minimum amount of NXS required to stake?</h6>
             <p class="customText textJustify">It is possible to stake with any amount of NXS at a rate of 0.5%. However,&nbsp;as of the 6th of June 2019 it takes around 10,000 NXS to be able to reach the maximum stake rate of 3.0%.</p>
+          </div>
+          <div class="headingCol">
+            <h6>Removing Stake</h6>
+            <p class="customText textJustify">When you remove stake, there is an associated cost. If you remove a portion of your stake, it also reduces your Stake Rate. This is to reward those who consistently stake long term and do not frequently reduce their committed Stake amount.</p>
+            <p class="customText textJustify">If you require frequent access to a portion of your NXS, consider keeping it in another account (such as your Default Account) and not committing it to stake.</p>
+          </div>
+          <div class="headingCol">
+            <h6>Staking Difficulty</h6>
             <p class="customText textJustify">Similar to other forms of mining, Proof of Stake mining has a level of difficulty. As more people successfully stake on the network, the difficulty of staking increases. This results in an increasing amount of NXS required to increase the stake rate. Furthermore, a larger balance of NXS in your wallet will increase the frequency of NXS rewards. </p>
           </div>
           <div class="btnRow" style="margin: 65px 0 80px">
-            <a href="./faq?s=parent5" class="btn btn-primary">Learn more Staking FAQs</a>
+            <a href="./faq?s=parent5" class="btn btn-primary">Staking FAQs</a>
+            <a href="./tritium-guide" class="btn btn-primary">Wallet Guide</a>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@
                       <h4>Community</h4>
                       <ul class="listStyle">
 			<li><a href="https://forum.nexus.io"><img src="images/discourse.png" alt="forum">Forum</a></li>
-                        <li><a href="https://join.slack.com/t/nexusearth/shared_invite/enQtNzc5NzUxNDY0NjQwLTk3ZDZhMmM0MTIxNWVlMGVlODAxZGE1ZjI3Zjk1MmJmYTczNDBmNDI1ZDMzYTkxOWFkMmQzNzVhNWU4NmVhNjk"><img src="images/slack.png" alt="slack">Slack</a></li>
+                        <li><a href="https://join.slack.com/t/nexusearth/shared_invite/enQtOTAwNzI4MTU1NDYxLTk0NzZkMGVhYzhlODJjODc0Mzk2OWJkYzU1NjgxY2Q5NmExMzBiZDAzODI5ZWVjODU2ZjM5ZjlmYTFkYWExYTM"><img src="images/slack.png" alt="slack">Slack</a></li>
                         <li><a href="https://t.me/NexusOfficial"><img src="images/telegram.png" alt="telegram">Telegram</a></li>
                         <li><a href="https://bitcointalk.org/index.php?topic=5139744.0"><img src="images/bitcoin.png" alt="bitcoin">BitcoinTalk</a></li>
 			<li><a href="https://nexusearth.com/nexus_news/"><img src="images/tritiumWallert.png" alt="tritiumWallert">News</a></li>
@@ -73,7 +73,7 @@
     <div class="copyright_Sec">
       <div class="container">
         <div class="copyright">
-          <p>Copyright  2014-2019 Nexus <a href="./privacy">Privacy Policy</a> <a href="./terms"> Terms of Use</a></p>
+          <p>Copyright (c) 2014-2020 www.nexus.io <a href="./privacy">Privacy Policy</a> <a href="./terms"> Terms of Use</a></p>
         </div>
       </div>
     </div>
