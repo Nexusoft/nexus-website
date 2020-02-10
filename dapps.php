@@ -25,9 +25,9 @@ require_once("./header.php");
       <div class="container">
         <div class="customInner" style="max-width:850px; margin:auto">
           <div class="customSpace">
-            
+
             <p class="customText textJustify">
-                Nexus is built to verify the authenticity of data, being a verification system, not a computation engine. The following five reasons are the most prominent factors why our seven layer software stack improves the developer experience over similar platforms such as Ethereum, EOS, and Waves: Security Model, Automated Key Management, Object Modeling, Restful API, and Scaling Model. Below we have included a comparison table between other similar platforms, to elucidate the unique qualities of our development environment.
+                Nexus is built to verify the authenticity of data, being a verification system, not a computation engine. The following five reasons are the most prominent factors why our seven layer software stack improves the developer experience over similar platforms such as Ethereum, EOS, and Waves: Security Model, Automated Key Management, Object Modeling, RESTful API, and Scaling Model. Below we have included a comparison table between other similar platforms, to elucidate the unique qualities of our development environment.
             </p>
             <p style="width: 100%; text-align: center"><img src="images/comparison.png"></p>
 
@@ -46,7 +46,7 @@ require_once("./header.php");
             Our architecture is ‘object oriented’ meaning that immutable data objects can be modified via ‘operations’. Object modeling gives developers access to a toolkit of important functions for managing objects in an application that require some objects to maintain a history and native immutability. Specific fields in objects, however, can be configured as mutable or immutable. This is very useful for applications that rely on a dynamic state, such as the progression of ownership, location, and quantity etc. Immutability on the other hand guarantees that certain states remain unchanged, such as a serial number, even if grouped in an object with many dynamic states.
            </p>
 
-           <div class="titleCol"><h3>Restful API</h3></div>
+           <div class="titleCol"><h3>RESTful API</h3></div>
             <p class="customText textJustify">
             Contrary to the designs of projects such as Ethereum, EOS, or Cardano, our DApp developer environment is API driven, meaning that as a developer you can integrate blockchain functionality into your apps without being inhibited by the many nuances of using an emerging programming language such as Solidity. This ensures a safer and higher quality production code, while reducing the overall cost of the software.
            </p>

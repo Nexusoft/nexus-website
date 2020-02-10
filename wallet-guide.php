@@ -176,16 +176,52 @@ ol li {
                     <li>Type this command:&nbsp;<code>shasum -a512 pathToFile</code>&nbsp;and press <em>Enter</em>&nbsp;(replace&nbsp;<code>pathToFile</code>&nbsp;with the path to the file that you’ve downloaded)</li>
                     </ol>
                     <p>&nbsp;</p>
-                    <h6>SHA-512 Hashes –&nbsp;Nexus Wallet v2.1.3</h6>
-                    <ul>
-                      <li>Windows Installer<br> <code>e5b2ef64435a979a02d0d00453349ce9c082216844305e5aec582ce6963afed7bbf0466225759a22e91319a4af48195b8e0ffde6360a73d4ecf186699a1d9cd3</code></li>
-                      <li>Windows Zip<br> <code>f8a5eaf3af12819588b2f5bb8e26f8e8ee5259e379c85ac8487f5782e18d7d124476c0a0131c8fbc3eaa27850692ab33bcfb0576aacaa95ab76d5ca5f2f2e928</code></li>
-                      <li>Mac OSX Installer<br> <code>e3da674029930781998f3385c164a5c453f896c024f1c89d8a65fd1763aaf56d8c38db606582f792216ec9a49c094c70abab15bd5e6e7c49881d073062c7313c</code></li>
-                      <li>Mac OSX Unpacked<br> <code>844949cd7459a6310875c4c126b469fbc1d25c81458b56303b771961edb004e1a62a36265408a44397ccfa5d60f9435fef0e1d1b0fc0a8789407eb4feba6859d</code></li>
-                      <li>Linux Deb<br> <code>79426d6a9e429dcafc5a2c30ba8e78a9021f20d1c07bad9e4c24283d587b38c6e692aaf959afb08e8cd22b97f102c710d05a21ba126a55bebcb265068dd35c8e</code></li>
-                      <li>Linux AppImage<br> <code>1b80c578c66d4e41d9af29a1ccc32d390c5a88c60a224941359a3aad7d10dc3e6b254ca1fb8148e31702e60afdb11277d3b6cd1f08a18204462f86a3e3928001</code></li>
-                      <li>Linux Snap<br> <code>6793c84981835bc0d1531fd5d859859875ed1f1794021d49401d477975cb775e860a1f26a2765d8f668139e1a2bb80242a5ed6fac7ebed13465ce4096937b129</code></li>
-                    </ul>
+
+                    <?php
+                        /* Request latest information from github. */
+                        $ch = curl_init();
+                        curl_setopt($ch, CURLOPT_URL, "https://api.github.com/repos/Nexusoft/NexusInterface/releases/latest");
+                        curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1');
+                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                        /* Cleanup resources. */
+                        $output = curl_exec($ch);
+                        curl_close($ch);
+
+                        /* Parse JSON data. */
+                        $json = json_decode($output);
+
+                        /* Echo the version. */
+                        echo "<h6>SHA-512 Hashes –&nbsp;Nexus Wallet ".$json->tag_name."</h6><ul>";
+
+                        /* Keyword searches (for the hashes). */
+                        $array = array();
+                        $items = array("Windows Installer", "Windows Zip", "Mac OSX Installer", "Mac OSX Unpacked", "Linux Deb", "Linux AppImage", "Linux Snap");
+
+                        /* Search for hashes and update in associative container. */
+                        $split = explode("- ", $json->body);
+                        foreach($split as $key=>$value)
+                        {
+                            /* We want to check for occurances of our keywords. */
+                            foreach($items as $item)
+                            {
+                                /* Check for keyword entry to find the appropriate hash */
+                                if(strpos($value, $item) !== false)
+                                {
+                                    $array[$item] = explode("\r\n", $split[$key + 1])[0];
+                                }
+                            }
+                        }
+
+                        /* Add a list item for each hash that is found. */
+                        foreach($array as $key=>$value)
+                        {
+                            echo "<li>".$key."<br><code>".$value."</code></li>";
+                        }
+
+                        /* Close the unordered list. */
+                        echo "</ul>";
+                    ?>
                   </div>
                 </div>
               </div>

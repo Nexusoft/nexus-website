@@ -15,6 +15,22 @@ require_once("./header.php");
   </section>
   <!-- bannerSection ends -->
 
+  <?php
+      /* Request latest information from github. */
+      $ch = curl_init();
+      curl_setopt($ch, CURLOPT_URL, "https://api.github.com/repos/Nexusoft/NexusInterface/releases/latest");
+      curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1');
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+      /* Cleanup resources. */
+      $output = curl_exec($ch);
+      curl_close($ch);
+
+      /* Parse JSON data. */
+      $json = json_decode($output);
+      $version  = trim(str_replace("v", " ", $json->tag_name));
+  ?>
+
   <!-- nexus layout start -->
   <section>
     <div class="nexwallSection">
@@ -34,10 +50,10 @@ require_once("./header.php");
               <div class="col-md-6">
                 <div class="download-buttons text-center">
                   <div class="heading mb-3">
-                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: v2.1.3</h6>
+                    <h6 class="themeColor" style="font-size:16px">Download the Latest version: <?php echo $version; ?></h6>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-MacOSX-2.1.3.dmg" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v<?php echo $version; ?>/nexus_wallet-MacOSX-<?php echo $version; ?>.dmg" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -46,7 +62,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-setup-Win-2.1.3.exe" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v<?php echo $version; ?>/nexus_wallet-setup-Win-<?php echo $version; ?>.exe" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
@@ -55,7 +71,7 @@ require_once("./header.php");
                     </a>
                   </div>
                   <div class="items">
-                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v2.1.3/nexus_wallet-Linux-2.1.3.AppImage" class="btn btn-primary">
+                    <a href="https://github.com/Nexusoft/NexusInterface/releases/download/v<?php echo $version; ?>/nexus_wallet-Linux-<?php echo $version; ?>.AppImage" class="btn btn-primary">
                       <span class="icon">
                         <img src="images/download-icon.svg" alt="download-icon" />
                         <img src="images/download-icon-blue.svg" alt="download-icon" class="blue-icon"/>
